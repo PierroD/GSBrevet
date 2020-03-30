@@ -288,7 +288,7 @@
             this.gunaLabel2.Name = "gunaLabel2";
             this.gunaLabel2.Size = new System.Drawing.Size(332, 75);
             this.gunaLabel2.TabIndex = 12;
-            this.gunaLabel2.Text = "Bienvenue sur l\'outil de Gestion Sécurisée des Brevets";
+            this.gunaLabel2.Text = "Bienvenue sur l\'outil de Gestion Sécurisé des Brevets";
             this.gunaLabel2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
             // form_Login

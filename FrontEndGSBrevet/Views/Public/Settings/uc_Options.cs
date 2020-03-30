@@ -8,23 +8,22 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace FrontEndGSBrevet.Views.Public.Patents
+namespace FrontEndGSBrevet.Views.Public.Settings
 {
-    public partial class uc_MainPatent : UserControl
+    public partial class uc_Options : UserControl
     {
-        public uc_MainPatent()
+        public uc_Options()
         {
             InitializeComponent();
         }
-
         #region load UserControl inside a panel
-        private static uc_MainPatent _instance;
-        public static uc_MainPatent Instance
+        private static uc_Options _instance;
+        public static uc_Options Instance
         {
             get
             {
                 if (_instance == null)
-                    _instance = new uc_MainPatent();
+                    _instance = new uc_Options();
                 return _instance;
             }
         }

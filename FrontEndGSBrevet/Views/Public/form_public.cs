@@ -23,6 +23,7 @@ namespace FrontEndGSBrevet.Views.Public
         private void btn_settings_Click(object sender, EventArgs e)
         {
             new SelectMenu().menuColor(this, btn_settings,Properties.Resources.settings_on, Properties.Resources.settings_off);
+            SwitchUC.Switch(pnl_sideMenu, uc_SettingsMenu.Instance);
         }
 
         private void btn_menu_Click(object sender, EventArgs e)

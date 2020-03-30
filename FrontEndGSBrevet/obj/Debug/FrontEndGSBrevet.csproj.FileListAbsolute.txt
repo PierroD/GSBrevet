@@ -10,7 +10,6 @@ C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\obj\Debug\FrontEndG
 C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\obj\Debug\FrontEndGSBrevet.csproj.CopyComplete
 C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\obj\Debug\FrontEndGSBrevet.exe
 C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\obj\Debug\FrontEndGSBrevet.pdb
-C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\bin\Debug\BackEndGSBrevet.dll
 C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\bin\Debug\EntityFramework.dll
 C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\bin\Debug\BackEndGSBrevet.pdb
 C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\bin\Debug\BackEndGSBrevet.dll.config
@@ -20,3 +19,6 @@ C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\bin\Debug\EntityFra
 C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\obj\Debug\FrontEndGSBrevet.Views.Public.form_public.resources
 C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\obj\Debug\FrontEndGSBrevet.Views.Shared.uc_MainMenu.resources
 C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\obj\Debug\FrontEndGSBrevet.Views.Public.Patents.uc_MainPatent.resources
+C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\obj\Debug\FrontEndGSBrevet.Views.Public.Patents.PatentModel.uc_PatentModel.resources
+C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\obj\Debug\FrontEndGSBrevet.Views.Shared.uc_SettingsMenu.resources
+C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\obj\Debug\FrontEndGSBrevet.Views.Public.Settings.uc_Options.resources

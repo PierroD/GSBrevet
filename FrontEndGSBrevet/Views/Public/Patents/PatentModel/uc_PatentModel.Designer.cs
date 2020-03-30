@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             this.gunaShadowPanel1 = new Guna.UI.WinForms.GunaShadowPanel();
+            this.btn_delete = new Guna.UI.WinForms.GunaCircleButton();
+            this.btn_edit = new Guna.UI.WinForms.GunaCircleButton();
             this.lbl_country = new Guna.UI.WinForms.GunaLabel();
             this.lbl_duration = new Guna.UI.WinForms.GunaLabel();
             this.lbl_deposit_date = new Guna.UI.WinForms.GunaLabel();
             this.lbl_company = new Guna.UI.WinForms.GunaLabel();
             this.lbl_molecule = new Guna.UI.WinForms.GunaLabel();
             this.lbl_number = new Guna.UI.WinForms.GunaLabel();
-            this.gunaCircleButton2 = new Guna.UI.WinForms.GunaCircleButton();
-            this.gunaCircleButton1 = new Guna.UI.WinForms.GunaCircleButton();
             this.gunaShadowPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -44,8 +44,8 @@
             // 
             this.gunaShadowPanel1.BackColor = System.Drawing.Color.Transparent;
             this.gunaShadowPanel1.BaseColor = System.Drawing.Color.White;
-            this.gunaShadowPanel1.Controls.Add(this.gunaCircleButton2);
-            this.gunaShadowPanel1.Controls.Add(this.gunaCircleButton1);
+            this.gunaShadowPanel1.Controls.Add(this.btn_delete);
+            this.gunaShadowPanel1.Controls.Add(this.btn_edit);
             this.gunaShadowPanel1.Controls.Add(this.lbl_country);
             this.gunaShadowPanel1.Controls.Add(this.lbl_duration);
             this.gunaShadowPanel1.Controls.Add(this.lbl_deposit_date);
@@ -61,6 +61,50 @@
             this.gunaShadowPanel1.ShadowStyle = Guna.UI.WinForms.ShadowMode.Dropped;
             this.gunaShadowPanel1.Size = new System.Drawing.Size(1010, 60);
             this.gunaShadowPanel1.TabIndex = 0;
+            // 
+            // btn_delete
+            // 
+            this.btn_delete.AnimationHoverSpeed = 0.07F;
+            this.btn_delete.AnimationSpeed = 0.03F;
+            this.btn_delete.BaseColor = System.Drawing.Color.Red;
+            this.btn_delete.BorderColor = System.Drawing.Color.Black;
+            this.btn_delete.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_delete.FocusedColor = System.Drawing.Color.Empty;
+            this.btn_delete.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_delete.ForeColor = System.Drawing.Color.White;
+            this.btn_delete.Image = global::FrontEndGSBrevet.Properties.Resources.delete;
+            this.btn_delete.ImageSize = new System.Drawing.Size(30, 30);
+            this.btn_delete.Location = new System.Drawing.Point(955, 8);
+            this.btn_delete.Name = "btn_delete";
+            this.btn_delete.OnHoverBaseColor = System.Drawing.Color.DarkRed;
+            this.btn_delete.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btn_delete.OnHoverForeColor = System.Drawing.Color.White;
+            this.btn_delete.OnHoverImage = null;
+            this.btn_delete.OnPressedColor = System.Drawing.Color.Black;
+            this.btn_delete.Size = new System.Drawing.Size(40, 40);
+            this.btn_delete.TabIndex = 14;
+            // 
+            // btn_edit
+            // 
+            this.btn_edit.AnimationHoverSpeed = 0.07F;
+            this.btn_edit.AnimationSpeed = 0.03F;
+            this.btn_edit.BaseColor = System.Drawing.Color.White;
+            this.btn_edit.BorderColor = System.Drawing.Color.Black;
+            this.btn_edit.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_edit.FocusedColor = System.Drawing.Color.Empty;
+            this.btn_edit.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_edit.ForeColor = System.Drawing.Color.White;
+            this.btn_edit.Image = global::FrontEndGSBrevet.Properties.Resources.pen_off;
+            this.btn_edit.ImageSize = new System.Drawing.Size(30, 30);
+            this.btn_edit.Location = new System.Drawing.Point(896, 8);
+            this.btn_edit.Name = "btn_edit";
+            this.btn_edit.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(33)))), ((int)(((byte)(255)))));
+            this.btn_edit.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btn_edit.OnHoverForeColor = System.Drawing.Color.White;
+            this.btn_edit.OnHoverImage = global::FrontEndGSBrevet.Properties.Resources.pen_on;
+            this.btn_edit.OnPressedColor = System.Drawing.Color.Black;
+            this.btn_edit.Size = new System.Drawing.Size(40, 40);
+            this.btn_edit.TabIndex = 13;
             // 
             // lbl_country
             // 
@@ -127,50 +171,6 @@
             this.lbl_number.TabIndex = 7;
             this.lbl_number.Text = "NUMERO";
             // 
-            // gunaCircleButton2
-            // 
-            this.gunaCircleButton2.AnimationHoverSpeed = 0.07F;
-            this.gunaCircleButton2.AnimationSpeed = 0.03F;
-            this.gunaCircleButton2.BaseColor = System.Drawing.Color.Red;
-            this.gunaCircleButton2.BorderColor = System.Drawing.Color.Black;
-            this.gunaCircleButton2.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaCircleButton2.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaCircleButton2.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaCircleButton2.ForeColor = System.Drawing.Color.White;
-            this.gunaCircleButton2.Image = global::FrontEndGSBrevet.Properties.Resources.delete;
-            this.gunaCircleButton2.ImageSize = new System.Drawing.Size(30, 30);
-            this.gunaCircleButton2.Location = new System.Drawing.Point(955, 8);
-            this.gunaCircleButton2.Name = "gunaCircleButton2";
-            this.gunaCircleButton2.OnHoverBaseColor = System.Drawing.Color.DarkRed;
-            this.gunaCircleButton2.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaCircleButton2.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaCircleButton2.OnHoverImage = null;
-            this.gunaCircleButton2.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaCircleButton2.Size = new System.Drawing.Size(40, 40);
-            this.gunaCircleButton2.TabIndex = 14;
-            // 
-            // gunaCircleButton1
-            // 
-            this.gunaCircleButton1.AnimationHoverSpeed = 0.07F;
-            this.gunaCircleButton1.AnimationSpeed = 0.03F;
-            this.gunaCircleButton1.BaseColor = System.Drawing.Color.White;
-            this.gunaCircleButton1.BorderColor = System.Drawing.Color.Black;
-            this.gunaCircleButton1.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaCircleButton1.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaCircleButton1.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.gunaCircleButton1.ForeColor = System.Drawing.Color.White;
-            this.gunaCircleButton1.Image = global::FrontEndGSBrevet.Properties.Resources.pen_off;
-            this.gunaCircleButton1.ImageSize = new System.Drawing.Size(30, 30);
-            this.gunaCircleButton1.Location = new System.Drawing.Point(896, 8);
-            this.gunaCircleButton1.Name = "gunaCircleButton1";
-            this.gunaCircleButton1.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(33)))), ((int)(((byte)(255)))));
-            this.gunaCircleButton1.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaCircleButton1.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaCircleButton1.OnHoverImage = global::FrontEndGSBrevet.Properties.Resources.pen_on;
-            this.gunaCircleButton1.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaCircleButton1.Size = new System.Drawing.Size(40, 40);
-            this.gunaCircleButton1.TabIndex = 13;
-            // 
             // uc_PatentModel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -187,8 +187,8 @@
         #endregion
 
         private Guna.UI.WinForms.GunaShadowPanel gunaShadowPanel1;
-        private Guna.UI.WinForms.GunaCircleButton gunaCircleButton2;
-        private Guna.UI.WinForms.GunaCircleButton gunaCircleButton1;
+        private Guna.UI.WinForms.GunaCircleButton btn_delete;
+        private Guna.UI.WinForms.GunaCircleButton btn_edit;
         private Guna.UI.WinForms.GunaLabel lbl_country;
         private Guna.UI.WinForms.GunaLabel lbl_duration;
         private Guna.UI.WinForms.GunaLabel lbl_deposit_date;

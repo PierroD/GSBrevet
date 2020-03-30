@@ -30,17 +30,17 @@
         {
             this.components = new System.ComponentModel.Container();
             this.pnl_top = new Guna.UI.WinForms.GunaPanel();
+            this.gunaCircleButton1 = new Guna.UI.WinForms.GunaCircleButton();
             this.lbl_title = new Guna.UI.WinForms.GunaLabel();
             this.gunaControlBox1 = new Guna.UI.WinForms.GunaControlBox();
             this.btn_close = new Guna.UI.WinForms.GunaControlBox();
             this.gunaDragControl1 = new Guna.UI.WinForms.GunaDragControl(this.components);
             this.gunaElipse1 = new Guna.UI.WinForms.GunaElipse(this.components);
             this.pnl_Menu = new Guna.UI.WinForms.GunaPanel();
-            this.pnl_sideMenu = new Guna.UI.WinForms.GunaPanel();
             this.btn_menu = new Guna.UI.WinForms.GunaButton();
             this.btn_settings = new Guna.UI.WinForms.GunaButton();
-            this.gunaCircleButton1 = new Guna.UI.WinForms.GunaCircleButton();
-            this.pnl_main = new Guna.UI.WinForms.GunaLinePanel();
+            this.pnl_sideMenu = new Guna.UI.WinForms.GunaPanel();
+            pnl_main = new Guna.UI.WinForms.GunaLinePanel();
             this.pnl_top.SuspendLayout();
             this.pnl_Menu.SuspendLayout();
             this.SuspendLayout();
@@ -57,6 +57,31 @@
             this.pnl_top.Name = "pnl_top";
             this.pnl_top.Size = new System.Drawing.Size(1400, 57);
             this.pnl_top.TabIndex = 0;
+            // 
+            // gunaCircleButton1
+            // 
+            this.gunaCircleButton1.AnimationHoverSpeed = 0.07F;
+            this.gunaCircleButton1.AnimationSpeed = 0.03F;
+            this.gunaCircleButton1.BackColor = System.Drawing.Color.Transparent;
+            this.gunaCircleButton1.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
+            this.gunaCircleButton1.BorderColor = System.Drawing.Color.Black;
+            this.gunaCircleButton1.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.gunaCircleButton1.FocusedColor = System.Drawing.Color.Empty;
+            this.gunaCircleButton1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.gunaCircleButton1.ForeColor = System.Drawing.Color.White;
+            this.gunaCircleButton1.Image = null;
+            this.gunaCircleButton1.ImageSize = new System.Drawing.Size(52, 52);
+            this.gunaCircleButton1.Location = new System.Drawing.Point(1231, 3);
+            this.gunaCircleButton1.Margin = new System.Windows.Forms.Padding(0);
+            this.gunaCircleButton1.Name = "gunaCircleButton1";
+            this.gunaCircleButton1.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(33)))), ((int)(((byte)(255)))));
+            this.gunaCircleButton1.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.gunaCircleButton1.OnHoverForeColor = System.Drawing.Color.White;
+            this.gunaCircleButton1.OnHoverImage = null;
+            this.gunaCircleButton1.OnPressedColor = System.Drawing.Color.Black;
+            this.gunaCircleButton1.Size = new System.Drawing.Size(50, 50);
+            this.gunaCircleButton1.TabIndex = 3;
+            this.gunaCircleButton1.Text = "PD";
             // 
             // lbl_title
             // 
@@ -78,12 +103,12 @@
             this.gunaControlBox1.ControlBoxType = Guna.UI.WinForms.FormControlBoxType.MinimizeBox;
             this.gunaControlBox1.IconColor = System.Drawing.Color.Black;
             this.gunaControlBox1.IconSize = 15F;
-            this.gunaControlBox1.Location = new System.Drawing.Point(1287, 17);
+            this.gunaControlBox1.Location = new System.Drawing.Point(1287, 8);
             this.gunaControlBox1.Name = "gunaControlBox1";
             this.gunaControlBox1.OnHoverBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
             this.gunaControlBox1.OnHoverIconColor = System.Drawing.Color.White;
             this.gunaControlBox1.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaControlBox1.Size = new System.Drawing.Size(45, 23);
+            this.gunaControlBox1.Size = new System.Drawing.Size(45, 40);
             this.gunaControlBox1.TabIndex = 1;
             // 
             // btn_close
@@ -94,12 +119,12 @@
             this.btn_close.BackColor = System.Drawing.Color.White;
             this.btn_close.IconColor = System.Drawing.Color.Black;
             this.btn_close.IconSize = 15F;
-            this.btn_close.Location = new System.Drawing.Point(1343, 17);
+            this.btn_close.Location = new System.Drawing.Point(1343, 8);
             this.btn_close.Name = "btn_close";
             this.btn_close.OnHoverBackColor = System.Drawing.Color.Red;
             this.btn_close.OnHoverIconColor = System.Drawing.Color.White;
             this.btn_close.OnPressedColor = System.Drawing.Color.Black;
-            this.btn_close.Size = new System.Drawing.Size(45, 23);
+            this.btn_close.Size = new System.Drawing.Size(45, 40);
             this.btn_close.TabIndex = 0;
             // 
             // gunaDragControl1
@@ -121,14 +146,6 @@
             this.pnl_Menu.Size = new System.Drawing.Size(60, 743);
             this.pnl_Menu.TabIndex = 1;
             // 
-            // pnl_sideMenu
-            // 
-            this.pnl_sideMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
-            this.pnl_sideMenu.Location = new System.Drawing.Point(60, 63);
-            this.pnl_sideMenu.Name = "pnl_sideMenu";
-            this.pnl_sideMenu.Size = new System.Drawing.Size(200, 737);
-            this.pnl_sideMenu.TabIndex = 2;
-            // 
             // btn_menu
             // 
             this.btn_menu.AnimationHoverSpeed = 0.07F;
@@ -147,7 +164,7 @@
             this.btn_menu.OnHoverBaseColor = System.Drawing.SystemColors.ControlLight;
             this.btn_menu.OnHoverBorderColor = System.Drawing.Color.Black;
             this.btn_menu.OnHoverForeColor = System.Drawing.Color.White;
-            this.btn_menu.OnHoverImage = null;
+            this.btn_menu.OnHoverImage = global::FrontEndGSBrevet.Properties.Resources.menu_off;
             this.btn_menu.OnPressedColor = System.Drawing.Color.Black;
             this.btn_menu.Size = new System.Drawing.Size(60, 42);
             this.btn_menu.TabIndex = 1;
@@ -171,48 +188,32 @@
             this.btn_settings.OnHoverBaseColor = System.Drawing.SystemColors.ControlLight;
             this.btn_settings.OnHoverBorderColor = System.Drawing.Color.Black;
             this.btn_settings.OnHoverForeColor = System.Drawing.Color.White;
-            this.btn_settings.OnHoverImage = null;
+            this.btn_settings.OnHoverImage = global::FrontEndGSBrevet.Properties.Resources.settings_off;
             this.btn_settings.OnPressedColor = System.Drawing.Color.Black;
             this.btn_settings.Size = new System.Drawing.Size(60, 42);
             this.btn_settings.TabIndex = 0;
             this.btn_settings.Click += new System.EventHandler(this.btn_settings_Click);
             // 
-            // gunaCircleButton1
+            // pnl_sideMenu
             // 
-            this.gunaCircleButton1.AnimationHoverSpeed = 0.07F;
-            this.gunaCircleButton1.AnimationSpeed = 0.03F;
-            this.gunaCircleButton1.BackColor = System.Drawing.Color.Transparent;
-            this.gunaCircleButton1.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
-            this.gunaCircleButton1.BorderColor = System.Drawing.Color.Black;
-            this.gunaCircleButton1.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaCircleButton1.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaCircleButton1.Font = new System.Drawing.Font("Segoe UI", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaCircleButton1.ForeColor = System.Drawing.Color.White;
-            this.gunaCircleButton1.Image = null;
-            this.gunaCircleButton1.ImageSize = new System.Drawing.Size(52, 52);
-            this.gunaCircleButton1.Location = new System.Drawing.Point(1231, 3);
-            this.gunaCircleButton1.Name = "gunaCircleButton1";
-            this.gunaCircleButton1.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
-            this.gunaCircleButton1.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaCircleButton1.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaCircleButton1.OnHoverImage = null;
-            this.gunaCircleButton1.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaCircleButton1.Size = new System.Drawing.Size(50, 50);
-            this.gunaCircleButton1.TabIndex = 3;
-            this.gunaCircleButton1.Text = "PD";
+            this.pnl_sideMenu.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
+            this.pnl_sideMenu.Location = new System.Drawing.Point(60, 63);
+            this.pnl_sideMenu.Name = "pnl_sideMenu";
+            this.pnl_sideMenu.Size = new System.Drawing.Size(200, 737);
+            this.pnl_sideMenu.TabIndex = 2;
             // 
             // pnl_main
             // 
-            this.pnl_main.LineBottom = 3;
-            this.pnl_main.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
-            this.pnl_main.LineLeft = 3;
-            this.pnl_main.LineRight = 3;
-            this.pnl_main.LineStyle = System.Windows.Forms.BorderStyle.None;
-            this.pnl_main.LineTop = 3;
-            this.pnl_main.Location = new System.Drawing.Point(260, 63);
-            this.pnl_main.Name = "pnl_main";
-            this.pnl_main.Size = new System.Drawing.Size(1140, 737);
-            this.pnl_main.TabIndex = 3;
+            pnl_main.LineBottom = 3;
+            pnl_main.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
+            pnl_main.LineLeft = 3;
+            pnl_main.LineRight = 3;
+            pnl_main.LineStyle = System.Windows.Forms.BorderStyle.None;
+            pnl_main.LineTop = 3;
+            pnl_main.Location = new System.Drawing.Point(260, 63);
+            pnl_main.Name = "pnl_main";
+            pnl_main.Size = new System.Drawing.Size(1140, 737);
+            pnl_main.TabIndex = 3;
             // 
             // form_Public
             // 
@@ -220,7 +221,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.ClientSize = new System.Drawing.Size(1400, 800);
-            this.Controls.Add(this.pnl_main);
+            this.Controls.Add(pnl_main);
             this.Controls.Add(this.pnl_sideMenu);
             this.Controls.Add(this.pnl_Menu);
             this.Controls.Add(this.pnl_top);
@@ -247,6 +248,6 @@
         private Guna.UI.WinForms.GunaButton btn_settings;
         private Guna.UI.WinForms.GunaButton btn_menu;
         private Guna.UI.WinForms.GunaCircleButton gunaCircleButton1;
-        private Guna.UI.WinForms.GunaLinePanel pnl_main;
+        public static Guna.UI.WinForms.GunaLinePanel pnl_main;
     }
 }

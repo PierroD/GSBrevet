@@ -153,6 +153,7 @@
             this.btn_orderby_depositDate.BackColor = System.Drawing.Color.Transparent;
             this.btn_orderby_depositDate.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
             this.btn_orderby_depositDate.BorderColor = System.Drawing.Color.Black;
+            this.btn_orderby_depositDate.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_orderby_depositDate.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_orderby_depositDate.FocusedColor = System.Drawing.Color.Empty;
             this.btn_orderby_depositDate.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -161,7 +162,7 @@
             this.btn_orderby_depositDate.ImageSize = new System.Drawing.Size(20, 20);
             this.btn_orderby_depositDate.Location = new System.Drawing.Point(70, 81);
             this.btn_orderby_depositDate.Name = "btn_orderby_depositDate";
-            this.btn_orderby_depositDate.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
+            this.btn_orderby_depositDate.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(33)))), ((int)(((byte)(255)))));
             this.btn_orderby_depositDate.OnHoverBorderColor = System.Drawing.Color.Black;
             this.btn_orderby_depositDate.OnHoverForeColor = System.Drawing.Color.White;
             this.btn_orderby_depositDate.OnHoverImage = null;
@@ -179,6 +180,7 @@
             this.btn_orderby_molecule.BackColor = System.Drawing.Color.Transparent;
             this.btn_orderby_molecule.BaseColor = System.Drawing.Color.White;
             this.btn_orderby_molecule.BorderColor = System.Drawing.Color.Black;
+            this.btn_orderby_molecule.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_orderby_molecule.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_orderby_molecule.FocusedColor = System.Drawing.Color.Empty;
             this.btn_orderby_molecule.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -187,7 +189,7 @@
             this.btn_orderby_molecule.ImageSize = new System.Drawing.Size(20, 20);
             this.btn_orderby_molecule.Location = new System.Drawing.Point(216, 81);
             this.btn_orderby_molecule.Name = "btn_orderby_molecule";
-            this.btn_orderby_molecule.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
+            this.btn_orderby_molecule.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(33)))), ((int)(((byte)(255)))));
             this.btn_orderby_molecule.OnHoverBorderColor = System.Drawing.Color.Black;
             this.btn_orderby_molecule.OnHoverForeColor = System.Drawing.Color.White;
             this.btn_orderby_molecule.OnHoverImage = null;
@@ -205,6 +207,7 @@
             this.btn_orderby_company.BackColor = System.Drawing.Color.Transparent;
             this.btn_orderby_company.BaseColor = System.Drawing.Color.White;
             this.btn_orderby_company.BorderColor = System.Drawing.Color.Black;
+            this.btn_orderby_company.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_orderby_company.DialogResult = System.Windows.Forms.DialogResult.None;
             this.btn_orderby_company.FocusedColor = System.Drawing.Color.Empty;
             this.btn_orderby_company.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
@@ -213,7 +216,7 @@
             this.btn_orderby_company.ImageSize = new System.Drawing.Size(20, 20);
             this.btn_orderby_company.Location = new System.Drawing.Point(332, 81);
             this.btn_orderby_company.Name = "btn_orderby_company";
-            this.btn_orderby_company.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(151)))), ((int)(((byte)(143)))), ((int)(((byte)(255)))));
+            this.btn_orderby_company.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(33)))), ((int)(((byte)(255)))));
             this.btn_orderby_company.OnHoverBorderColor = System.Drawing.Color.Black;
             this.btn_orderby_company.OnHoverForeColor = System.Drawing.Color.White;
             this.btn_orderby_company.OnHoverImage = null;
