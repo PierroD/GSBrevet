@@ -74,6 +74,18 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utils\SelectMenu.cs" />
     <Compile Include="Utils\SwitchUC.cs" />
+    <Compile Include="Views\Public\Contracts\ContractModel\uc_ContractModel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Public\Contracts\ContractModel\uc_ContractModel.Designer.cs">
+      <DependentUpon>uc_ContractModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Public\Contracts\uc_MainContract.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Public\Contracts\uc_MainContract.Designer.cs">
+      <DependentUpon>uc_MainContract.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\Public\form_Public.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -117,6 +129,12 @@
       <Generator>ResXFileCodeGenerator</Generator>
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Public\Contracts\ContractModel\uc_ContractModel.resx">
+      <DependentUpon>uc_ContractModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Public\Contracts\uc_MainContract.resx">
+      <DependentUpon>uc_MainContract.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Public\form_Public.resx">
       <DependentUpon>form_Public.cs</DependentUpon>
@@ -217,6 +235,15 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\options.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\company.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\molecule.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\utility.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

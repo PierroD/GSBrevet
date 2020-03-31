@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using FrontEndGSBrevet.Views.Public;
 using FrontEndGSBrevet.Views.Public.Patents;
+using FrontEndGSBrevet.Views.Public.Contracts;
 using FrontEndGSBrevet.Utils;
 
 namespace FrontEndGSBrevet.Views.Shared
@@ -35,6 +36,11 @@ namespace FrontEndGSBrevet.Views.Shared
         private void btn_AllPatents_Click(object sender, EventArgs e)
         {
             SwitchUC.Switch(form_Public.pnl_main, uc_MainPatent.Instance); // on charge tous les brevets
+        }
+
+        private void btn_AllContracts_Click(object sender, EventArgs e)
+        {
+            SwitchUC.Switch(form_Public.pnl_main, uc_MainContract.Instance); // on charge tous les contrats
         }
     }
 }

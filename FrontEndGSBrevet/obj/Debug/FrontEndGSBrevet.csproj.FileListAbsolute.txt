@@ -22,3 +22,5 @@ C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\obj\Debug\FrontEndG
 C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\obj\Debug\FrontEndGSBrevet.Views.Public.Patents.PatentModel.uc_PatentModel.resources
 C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\obj\Debug\FrontEndGSBrevet.Views.Shared.uc_SettingsMenu.resources
 C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\obj\Debug\FrontEndGSBrevet.Views.Public.Settings.uc_Options.resources
+C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\obj\Debug\FrontEndGSBrevet.Views.Public.Contracts.ContractModel.uc_ContractModel.resources
+C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\obj\Debug\FrontEndGSBrevet.Views.Public.Contracts.uc_MainContract.resources

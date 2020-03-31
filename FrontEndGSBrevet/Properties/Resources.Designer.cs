@@ -63,6 +63,16 @@ namespace FrontEndGSBrevet.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap company {
+            get {
+                object obj = ResourceManager.GetObject("company", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap contracts {
             get {
                 object obj = ResourceManager.GetObject("contracts", resourceCulture);
@@ -136,6 +146,16 @@ namespace FrontEndGSBrevet.Properties {
         internal static System.Drawing.Bitmap menu_on {
             get {
                 object obj = ResourceManager.GetObject("menu_on", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap molecule {
+            get {
+                object obj = ResourceManager.GetObject("molecule", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -236,6 +256,16 @@ namespace FrontEndGSBrevet.Properties {
         internal static System.Drawing.Bitmap user {
             get {
                 object obj = ResourceManager.GetObject("user", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap utility {
+            get {
+                object obj = ResourceManager.GetObject("utility", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
