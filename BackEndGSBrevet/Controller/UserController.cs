@@ -9,9 +9,8 @@ using BackEndGSBrevet.Repositories;
 
 namespace BackEndGSBrevet.Controller
 {
-    public class UserController
+    public class UserController : Controller
     {
-        private static UnitOfWork unitOfWork = new UnitOfWork(new GSBrevetDbContext());
         public static IEnumerable<User> getAll()
         {
             return unitOfWork.Users.GetAll();

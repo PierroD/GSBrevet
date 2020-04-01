@@ -141,7 +141,7 @@
             // pnl_patents
             // 
             this.pnl_patents.AutoScroll = true;
-            this.pnl_patents.Location = new System.Drawing.Point(45, 175);
+            this.pnl_patents.Location = new System.Drawing.Point(55, 175);
             this.pnl_patents.Name = "pnl_patents";
             this.pnl_patents.Size = new System.Drawing.Size(1040, 546);
             this.pnl_patents.TabIndex = 3;
@@ -323,6 +323,7 @@
             this.Controls.Add(this.pnl_tableHeader);
             this.Name = "uc_MainPatent";
             this.Size = new System.Drawing.Size(1140, 737);
+            this.Load += new System.EventHandler(this.uc_MainPatent_Load);
             this.pnl_tableHeader.ResumeLayout(false);
             this.gunaShadowPanel1.ResumeLayout(false);
             this.ResumeLayout(false);

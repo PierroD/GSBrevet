@@ -7,6 +7,9 @@ namespace BackEndGSBrevet.Repositories.Interfaces
     {
         IUserRepository Users { get; }
         IRoleRepository Roles { get; }
-        
+        ICompanyRepository Companies { get; }
+        IPatentRepository Patents { get; }   
+        IMoleculeRepository Molecules { get; }   
+        IContractRepository Contracts { get; }   
     }
 }

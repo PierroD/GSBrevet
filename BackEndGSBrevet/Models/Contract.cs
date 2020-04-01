@@ -14,7 +14,7 @@ namespace BackEndGSBrevet.Models
         public int id { get; set; }
         [Required]
         [Key, Column(Order = 1)]
-        public int molecule_id { get; set; }
+        public int company_id { get; set; }
         [Required]
         [Key, Column(Order = 2)]
         public int patent_id { get; set; }

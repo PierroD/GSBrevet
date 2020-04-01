@@ -36,14 +36,14 @@
             this.lbl_company = new Guna.UI.WinForms.GunaLabel();
             this.lbl_patent = new Guna.UI.WinForms.GunaLabel();
             this.lbl_id = new Guna.UI.WinForms.GunaLabel();
-            this.pnl_patents = new System.Windows.Forms.FlowLayoutPanel();
+            this.pnl_contracts = new System.Windows.Forms.FlowLayoutPanel();
             this.btn_orderby_createDate = new Guna.UI.WinForms.GunaButton();
             this.btn_orderby_patent = new Guna.UI.WinForms.GunaButton();
             this.btn_orderby_company = new Guna.UI.WinForms.GunaButton();
             this.gunaShadowPanel1 = new Guna.UI.WinForms.GunaShadowPanel();
             this.tbox_search = new Guna.UI.WinForms.GunaTextBox();
             this.btn_search = new Guna.UI.WinForms.GunaCircleButton();
-            this.btn_create_patent = new Guna.UI.WinForms.GunaButton();
+            this.btn_create_contract = new Guna.UI.WinForms.GunaButton();
             this.pnl_tableHeader.SuspendLayout();
             this.gunaShadowPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -138,13 +138,13 @@
             this.lbl_id.TabIndex = 0;
             this.lbl_id.Text = "ID";
             // 
-            // pnl_patents
+            // pnl_contracts
             // 
-            this.pnl_patents.AutoScroll = true;
-            this.pnl_patents.Location = new System.Drawing.Point(45, 175);
-            this.pnl_patents.Name = "pnl_patents";
-            this.pnl_patents.Size = new System.Drawing.Size(1040, 546);
-            this.pnl_patents.TabIndex = 3;
+            this.pnl_contracts.AutoScroll = true;
+            this.pnl_contracts.Location = new System.Drawing.Point(55, 175);
+            this.pnl_contracts.Name = "pnl_contracts";
+            this.pnl_contracts.Size = new System.Drawing.Size(1040, 546);
+            this.pnl_contracts.TabIndex = 3;
             // 
             // btn_orderby_createDate
             // 
@@ -283,31 +283,32 @@
             this.btn_search.Size = new System.Drawing.Size(40, 40);
             this.btn_search.TabIndex = 0;
             // 
-            // btn_create_patent
+            // btn_create_contract
             // 
-            this.btn_create_patent.AnimationHoverSpeed = 0.07F;
-            this.btn_create_patent.AnimationSpeed = 0.03F;
-            this.btn_create_patent.BackColor = System.Drawing.Color.Transparent;
-            this.btn_create_patent.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
-            this.btn_create_patent.BorderColor = System.Drawing.Color.Black;
-            this.btn_create_patent.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btn_create_patent.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_create_patent.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_create_patent.ForeColor = System.Drawing.Color.White;
-            this.btn_create_patent.Image = global::FrontEndGSBrevet.Properties.Resources.plus;
-            this.btn_create_patent.ImageSize = new System.Drawing.Size(12, 12);
-            this.btn_create_patent.Location = new System.Drawing.Point(895, 77);
-            this.btn_create_patent.Name = "btn_create_patent";
-            this.btn_create_patent.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(33)))), ((int)(((byte)(255)))));
-            this.btn_create_patent.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.btn_create_patent.OnHoverForeColor = System.Drawing.Color.White;
-            this.btn_create_patent.OnHoverImage = null;
-            this.btn_create_patent.OnPressedColor = System.Drawing.Color.Black;
-            this.btn_create_patent.Radius = 6;
-            this.btn_create_patent.Size = new System.Drawing.Size(170, 42);
-            this.btn_create_patent.TabIndex = 7;
-            this.btn_create_patent.Text = "CREER UN CONTRAT";
-            this.btn_create_patent.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btn_create_contract.AnimationHoverSpeed = 0.07F;
+            this.btn_create_contract.AnimationSpeed = 0.03F;
+            this.btn_create_contract.BackColor = System.Drawing.Color.Transparent;
+            this.btn_create_contract.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
+            this.btn_create_contract.BorderColor = System.Drawing.Color.Black;
+            this.btn_create_contract.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_create_contract.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_create_contract.FocusedColor = System.Drawing.Color.Empty;
+            this.btn_create_contract.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_create_contract.ForeColor = System.Drawing.Color.White;
+            this.btn_create_contract.Image = global::FrontEndGSBrevet.Properties.Resources.plus;
+            this.btn_create_contract.ImageSize = new System.Drawing.Size(12, 12);
+            this.btn_create_contract.Location = new System.Drawing.Point(895, 77);
+            this.btn_create_contract.Name = "btn_create_contract";
+            this.btn_create_contract.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(33)))), ((int)(((byte)(255)))));
+            this.btn_create_contract.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btn_create_contract.OnHoverForeColor = System.Drawing.Color.White;
+            this.btn_create_contract.OnHoverImage = null;
+            this.btn_create_contract.OnPressedColor = System.Drawing.Color.Black;
+            this.btn_create_contract.Radius = 6;
+            this.btn_create_contract.Size = new System.Drawing.Size(170, 42);
+            this.btn_create_contract.TabIndex = 7;
+            this.btn_create_contract.Text = "CREER UN CONTRAT";
+            this.btn_create_contract.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // uc_MainContract
             // 
@@ -315,14 +316,15 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
             this.Controls.Add(this.gunaShadowPanel1);
-            this.Controls.Add(this.btn_create_patent);
+            this.Controls.Add(this.btn_create_contract);
             this.Controls.Add(this.btn_orderby_company);
             this.Controls.Add(this.btn_orderby_patent);
             this.Controls.Add(this.btn_orderby_createDate);
-            this.Controls.Add(this.pnl_patents);
+            this.Controls.Add(this.pnl_contracts);
             this.Controls.Add(this.pnl_tableHeader);
             this.Name = "uc_MainContract";
             this.Size = new System.Drawing.Size(1140, 737);
+            this.Load += new System.EventHandler(this.uc_MainContract_Load);
             this.pnl_tableHeader.ResumeLayout(false);
             this.gunaShadowPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -336,11 +338,11 @@
         private Guna.UI.WinForms.GunaLabel lbl_company;
         private Guna.UI.WinForms.GunaLabel lbl_patent;
         private Guna.UI.WinForms.GunaLabel lbl_id;
-        private System.Windows.Forms.FlowLayoutPanel pnl_patents;
+        private System.Windows.Forms.FlowLayoutPanel pnl_contracts;
         private Guna.UI.WinForms.GunaButton btn_orderby_createDate;
         private Guna.UI.WinForms.GunaButton btn_orderby_patent;
         private Guna.UI.WinForms.GunaButton btn_orderby_company;
-        private Guna.UI.WinForms.GunaButton btn_create_patent;
+        private Guna.UI.WinForms.GunaButton btn_create_contract;
         private Guna.UI.WinForms.GunaShadowPanel gunaShadowPanel1;
         private Guna.UI.WinForms.GunaCircleButton btn_search;
         private Guna.UI.WinForms.GunaTextBox tbox_search;

@@ -9,6 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using FrontEndGSBrevet.Utils;
 using FrontEndGSBrevet.Views.Shared;
+using FrontEndGSBrevet.Views.Public.Companies;
 
 namespace FrontEndGSBrevet.Views.Public
 {

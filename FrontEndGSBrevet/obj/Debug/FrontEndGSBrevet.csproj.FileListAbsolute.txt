@@ -24,3 +24,9 @@ C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\obj\Debug\FrontEndG
 C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\obj\Debug\FrontEndGSBrevet.Views.Public.Settings.uc_Options.resources
 C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\obj\Debug\FrontEndGSBrevet.Views.Public.Contracts.ContractModel.uc_ContractModel.resources
 C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\obj\Debug\FrontEndGSBrevet.Views.Public.Contracts.uc_MainContract.resources
+C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\obj\Debug\FrontEndGSBrevet.Views.Public.Companies.CompanyModel.uc_CompanyModel.resources
+C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\obj\Debug\FrontEndGSBrevet.Views.Public.Companies.uc_MainCompany.resources
+C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\bin\Debug\BackEndGSBrevet.dll
+C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\obj\Debug\FrontEndGSBrevet.Views.Public.Molecules.MoleculeModel.uc_MoleculeModel.resources
+C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\obj\Debug\FrontEndGSBrevet.Views.Public.Molecules.uc_MainMolecule.resources
+C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\obj\Debug\FrontEndGSBrevet.Views.Public.Molecules.Create.uc_CreateMolecule.resources

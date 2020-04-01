@@ -7,6 +7,8 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using BackEndGSBrevet.Controller;
+using FrontEndGSBrevet.Views.Public.Patents.PatentModel;
 
 namespace FrontEndGSBrevet.Views.Public.Patents
 {
@@ -29,5 +31,25 @@ namespace FrontEndGSBrevet.Views.Public.Patents
             }
         }
         #endregion
+
+        private void uc_MainPatent_Load(object sender, EventArgs e)
+        {
+            var patents = PatentController.getAll(); // .OrderBy(t => t.id).Reverse()
+            foreach (var p in patents)
+            {
+                var molecule = MoleculeController.getById(p.molecule_id);
+                var company = CompanyController.getById(p.company_id);
+                pnl_patents.Controls.Add(new uc_PatentModel
+                {
+                    number = p.number,
+                    molecule = molecule.generic_name,
+                    company = company.name,
+                    deposit_date = p.deposit_date,
+                    duration = p.duration,
+                    country = p.country
+                }); 
+            }
+
+        }
     }
 }

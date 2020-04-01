@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             this.gunaShadowPanel1 = new Guna.UI.WinForms.GunaShadowPanel();
-            this.btn_delete = new Guna.UI.WinForms.GunaCircleButton();
-            this.btn_edit = new Guna.UI.WinForms.GunaCircleButton();
             this.lbl_price = new Guna.UI.WinForms.GunaLabel();
             this.lbl_duration = new Guna.UI.WinForms.GunaLabel();
             this.lbl_create_date = new Guna.UI.WinForms.GunaLabel();
             this.lbl_company = new Guna.UI.WinForms.GunaLabel();
             this.lbl_patent = new Guna.UI.WinForms.GunaLabel();
             this.lbl_id = new Guna.UI.WinForms.GunaLabel();
+            this.btn_delete = new Guna.UI.WinForms.GunaCircleButton();
+            this.btn_edit = new Guna.UI.WinForms.GunaCircleButton();
             this.gunaShadowPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -61,50 +61,6 @@
             this.gunaShadowPanel1.ShadowStyle = Guna.UI.WinForms.ShadowMode.Dropped;
             this.gunaShadowPanel1.Size = new System.Drawing.Size(1010, 60);
             this.gunaShadowPanel1.TabIndex = 0;
-            // 
-            // btn_delete
-            // 
-            this.btn_delete.AnimationHoverSpeed = 0.07F;
-            this.btn_delete.AnimationSpeed = 0.03F;
-            this.btn_delete.BaseColor = System.Drawing.Color.Red;
-            this.btn_delete.BorderColor = System.Drawing.Color.Black;
-            this.btn_delete.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btn_delete.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_delete.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btn_delete.ForeColor = System.Drawing.Color.White;
-            this.btn_delete.Image = global::FrontEndGSBrevet.Properties.Resources.delete;
-            this.btn_delete.ImageSize = new System.Drawing.Size(30, 30);
-            this.btn_delete.Location = new System.Drawing.Point(955, 8);
-            this.btn_delete.Name = "btn_delete";
-            this.btn_delete.OnHoverBaseColor = System.Drawing.Color.DarkRed;
-            this.btn_delete.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.btn_delete.OnHoverForeColor = System.Drawing.Color.White;
-            this.btn_delete.OnHoverImage = null;
-            this.btn_delete.OnPressedColor = System.Drawing.Color.Black;
-            this.btn_delete.Size = new System.Drawing.Size(40, 40);
-            this.btn_delete.TabIndex = 14;
-            // 
-            // btn_edit
-            // 
-            this.btn_edit.AnimationHoverSpeed = 0.07F;
-            this.btn_edit.AnimationSpeed = 0.03F;
-            this.btn_edit.BaseColor = System.Drawing.Color.White;
-            this.btn_edit.BorderColor = System.Drawing.Color.Black;
-            this.btn_edit.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btn_edit.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_edit.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btn_edit.ForeColor = System.Drawing.Color.White;
-            this.btn_edit.Image = global::FrontEndGSBrevet.Properties.Resources.pen_off;
-            this.btn_edit.ImageSize = new System.Drawing.Size(30, 30);
-            this.btn_edit.Location = new System.Drawing.Point(896, 8);
-            this.btn_edit.Name = "btn_edit";
-            this.btn_edit.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(33)))), ((int)(((byte)(255)))));
-            this.btn_edit.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.btn_edit.OnHoverForeColor = System.Drawing.Color.White;
-            this.btn_edit.OnHoverImage = global::FrontEndGSBrevet.Properties.Resources.pen_on;
-            this.btn_edit.OnPressedColor = System.Drawing.Color.Black;
-            this.btn_edit.Size = new System.Drawing.Size(40, 40);
-            this.btn_edit.TabIndex = 13;
             // 
             // lbl_price
             // 
@@ -171,6 +127,50 @@
             this.lbl_id.TabIndex = 15;
             this.lbl_id.Text = "ID";
             // 
+            // btn_delete
+            // 
+            this.btn_delete.AnimationHoverSpeed = 0.07F;
+            this.btn_delete.AnimationSpeed = 0.03F;
+            this.btn_delete.BaseColor = System.Drawing.Color.Red;
+            this.btn_delete.BorderColor = System.Drawing.Color.Black;
+            this.btn_delete.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_delete.FocusedColor = System.Drawing.Color.Empty;
+            this.btn_delete.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_delete.ForeColor = System.Drawing.Color.White;
+            this.btn_delete.Image = global::FrontEndGSBrevet.Properties.Resources.delete;
+            this.btn_delete.ImageSize = new System.Drawing.Size(30, 30);
+            this.btn_delete.Location = new System.Drawing.Point(955, 8);
+            this.btn_delete.Name = "btn_delete";
+            this.btn_delete.OnHoverBaseColor = System.Drawing.Color.DarkRed;
+            this.btn_delete.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btn_delete.OnHoverForeColor = System.Drawing.Color.White;
+            this.btn_delete.OnHoverImage = null;
+            this.btn_delete.OnPressedColor = System.Drawing.Color.Black;
+            this.btn_delete.Size = new System.Drawing.Size(40, 40);
+            this.btn_delete.TabIndex = 14;
+            // 
+            // btn_edit
+            // 
+            this.btn_edit.AnimationHoverSpeed = 0.07F;
+            this.btn_edit.AnimationSpeed = 0.03F;
+            this.btn_edit.BaseColor = System.Drawing.Color.White;
+            this.btn_edit.BorderColor = System.Drawing.Color.Black;
+            this.btn_edit.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_edit.FocusedColor = System.Drawing.Color.Empty;
+            this.btn_edit.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_edit.ForeColor = System.Drawing.Color.White;
+            this.btn_edit.Image = global::FrontEndGSBrevet.Properties.Resources.pen_off;
+            this.btn_edit.ImageSize = new System.Drawing.Size(30, 30);
+            this.btn_edit.Location = new System.Drawing.Point(896, 8);
+            this.btn_edit.Name = "btn_edit";
+            this.btn_edit.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(33)))), ((int)(((byte)(255)))));
+            this.btn_edit.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btn_edit.OnHoverForeColor = System.Drawing.Color.White;
+            this.btn_edit.OnHoverImage = global::FrontEndGSBrevet.Properties.Resources.pen_on;
+            this.btn_edit.OnPressedColor = System.Drawing.Color.Black;
+            this.btn_edit.Size = new System.Drawing.Size(40, 40);
+            this.btn_edit.TabIndex = 13;
+            // 
             // uc_ContractModel
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -179,6 +179,7 @@
             this.Controls.Add(this.gunaShadowPanel1);
             this.Name = "uc_ContractModel";
             this.Size = new System.Drawing.Size(1010, 60);
+            this.Load += new System.EventHandler(this.uc_ContractModel_Load);
             this.gunaShadowPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
 

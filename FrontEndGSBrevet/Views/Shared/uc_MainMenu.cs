@@ -10,6 +10,8 @@ using System.Windows.Forms;
 using FrontEndGSBrevet.Views.Public;
 using FrontEndGSBrevet.Views.Public.Patents;
 using FrontEndGSBrevet.Views.Public.Contracts;
+using FrontEndGSBrevet.Views.Public.Companies;
+using FrontEndGSBrevet.Views.Public.Molecules;
 using FrontEndGSBrevet.Utils;
 
 namespace FrontEndGSBrevet.Views.Shared
@@ -42,5 +44,17 @@ namespace FrontEndGSBrevet.Views.Shared
         {
             SwitchUC.Switch(form_Public.pnl_main, uc_MainContract.Instance); // on charge tous les contrats
         }
+
+        private void btn_AllCompanies_Click(object sender, EventArgs e)
+        {
+            SwitchUC.Switch(form_Public.pnl_main, uc_MainCompany.Instance); // on charge toutes les entreprises
+        }
+
+        private void btn_AllMolecules_Click(object sender, EventArgs e)
+        {
+            SwitchUC.Switch(form_Public.pnl_main, uc_MainMolecule.Instance); // on charge toutes les molécules
+        }
+
+
     }
 }

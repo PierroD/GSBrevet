@@ -31,12 +31,12 @@
             this.gunaShadowPanel1 = new Guna.UI.WinForms.GunaShadowPanel();
             this.btn_delete = new Guna.UI.WinForms.GunaCircleButton();
             this.btn_edit = new Guna.UI.WinForms.GunaCircleButton();
-            this.lbl_number = new Guna.UI.WinForms.GunaLabel();
-            this.lbl_molecule = new Guna.UI.WinForms.GunaLabel();
-            this.lbl_company = new Guna.UI.WinForms.GunaLabel();
-            this.lbl_deposit_date = new Guna.UI.WinForms.GunaLabel();
-            this.lbl_duration = new Guna.UI.WinForms.GunaLabel();
             this.lbl_country = new Guna.UI.WinForms.GunaLabel();
+            this.lbl_duration = new Guna.UI.WinForms.GunaLabel();
+            this.lbl_deposit_date = new Guna.UI.WinForms.GunaLabel();
+            this.lbl_company = new Guna.UI.WinForms.GunaLabel();
+            this.lbl_molecule = new Guna.UI.WinForms.GunaLabel();
+            this.lbl_number = new Guna.UI.WinForms.GunaLabel();
             this.gunaShadowPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -106,48 +106,16 @@
             this.btn_edit.Size = new System.Drawing.Size(40, 40);
             this.btn_edit.TabIndex = 13;
             // 
-            // lbl_number
+            // lbl_country
             // 
-            this.lbl_number.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_number.Location = new System.Drawing.Point(10, 20);
-            this.lbl_number.MaximumSize = new System.Drawing.Size(140, 20);
-            this.lbl_number.Name = "lbl_number";
-            this.lbl_number.Size = new System.Drawing.Size(140, 20);
-            this.lbl_number.TabIndex = 7;
-            this.lbl_number.Text = "NUMERO";
-            // 
-            // lbl_molecule
-            // 
-            this.lbl_molecule.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_molecule.Location = new System.Drawing.Point(160, 20);
-            this.lbl_molecule.MaximumSize = new System.Drawing.Size(140, 20);
-            this.lbl_molecule.Name = "lbl_molecule";
-            this.lbl_molecule.Size = new System.Drawing.Size(140, 20);
-            this.lbl_molecule.TabIndex = 8;
-            this.lbl_molecule.Text = "MOLECULE";
-            this.lbl_molecule.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lbl_company
-            // 
-            this.lbl_company.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_company.Location = new System.Drawing.Point(310, 20);
-            this.lbl_company.MaximumSize = new System.Drawing.Size(140, 20);
-            this.lbl_company.Name = "lbl_company";
-            this.lbl_company.Size = new System.Drawing.Size(140, 20);
-            this.lbl_company.TabIndex = 9;
-            this.lbl_company.Text = "ENTREPRISE";
-            this.lbl_company.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lbl_deposit_date
-            // 
-            this.lbl_deposit_date.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_deposit_date.Location = new System.Drawing.Point(460, 20);
-            this.lbl_deposit_date.MaximumSize = new System.Drawing.Size(140, 20);
-            this.lbl_deposit_date.Name = "lbl_deposit_date";
-            this.lbl_deposit_date.Size = new System.Drawing.Size(140, 20);
-            this.lbl_deposit_date.TabIndex = 10;
-            this.lbl_deposit_date.Text = "DATE DE DEPOT";
-            this.lbl_deposit_date.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl_country.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_country.Location = new System.Drawing.Point(750, 20);
+            this.lbl_country.MaximumSize = new System.Drawing.Size(140, 20);
+            this.lbl_country.Name = "lbl_country";
+            this.lbl_country.Size = new System.Drawing.Size(140, 20);
+            this.lbl_country.TabIndex = 12;
+            this.lbl_country.Text = "PAYS";
+            this.lbl_country.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lbl_duration
             // 
@@ -160,16 +128,48 @@
             this.lbl_duration.Text = "DUREE";
             this.lbl_duration.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // lbl_country
+            // lbl_deposit_date
             // 
-            this.lbl_country.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_country.Location = new System.Drawing.Point(750, 20);
-            this.lbl_country.MaximumSize = new System.Drawing.Size(140, 20);
-            this.lbl_country.Name = "lbl_country";
-            this.lbl_country.Size = new System.Drawing.Size(140, 20);
-            this.lbl_country.TabIndex = 12;
-            this.lbl_country.Text = "PAYS";
-            this.lbl_country.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.lbl_deposit_date.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_deposit_date.Location = new System.Drawing.Point(460, 20);
+            this.lbl_deposit_date.MaximumSize = new System.Drawing.Size(140, 20);
+            this.lbl_deposit_date.Name = "lbl_deposit_date";
+            this.lbl_deposit_date.Size = new System.Drawing.Size(140, 20);
+            this.lbl_deposit_date.TabIndex = 10;
+            this.lbl_deposit_date.Text = "DATE DE DEPOT";
+            this.lbl_deposit_date.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl_company
+            // 
+            this.lbl_company.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_company.Location = new System.Drawing.Point(310, 20);
+            this.lbl_company.MaximumSize = new System.Drawing.Size(140, 20);
+            this.lbl_company.Name = "lbl_company";
+            this.lbl_company.Size = new System.Drawing.Size(140, 20);
+            this.lbl_company.TabIndex = 9;
+            this.lbl_company.Text = "ENTREPRISE";
+            this.lbl_company.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl_molecule
+            // 
+            this.lbl_molecule.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_molecule.Location = new System.Drawing.Point(160, 20);
+            this.lbl_molecule.MaximumSize = new System.Drawing.Size(140, 20);
+            this.lbl_molecule.Name = "lbl_molecule";
+            this.lbl_molecule.Size = new System.Drawing.Size(140, 20);
+            this.lbl_molecule.TabIndex = 8;
+            this.lbl_molecule.Text = "MOLECULE";
+            this.lbl_molecule.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl_number
+            // 
+            this.lbl_number.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_number.Location = new System.Drawing.Point(10, 20);
+            this.lbl_number.MaximumSize = new System.Drawing.Size(140, 20);
+            this.lbl_number.Name = "lbl_number";
+            this.lbl_number.Size = new System.Drawing.Size(140, 20);
+            this.lbl_number.TabIndex = 7;
+            this.lbl_number.Text = "NUMERO";
             // 
             // uc_PatentModel
             // 
@@ -179,6 +179,7 @@
             this.Controls.Add(this.gunaShadowPanel1);
             this.Name = "uc_PatentModel";
             this.Size = new System.Drawing.Size(1010, 60);
+            this.Load += new System.EventHandler(this.uc_PatentModel_Load);
             this.gunaShadowPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
 

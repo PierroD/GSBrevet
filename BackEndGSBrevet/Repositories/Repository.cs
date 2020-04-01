@@ -52,6 +52,7 @@ namespace BackEndGSBrevet.Repositories
         public void Add(TEntity entity)
         {
            _entities.Add(entity);
+            Context.SaveChanges();
         }
 
         public void AddRange(IEnumerable<TEntity> entities)

@@ -124,6 +124,11 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Controller\MoleculeController.cs" />
+    <Compile Include="Controller\ContractController.cs" />
+    <Compile Include="Controller\PatentController.cs" />
+    <Compile Include="Controller\CompanyController.cs" />
+    <Compile Include="Controller\Controller.cs" />
     <Compile Include="Controller\UserController.cs" />
     <Compile Include="Migrations\202003250012415_intial.cs" />
     <Compile Include="Migrations\202003250012415_intial.designer.cs">
@@ -161,6 +166,10 @@
     <Compile Include="Migrations\202003291210208_add_roleId_to_users.designer.cs">
       <DependentUpon>202003291210208_add_roleId_to_users.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202004011606188_EmptyMigration1.cs" />
+    <Compile Include="Migrations\202004011606188_EmptyMigration1.designer.cs">
+      <DependentUpon>202004011606188_EmptyMigration1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Models\Contract.cs" />
     <Compile Include="Models\Patent.cs" />
     <Compile Include="Models\Company.cs" />
@@ -175,13 +184,21 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Repositories\Interfaces\IContractRepository.cs" />
     <Compile Include="Repositories\Interfaces\IRepository.cs" />
     <Compile Include="Repositories\Interfaces\IUnitOfWork.cs" />
     <Compile Include="Repositories\Interfaces\IRoleRepository.cs" />
+    <Compile Include="Repositories\Interfaces\ICompanyRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IPatentRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IMoleculeRepository.cs" />
     <Compile Include="Repositories\Interfaces\IUserRepository.cs" />
     <Compile Include="Repositories\Repository.cs" />
-    <Compile Include="Repositories\UnitOfWork.cs" />
+    <Compile Include="Repositories\MoleculeRepository.cs" />
+    <Compile Include="Repositories\ContractRepository.cs" />
     <Compile Include="Repositories\RoleRepository.cs" />
+    <Compile Include="Repositories\UnitOfWork.cs" />
+    <Compile Include="Repositories\CompanyRepository.cs" />
+    <Compile Include="Repositories\PatentRepository.cs" />
     <Compile Include="Repositories\UserRepository.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -218,6 +235,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202003291210208_add_roleId_to_users.resx">
       <DependentUpon>202003291210208_add_roleId_to_users.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004011606188_EmptyMigration1.resx">
+      <DependentUpon>202004011606188_EmptyMigration1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

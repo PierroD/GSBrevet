@@ -130,3 +130,6 @@ C:\Users\Light\source\repos\BackEndGSBrevet\GSBrevet\obj\Debug\BackEndGSBrevet.d
 C:\Users\Light\source\repos\BackEndGSBrevet\GSBrevet\obj\Debug\BackEndGSBrevet.pdb
 C:\Users\Light\source\repos\BackEndGSBrevet\GSBrevet\obj\Debug\BackEndGSBrevet.Migrations.EmptyMigration.resources
 C:\Users\Light\source\repos\BackEndGSBrevet\GSBrevet\obj\Debug\BackEndGSBrevet.Migrations.add_roleId_to_users.resources
+C:\Users\Light\source\repos\BackEndGSBrevet\BackEndGSBrevet\obj\Debug\BackEndGSBrevet.Migrations.EmptyMigration.resources
+C:\Users\Light\source\repos\BackEndGSBrevet\BackEndGSBrevet\obj\Debug\BackEndGSBrevet.Migrations.add_roleId_to_users.resources
+C:\Users\Light\source\repos\BackEndGSBrevet\BackEndGSBrevet\obj\Debug\BackEndGSBrevet.Migrations.EmptyMigration1.resources

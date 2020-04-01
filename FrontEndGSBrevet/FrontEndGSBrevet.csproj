@@ -36,8 +36,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="BackEndGSBrevet">
-      <HintPath>..\GSBrevet\bin\Debug\BackEndGSBrevet.dll</HintPath>
+    <Reference Include="BackEndGSBrevet, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\BackEndGSBrevet\bin\Debug\BackEndGSBrevet.dll</HintPath>
     </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.4.0\lib\net45\EntityFramework.dll</HintPath>
@@ -74,6 +75,18 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Utils\SelectMenu.cs" />
     <Compile Include="Utils\SwitchUC.cs" />
+    <Compile Include="Views\Public\Companies\CompanyModel\uc_CompanyModel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Public\Companies\CompanyModel\uc_CompanyModel.Designer.cs">
+      <DependentUpon>uc_CompanyModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Public\Companies\uc_MainCompany.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Public\Companies\uc_MainCompany.Designer.cs">
+      <DependentUpon>uc_MainCompany.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\Public\Contracts\ContractModel\uc_ContractModel.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -91,6 +104,24 @@
     </Compile>
     <Compile Include="Views\Public\form_Public.Designer.cs">
       <DependentUpon>form_Public.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Public\Molecules\Create\uc_CreateMolecule.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Public\Molecules\Create\uc_CreateMolecule.Designer.cs">
+      <DependentUpon>uc_CreateMolecule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Public\Molecules\MoleculeModel\uc_MoleculeModel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Public\Molecules\MoleculeModel\uc_MoleculeModel.Designer.cs">
+      <DependentUpon>uc_MoleculeModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Public\Molecules\uc_MainMolecule.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Public\Molecules\uc_MainMolecule.Designer.cs">
+      <DependentUpon>uc_MainMolecule.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\Public\Patents\PatentModel\uc_PatentModel.cs">
       <SubType>UserControl</SubType>
@@ -130,6 +161,12 @@
       <SubType>Designer</SubType>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
+    <EmbeddedResource Include="Views\Public\Companies\CompanyModel\uc_CompanyModel.resx">
+      <DependentUpon>uc_CompanyModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Public\Companies\uc_MainCompany.resx">
+      <DependentUpon>uc_MainCompany.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\Public\Contracts\ContractModel\uc_ContractModel.resx">
       <DependentUpon>uc_ContractModel.cs</DependentUpon>
     </EmbeddedResource>
@@ -138,6 +175,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Public\form_Public.resx">
       <DependentUpon>form_Public.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Public\Molecules\Create\uc_CreateMolecule.resx">
+      <DependentUpon>uc_CreateMolecule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Public\Molecules\MoleculeModel\uc_MoleculeModel.resx">
+      <DependentUpon>uc_MoleculeModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Public\Molecules\uc_MainMolecule.resx">
+      <DependentUpon>uc_MainMolecule.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Public\Patents\PatentModel\uc_PatentModel.resx">
       <DependentUpon>uc_PatentModel.cs</DependentUpon>
@@ -244,6 +290,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\utility.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
