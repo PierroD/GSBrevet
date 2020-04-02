@@ -16,6 +16,7 @@ namespace BackEndGSBrevet.Repositories
             Patents = new PatentRepository(_context);
             Molecules = new MoleculeRepository(_context);
             Contracts = new ContractRepository(_context);
+            Utilities = new UtilityRepository(_context);
         }
 
         public IUserRepository Users { get; private set; }
@@ -24,6 +25,7 @@ namespace BackEndGSBrevet.Repositories
         public IPatentRepository Patents { get; private set; }
         public IMoleculeRepository Molecules { get; private set; }
         public IContractRepository Contracts { get; private set; }
+        public IUtilityRepository Utilities { get; private set; }
 
         public int Complete()
         {

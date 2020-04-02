@@ -185,6 +185,7 @@
     <Compile Include="Models\User.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\Interfaces\IContractRepository.cs" />
+    <Compile Include="Repositories\Interfaces\IUtilityRepository.cs" />
     <Compile Include="Repositories\Interfaces\IRepository.cs" />
     <Compile Include="Repositories\Interfaces\IUnitOfWork.cs" />
     <Compile Include="Repositories\Interfaces\IRoleRepository.cs" />
@@ -192,6 +193,7 @@
     <Compile Include="Repositories\Interfaces\IPatentRepository.cs" />
     <Compile Include="Repositories\Interfaces\IMoleculeRepository.cs" />
     <Compile Include="Repositories\Interfaces\IUserRepository.cs" />
+    <Compile Include="Repositories\UtilityRepository.cs" />
     <Compile Include="Repositories\Repository.cs" />
     <Compile Include="Repositories\MoleculeRepository.cs" />
     <Compile Include="Repositories\ContractRepository.cs" />

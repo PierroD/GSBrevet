@@ -1,6 +1,6 @@
-﻿namespace FrontEndGSBrevet.Views.Public.Molecules.Create
+﻿namespace FrontEndGSBrevet.Views.Public.Molecules.CreateUpdate
 {
-    partial class uc_CreateMolecule
+    partial class uc_CreateUpdateMolecule
     {
         /// <summary> 
         /// Variable nécessaire au concepteur.
@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.btn_back_to_AllMolecules = new Guna.UI.WinForms.GunaButton();
             this.lbl_generic_name = new Guna.UI.WinForms.GunaLabel();
             this.tbox_generic_name = new Guna.UI.WinForms.GunaLineTextBox();
             this.tbox_real_name = new Guna.UI.WinForms.GunaLineTextBox();
@@ -37,34 +36,8 @@
             this.lbl_formula = new Guna.UI.WinForms.GunaLabel();
             this.gunaSeparator1 = new Guna.UI.WinForms.GunaSeparator();
             this.btn_send_to_database = new Guna.UI.WinForms.GunaTileButton();
+            this.btn_back_to_AllMolecules = new Guna.UI.WinForms.GunaButton();
             this.SuspendLayout();
-            // 
-            // btn_back_to_AllMolecules
-            // 
-            this.btn_back_to_AllMolecules.AnimationHoverSpeed = 0.07F;
-            this.btn_back_to_AllMolecules.AnimationSpeed = 0.03F;
-            this.btn_back_to_AllMolecules.BackColor = System.Drawing.Color.Transparent;
-            this.btn_back_to_AllMolecules.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
-            this.btn_back_to_AllMolecules.BorderColor = System.Drawing.Color.Black;
-            this.btn_back_to_AllMolecules.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btn_back_to_AllMolecules.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_back_to_AllMolecules.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_back_to_AllMolecules.ForeColor = System.Drawing.Color.White;
-            this.btn_back_to_AllMolecules.Image = global::FrontEndGSBrevet.Properties.Resources.back;
-            this.btn_back_to_AllMolecules.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_back_to_AllMolecules.Location = new System.Drawing.Point(3, 3);
-            this.btn_back_to_AllMolecules.Name = "btn_back_to_AllMolecules";
-            this.btn_back_to_AllMolecules.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(33)))), ((int)(((byte)(255)))));
-            this.btn_back_to_AllMolecules.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.btn_back_to_AllMolecules.OnHoverForeColor = System.Drawing.Color.White;
-            this.btn_back_to_AllMolecules.OnHoverImage = null;
-            this.btn_back_to_AllMolecules.OnPressedColor = System.Drawing.Color.Black;
-            this.btn_back_to_AllMolecules.Radius = 6;
-            this.btn_back_to_AllMolecules.Size = new System.Drawing.Size(182, 42);
-            this.btn_back_to_AllMolecules.TabIndex = 8;
-            this.btn_back_to_AllMolecules.Text = "Toutes les molécules";
-            this.btn_back_to_AllMolecules.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            this.btn_back_to_AllMolecules.Click += new System.EventHandler(this.btn_back_to_AllMolecules_Click);
             // 
             // lbl_generic_name
             // 
@@ -166,7 +139,7 @@
             this.btn_send_to_database.FocusedColor = System.Drawing.Color.Empty;
             this.btn_send_to_database.Font = new System.Drawing.Font("Segoe UI Light", 15.75F);
             this.btn_send_to_database.ForeColor = System.Drawing.Color.White;
-            this.btn_send_to_database.Image = global::FrontEndGSBrevet.Properties.Resources.plus;
+            this.btn_send_to_database.Image = global::FrontEndGSBrevet.Properties.Resources.save;
             this.btn_send_to_database.ImageSize = new System.Drawing.Size(30, 30);
             this.btn_send_to_database.ImeMode = System.Windows.Forms.ImeMode.NoControl;
             this.btn_send_to_database.Location = new System.Drawing.Point(419, 539);
@@ -177,12 +150,39 @@
             this.btn_send_to_database.OnHoverImage = null;
             this.btn_send_to_database.OnPressedColor = System.Drawing.Color.Black;
             this.btn_send_to_database.Radius = 10;
-            this.btn_send_to_database.Size = new System.Drawing.Size(229, 67);
+            this.btn_send_to_database.Size = new System.Drawing.Size(229, 69);
             this.btn_send_to_database.TabIndex = 16;
-            this.btn_send_to_database.Text = "Ajouter la molecule";
+            this.btn_send_to_database.Text = "Mettre à jour";
             this.btn_send_to_database.Click += new System.EventHandler(this.btn_send_to_database_Click);
             // 
-            // uc_CreateMolecule
+            // btn_back_to_AllMolecules
+            // 
+            this.btn_back_to_AllMolecules.AnimationHoverSpeed = 0.07F;
+            this.btn_back_to_AllMolecules.AnimationSpeed = 0.03F;
+            this.btn_back_to_AllMolecules.BackColor = System.Drawing.Color.Transparent;
+            this.btn_back_to_AllMolecules.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
+            this.btn_back_to_AllMolecules.BorderColor = System.Drawing.Color.Black;
+            this.btn_back_to_AllMolecules.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_back_to_AllMolecules.FocusedColor = System.Drawing.Color.Empty;
+            this.btn_back_to_AllMolecules.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_back_to_AllMolecules.ForeColor = System.Drawing.Color.White;
+            this.btn_back_to_AllMolecules.Image = global::FrontEndGSBrevet.Properties.Resources.back;
+            this.btn_back_to_AllMolecules.ImageSize = new System.Drawing.Size(20, 20);
+            this.btn_back_to_AllMolecules.Location = new System.Drawing.Point(3, 3);
+            this.btn_back_to_AllMolecules.Name = "btn_back_to_AllMolecules";
+            this.btn_back_to_AllMolecules.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(33)))), ((int)(((byte)(255)))));
+            this.btn_back_to_AllMolecules.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btn_back_to_AllMolecules.OnHoverForeColor = System.Drawing.Color.White;
+            this.btn_back_to_AllMolecules.OnHoverImage = null;
+            this.btn_back_to_AllMolecules.OnPressedColor = System.Drawing.Color.Black;
+            this.btn_back_to_AllMolecules.Radius = 6;
+            this.btn_back_to_AllMolecules.Size = new System.Drawing.Size(182, 42);
+            this.btn_back_to_AllMolecules.TabIndex = 8;
+            this.btn_back_to_AllMolecules.Text = "Toutes les molécules";
+            this.btn_back_to_AllMolecules.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btn_back_to_AllMolecules.Click += new System.EventHandler(this.btn_back_to_AllMolecules_Click);
+            // 
+            // uc_UpdateMolecule
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -196,8 +196,9 @@
             this.Controls.Add(this.tbox_generic_name);
             this.Controls.Add(this.lbl_generic_name);
             this.Controls.Add(this.btn_back_to_AllMolecules);
-            this.Name = "uc_CreateMolecule";
+            this.Name = "uc_UpdateMolecule";
             this.Size = new System.Drawing.Size(1140, 737);
+            this.Load += new System.EventHandler(this.uc_UpdateMolecule_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -214,5 +215,6 @@
         private Guna.UI.WinForms.GunaLabel lbl_formula;
         private Guna.UI.WinForms.GunaSeparator gunaSeparator1;
         private Guna.UI.WinForms.GunaTileButton btn_send_to_database;
+
     }
 }

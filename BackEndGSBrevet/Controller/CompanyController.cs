@@ -19,6 +19,45 @@ namespace BackEndGSBrevet.Controller
         {
             return unitOfWork.Companies.FirstOrDefault(c => c.id == id);
         }
+
+        public static void AddCompany(string name, string address, string city, string zip_code)
+        {
+            unitOfWork.Companies.Add(new Company
+            {
+                name = name,
+                address = address,
+                city = city,
+                zip_code = zip_code
+            });
+        }
+
+        public static void UpdateCompany(int id, string name, string address, string city, string zip_code)
+        {
+            unitOfWork.Companies.Update(m => m.id == id, new Company
+            {
+                id = id,
+                name = name,
+                address = address,
+                city = city,
+                zip_code = zip_code
+            });
+        }
+
+        public static bool CompanyUsed(int id)
+        {
+            Patent usedby_patent = unitOfWork.Patents.FirstOrDefault(c => c.company_id == id);
+            Contract usedby_contract = unitOfWork.Contracts.FirstOrDefault(c => c.company_id == id);
+            if (usedby_patent != null && usedby_contract != null)
+                return true;
+            else
+                return false;
+        }
+
+        public static void Delete(int id)
+        {
+            Company delete_company = unitOfWork.Companies.FirstOrDefault(c => c.id == id);
+            unitOfWork.Companies.Remove(delete_company);
+        }
     }
 
 }

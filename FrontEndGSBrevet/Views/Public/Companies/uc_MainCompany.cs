@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using BackEndGSBrevet.Controller;
 using FrontEndGSBrevet.Views.Public.Companies.CompanyModel;
+using FrontEndGSBrevet.Views.Public.Companies.CreateUpdate;
+using FrontEndGSBrevet.Utils;
 
 namespace FrontEndGSBrevet.Views.Public.Companies
 {
@@ -34,12 +36,17 @@ namespace FrontEndGSBrevet.Views.Public.Companies
 
         private void uc_MainCompany_Load(object sender, EventArgs e)
         {
+            ReloadPanel();
+        }
 
+        public void ReloadPanel()
+        {
+            pnl_companies.Controls.Clear();
             var companies = CompanyController.getAll(); // .OrderBy(t => t.id).Reverse()
             foreach (var c in companies)
-              {
+            {
                 pnl_companies.Controls.Add(new uc_CompanyModel
-                  {
+                {
                     id = c.id,
                     name = c.name,
                     address = c.address,
@@ -47,7 +54,11 @@ namespace FrontEndGSBrevet.Views.Public.Companies
                     zip_code = c.zip_code
                 });
             }
+        }
 
+        private void btn_create_company_Click(object sender, EventArgs e)
+        {
+            SwitchUC.Switch(form_Public.pnl_main, uc_CreateUpdateCompany.Instance);
         }
     }
 }

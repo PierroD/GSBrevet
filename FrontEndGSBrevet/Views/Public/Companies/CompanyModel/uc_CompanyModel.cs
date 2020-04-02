@@ -7,6 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using FrontEndGSBrevet.Views.Public.Companies.CreateUpdate;
+using FrontEndGSBrevet.Utils;
+using BackEndGSBrevet.Controller;
 
 namespace FrontEndGSBrevet.Views.Public.Companies.CompanyModel
 {
@@ -29,6 +32,23 @@ namespace FrontEndGSBrevet.Views.Public.Companies.CompanyModel
             lbl_address.Text = address;
             lbl_city.Text = city;
             lbl_zip_code.Text = zip_code;
+
+        }
+
+        private void btn_edit_Click(object sender, EventArgs e)
+        {
+            SwitchUC.Switch(form_Public.pnl_main, new uc_CreateUpdateCompany { id = id, name = name, address = address, city = city, zip_code = zip_code });
+        }
+
+        private void btn_delete_Click(object sender, EventArgs e)
+        {
+            if (CompanyController.CompanyUsed(id))
+            {
+                CompanyController.Delete(id);
+                uc_MainCompany.Instance.ReloadPanel();
+            }
+            else
+                MessageBox.Show("La molécule est utilisée par un brevet ou par une utilitée", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
         }
     }

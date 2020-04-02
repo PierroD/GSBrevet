@@ -51,23 +51,34 @@ namespace BackEndGSBrevet.Repositories
 
         public void Add(TEntity entity)
         {
-           _entities.Add(entity);
+            _entities.Add(entity);
+            Context.SaveChanges();
+        }
+
+        public void Update(Func<TEntity, bool> predicate, TEntity entity)
+        {
+            var old_entity = _entities.FirstOrDefault(predicate);
+            if (old_entity != null)
+            {
+                Context.Entry(old_entity).CurrentValues.SetValues(entity);
+            }
             Context.SaveChanges();
         }
 
         public void AddRange(IEnumerable<TEntity> entities)
         {
-           _entities.AddRange(entities);
+            _entities.AddRange(entities);
         }
 
         public void Remove(TEntity entity)
         {
-           _entities.Remove(entity);
+            _entities.Remove(entity);
+            Context.SaveChanges();
         }
 
         public void RemoveRange(IEnumerable<TEntity> entities)
         {
-           _entities.RemoveRange(entities);
+            _entities.RemoveRange(entities);
         }
     }
 }

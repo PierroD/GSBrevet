@@ -122,6 +122,7 @@
             this.btn_delete.OnPressedColor = System.Drawing.Color.Black;
             this.btn_delete.Size = new System.Drawing.Size(40, 40);
             this.btn_delete.TabIndex = 14;
+            this.btn_delete.Click += new System.EventHandler(this.btn_delete_Click);
             // 
             // btn_edit
             // 
@@ -144,6 +145,7 @@
             this.btn_edit.OnPressedColor = System.Drawing.Color.Black;
             this.btn_edit.Size = new System.Drawing.Size(40, 40);
             this.btn_edit.TabIndex = 13;
+            this.btn_edit.Click += new System.EventHandler(this.btn_edit_Click);
             // 
             // uc_MoleculeModel
             // 

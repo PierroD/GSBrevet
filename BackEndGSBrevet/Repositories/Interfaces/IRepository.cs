@@ -13,6 +13,7 @@ namespace BackEndGSBrevet.Repositories.Interfaces
         IEnumerable<TEntity> Find(Expression<Func<TEntity, bool>> predicate);
         TEntity FirstOrDefault(Func<TEntity, bool> predicate);
         TEntity SingleOrDefault(Expression<Func<TEntity, bool>> predicate);
+        void Update(Func<TEntity, bool> predicate, TEntity entity);
         void Add(TEntity entity);
         void AddRange(IEnumerable<TEntity> entities);
         

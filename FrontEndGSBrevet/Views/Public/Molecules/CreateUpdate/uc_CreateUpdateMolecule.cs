@@ -8,44 +8,42 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using BackEndGSBrevet.Controller;
-using FrontEndGSBrevet.Views.Public.Molecules;
 
-namespace FrontEndGSBrevet.Views.Public.Molecules.Create
+namespace FrontEndGSBrevet.Views.Public.Molecules.CreateUpdate
 {
-    public partial class uc_CreateMolecule : UserControl
+    public partial class uc_CreateUpdateMolecule : UserControl
     {
-        public uc_CreateMolecule()
+        public uc_CreateUpdateMolecule()
         {
             InitializeComponent();
         }
 
-        #region load UserControl inside a panel
-        private static uc_CreateMolecule _instance;
-        public static uc_CreateMolecule Instance
-        {
-            get
-            {
-                if (_instance == null)
-                    _instance = new uc_CreateMolecule();
-                return _instance;
-            }
-        }
-
+        #region structure
+        public int id { get; set; }
+        public string generic_name { get; set; }
+        public string real_name { get; set; }
+        public string formula { get; set; }
         #endregion
+
         private void btn_back_to_AllMolecules_Click(object sender, EventArgs e)
         {
             this.SendToBack();
         }
 
-        private void btn_send_to_database_Click(object sender, EventArgs e)
+        #region load UserControl inside a panel
+        private static uc_CreateUpdateMolecule _instance;
+        public static uc_CreateUpdateMolecule Instance
         {
-            if (tbox_generic_name.Text != String.Empty && tbox_real_name.Text != String.Empty && tbox_formula.Text != String.Empty)
-                MoleculeController.AddMolecule(tbox_generic_name.Text, tbox_real_name.Text, tbox_formula.Text);
-
-            MessageBox.Show("La molécule a été correctement ajoutée à la base de données", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
-            uc_MainMolecule.Instance.ReloadPanel();
-            this.SendToBack();
+            get
+            {
+                if (_instance == null)
+                    _instance = new uc_CreateUpdateMolecule();
+                return _instance;
+            }
         }
+
+        #endregion
+
 
         #region textbox enter/leave
         private void tbox_generic_name_Enter(object sender, EventArgs e)
@@ -94,8 +92,42 @@ namespace FrontEndGSBrevet.Views.Public.Molecules.Create
             if (tbox_formula.Text == String.Empty)
                 tbox_formula.Text = "Renseignez une formule chimique";
 
-            tbox_formula.ForeColor = Color.Black;
+            tbox_formula.ForeColor = Color.Gray;
+        }
+
+
+
+        #endregion
+
+        #region create or update database
+        private void btn_send_to_database_Click(object sender, EventArgs e)
+        {
+            if (id != 0)
+            {
+                MoleculeController.UpdateMolecule(id, tbox_generic_name.Text, tbox_real_name.Text, tbox_formula.Text);
+                MessageBox.Show("La molécule a été correctement mise à jour dans la base de données", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else
+            {
+                MoleculeController.AddMolecule(tbox_generic_name.Text, tbox_real_name.Text, tbox_formula.Text);
+                MessageBox.Show("La molécule a été correctement ajoutée à la base de données", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+
+            uc_MainMolecule.Instance.ReloadPanel();
+            this.SendToBack();
+
         }
         #endregion
+
+        private void uc_UpdateMolecule_Load(object sender, EventArgs e)
+        {
+            if (generic_name != null)
+                tbox_generic_name.Text = generic_name;
+            if (real_name != null)
+                tbox_real_name.Text = real_name;
+            if (formula != null)
+                tbox_formula.Text = formula;
+
+        }
     }
 }

@@ -11,5 +11,6 @@ namespace BackEndGSBrevet.Repositories.Interfaces
         IPatentRepository Patents { get; }   
         IMoleculeRepository Molecules { get; }   
         IContractRepository Contracts { get; }   
+        IUtilityRepository Utilities { get; }   
     }
 }

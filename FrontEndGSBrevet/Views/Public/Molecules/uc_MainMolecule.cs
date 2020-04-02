@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using BackEndGSBrevet.Controller;
 using FrontEndGSBrevet.Views.Public.Molecules.MoleculeModel;
-using FrontEndGSBrevet.Views.Public.Molecules.Create;
+using FrontEndGSBrevet.Views.Public.Molecules.CreateUpdate;
 using FrontEndGSBrevet.Utils;
 
 namespace FrontEndGSBrevet.Views.Public.Molecules
@@ -58,7 +58,7 @@ namespace FrontEndGSBrevet.Views.Public.Molecules
 
         private void btn_create_molecule_Click(object sender, EventArgs e)
         {
-            SwitchUC.Switch(form_Public.pnl_main, uc_CreateMolecule.Instance);
+            SwitchUC.Switch(form_Public.pnl_main, uc_CreateUpdateMolecule.Instance);
         }
     }
 }

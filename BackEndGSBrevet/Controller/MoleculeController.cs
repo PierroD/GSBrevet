@@ -27,8 +27,34 @@ namespace BackEndGSBrevet.Controller
                 generic_name = generic_name,
                 real_name = real_name,
                 formula = formula
-            });           
+            });
         }
 
+        public static void UpdateMolecule(int id, string generic_name, string real_name, string formula)
+        {
+            unitOfWork.Molecules.Update(m => m.id == id, new Molecule
+            {
+                id = id,
+                generic_name = generic_name,
+                real_name = real_name,
+                formula = formula
+            });
+        }
+
+        public static bool MoleculeUsed(int id)
+        {
+            Patent usedby_patent = unitOfWork.Patents.FirstOrDefault(m => m.molecule_id == id);
+            Utility usedby_utility = unitOfWork.Utilities.FirstOrDefault(m => m.molecule_id == id);
+            if (usedby_patent != null && usedby_utility != null)
+                return true;
+            else
+                return false;
+        }
+
+        public static void Delete(int id)
+        {
+            Molecule delete_molecule = unitOfWork.Molecules.FirstOrDefault(m => m.id == id);
+            unitOfWork.Molecules.Remove(delete_molecule);
+        }
     }
 }

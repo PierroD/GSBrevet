@@ -268,6 +268,7 @@
             this.btn_create_company.TabIndex = 7;
             this.btn_create_company.Text = "CREER UNE ENTREPRISE";
             this.btn_create_company.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btn_create_company.Click += new System.EventHandler(this.btn_create_company_Click);
             // 
             // uc_MainCompany
             // 
