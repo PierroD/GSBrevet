@@ -44,6 +44,12 @@ namespace FrontEndGSBrevet.Views.Public.Contracts
         {
             pnl_contracts.Controls.Clear();
             var contracts = ContractController.getAll(); // .OrderBy(t => t.id).Reverse()
+            if (btn_orderby_createDate.Checked)
+                contracts = contracts.OrderBy(c => c.create_date);
+            if (btn_orderby_patent.Checked)
+                contracts = contracts.OrderBy(c => c.patent_id);
+            if (btn_orderby_company.Checked)
+                contracts = contracts.OrderBy(c => c.company_id);
             foreach (var c in contracts)
             {
                 pnl_contracts.Controls.Add(new uc_ContractModel
@@ -67,5 +73,22 @@ namespace FrontEndGSBrevet.Views.Public.Contracts
         {
             ReloadPanel();
         }
+
+        #region orderby
+        private void btn_orderby_createDate_Click(object sender, EventArgs e)
+        {
+            ReloadPanel();
+        }
+
+        private void btn_orderby_patent_Click(object sender, EventArgs e)
+        {
+            ReloadPanel();
+        }
+
+        private void btn_orderby_company_Click(object sender, EventArgs e)
+        {
+            ReloadPanel();
+        }
+        #endregion
     }
 }

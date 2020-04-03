@@ -40,6 +40,7 @@ namespace FrontEndGSBrevet.Views.Public.Utilities.CreateUpdate
         public string description { get; set; }
         #endregion
 
+        #region comboboxes
         private void cbox_molecules_Click(object sender, EventArgs e)
         {
             cbox_molecules.Items.Clear();
@@ -49,6 +50,7 @@ namespace FrontEndGSBrevet.Views.Public.Utilities.CreateUpdate
                 cbox_molecules.Items.Add(molecule.real_name);
             }
         }
+        #endregion
 
         private void uc_CreateUpdateUtility_Load(object sender, EventArgs e)
         {
@@ -69,7 +71,7 @@ namespace FrontEndGSBrevet.Views.Public.Utilities.CreateUpdate
         }
 
         #region textboxes enter / leave
-        private void tbox_utility_Enter(object sender, EventArgs e)
+        private void tbox_name_Enter(object sender, EventArgs e)
         {
             if (tbox_name.Text == "Renseignez un nom d'utilitée")
                 tbox_name.Text = "";
@@ -77,7 +79,7 @@ namespace FrontEndGSBrevet.Views.Public.Utilities.CreateUpdate
             tbox_name.ForeColor = Color.Black;
         }
 
-        private void tbox_utility_Leave(object sender, EventArgs e)
+        private void tbox_name_Leave(object sender, EventArgs e)
         {
             if (tbox_name.Text == String.Empty)
                 tbox_name.Text = "Renseignez un nom d'utilitée";
@@ -87,19 +89,19 @@ namespace FrontEndGSBrevet.Views.Public.Utilities.CreateUpdate
 
         private void tbox_description_Enter(object sender, EventArgs e)
         {
-            if (tbox_name.Text == "Renseigner une description")
-                tbox_name.Text = "";
+            if (tbox_description.Text == "Renseignez une description")
+                tbox_description.Text = "";
 
-            tbox_name.ForeColor = Color.Black;
+            tbox_description.ForeColor = Color.Black;
 
         }
 
         private void tbox_description_Leave(object sender, EventArgs e)
         {
-            if (tbox_name.Text == String.Empty)
-                tbox_name.Text = "Renseigner une description";
+            if (tbox_description.Text == String.Empty)
+                tbox_description.Text = "Renseignez une description";
 
-            tbox_name.ForeColor = Color.Gray;
+            tbox_description.ForeColor = Color.Gray;
         }
         #endregion
 
@@ -107,13 +109,13 @@ namespace FrontEndGSBrevet.Views.Public.Utilities.CreateUpdate
         {
             if (id != 0)
             {
-                UtilityController.AddUtility(MoleculeController.getByName(cbox_molecules.Text), tbox_name.Text, tbox_description.Text);
-                MessageBox.Show("Le brevet a été correctement mise à jour dans la base de données", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                UtilityController.UpdateUtility(id, MoleculeController.getByName(cbox_molecules.Text), tbox_name.Text, tbox_description.Text);
+                MessageBox.Show("L'utilité a été correctement mise à jour dans la base de données", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             else
             {
-                UtilityController.UpdateUtility(id, MoleculeController.getByName(cbox_molecules.Text), tbox_name.Text, tbox_description.Text);
-                MessageBox.Show("Le brevet a été correctement ajoutée à la base de données", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                UtilityController.AddUtility(MoleculeController.getByName(cbox_molecules.Text), tbox_name.Text, tbox_description.Text);
+                MessageBox.Show("L'utilité a été correctement ajoutée à la base de données", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
             uc_MainUtility.Instance.ReloadPanel();
             this.SendToBack();

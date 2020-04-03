@@ -37,14 +37,14 @@
             this.lbl_molecule = new Guna.UI.WinForms.GunaLabel();
             this.lbl_number = new Guna.UI.WinForms.GunaLabel();
             this.pnl_patents = new System.Windows.Forms.FlowLayoutPanel();
-            this.btn_orderby_depositDate = new Guna.UI.WinForms.GunaButton();
-            this.btn_orderby_molecule = new Guna.UI.WinForms.GunaButton();
-            this.btn_orderby_company = new Guna.UI.WinForms.GunaButton();
             this.gunaShadowPanel1 = new Guna.UI.WinForms.GunaShadowPanel();
             this.tbox_search = new Guna.UI.WinForms.GunaTextBox();
             this.btn_search = new Guna.UI.WinForms.GunaCircleButton();
             this.btn_create_patent = new Guna.UI.WinForms.GunaButton();
             this.btn_refresh = new Guna.UI.WinForms.GunaCircleButton();
+            this.btn_orderby_depositDate = new Guna.UI.WinForms.GunaAdvenceButton();
+            this.btn_orderby_molecule = new Guna.UI.WinForms.GunaAdvenceButton();
+            this.btn_orderby_company = new Guna.UI.WinForms.GunaAdvenceButton();
             this.pnl_tableHeader.SuspendLayout();
             this.gunaShadowPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -146,87 +146,6 @@
             this.pnl_patents.Name = "pnl_patents";
             this.pnl_patents.Size = new System.Drawing.Size(1040, 546);
             this.pnl_patents.TabIndex = 3;
-            // 
-            // btn_orderby_depositDate
-            // 
-            this.btn_orderby_depositDate.AnimationHoverSpeed = 0.07F;
-            this.btn_orderby_depositDate.AnimationSpeed = 0.03F;
-            this.btn_orderby_depositDate.BackColor = System.Drawing.Color.Transparent;
-            this.btn_orderby_depositDate.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
-            this.btn_orderby_depositDate.BorderColor = System.Drawing.Color.Black;
-            this.btn_orderby_depositDate.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_orderby_depositDate.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btn_orderby_depositDate.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_orderby_depositDate.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_orderby_depositDate.ForeColor = System.Drawing.Color.White;
-            this.btn_orderby_depositDate.Image = null;
-            this.btn_orderby_depositDate.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_orderby_depositDate.Location = new System.Drawing.Point(70, 81);
-            this.btn_orderby_depositDate.Name = "btn_orderby_depositDate";
-            this.btn_orderby_depositDate.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(33)))), ((int)(((byte)(255)))));
-            this.btn_orderby_depositDate.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.btn_orderby_depositDate.OnHoverForeColor = System.Drawing.Color.White;
-            this.btn_orderby_depositDate.OnHoverImage = null;
-            this.btn_orderby_depositDate.OnPressedColor = System.Drawing.Color.Black;
-            this.btn_orderby_depositDate.Radius = 13;
-            this.btn_orderby_depositDate.Size = new System.Drawing.Size(140, 30);
-            this.btn_orderby_depositDate.TabIndex = 4;
-            this.btn_orderby_depositDate.Text = "DATE DE DEPOT";
-            this.btn_orderby_depositDate.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // btn_orderby_molecule
-            // 
-            this.btn_orderby_molecule.AnimationHoverSpeed = 0.07F;
-            this.btn_orderby_molecule.AnimationSpeed = 0.03F;
-            this.btn_orderby_molecule.BackColor = System.Drawing.Color.Transparent;
-            this.btn_orderby_molecule.BaseColor = System.Drawing.Color.White;
-            this.btn_orderby_molecule.BorderColor = System.Drawing.Color.Black;
-            this.btn_orderby_molecule.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_orderby_molecule.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btn_orderby_molecule.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_orderby_molecule.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_orderby_molecule.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
-            this.btn_orderby_molecule.Image = null;
-            this.btn_orderby_molecule.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_orderby_molecule.Location = new System.Drawing.Point(216, 81);
-            this.btn_orderby_molecule.Name = "btn_orderby_molecule";
-            this.btn_orderby_molecule.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(33)))), ((int)(((byte)(255)))));
-            this.btn_orderby_molecule.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.btn_orderby_molecule.OnHoverForeColor = System.Drawing.Color.White;
-            this.btn_orderby_molecule.OnHoverImage = null;
-            this.btn_orderby_molecule.OnPressedColor = System.Drawing.Color.Black;
-            this.btn_orderby_molecule.Radius = 13;
-            this.btn_orderby_molecule.Size = new System.Drawing.Size(110, 30);
-            this.btn_orderby_molecule.TabIndex = 5;
-            this.btn_orderby_molecule.Text = "MOLECULE";
-            this.btn_orderby_molecule.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // btn_orderby_company
-            // 
-            this.btn_orderby_company.AnimationHoverSpeed = 0.07F;
-            this.btn_orderby_company.AnimationSpeed = 0.03F;
-            this.btn_orderby_company.BackColor = System.Drawing.Color.Transparent;
-            this.btn_orderby_company.BaseColor = System.Drawing.Color.White;
-            this.btn_orderby_company.BorderColor = System.Drawing.Color.Black;
-            this.btn_orderby_company.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_orderby_company.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btn_orderby_company.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_orderby_company.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_orderby_company.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
-            this.btn_orderby_company.Image = null;
-            this.btn_orderby_company.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_orderby_company.Location = new System.Drawing.Point(332, 81);
-            this.btn_orderby_company.Name = "btn_orderby_company";
-            this.btn_orderby_company.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(33)))), ((int)(((byte)(255)))));
-            this.btn_orderby_company.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.btn_orderby_company.OnHoverForeColor = System.Drawing.Color.White;
-            this.btn_orderby_company.OnHoverImage = null;
-            this.btn_orderby_company.OnPressedColor = System.Drawing.Color.Black;
-            this.btn_orderby_company.Radius = 13;
-            this.btn_orderby_company.Size = new System.Drawing.Size(110, 30);
-            this.btn_orderby_company.TabIndex = 6;
-            this.btn_orderby_company.Text = "ENTREPRISE";
-            this.btn_orderby_company.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // gunaShadowPanel1
             // 
@@ -334,17 +253,123 @@
             this.btn_refresh.TabIndex = 10;
             this.btn_refresh.Click += new System.EventHandler(this.btn_refresh_Click);
             // 
+            // btn_orderby_depositDate
+            // 
+            this.btn_orderby_depositDate.AnimationHoverSpeed = 0.07F;
+            this.btn_orderby_depositDate.AnimationSpeed = 0.03F;
+            this.btn_orderby_depositDate.BackColor = System.Drawing.Color.Transparent;
+            this.btn_orderby_depositDate.BaseColor = System.Drawing.Color.White;
+            this.btn_orderby_depositDate.BorderColor = System.Drawing.Color.Black;
+            this.btn_orderby_depositDate.ButtonType = Guna.UI.WinForms.AdvenceButtonType.RadioButton;
+            this.btn_orderby_depositDate.Checked = true;
+            this.btn_orderby_depositDate.CheckedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
+            this.btn_orderby_depositDate.CheckedBorderColor = System.Drawing.Color.Black;
+            this.btn_orderby_depositDate.CheckedForeColor = System.Drawing.Color.White;
+            this.btn_orderby_depositDate.CheckedImage = null;
+            this.btn_orderby_depositDate.CheckedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
+            this.btn_orderby_depositDate.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_orderby_depositDate.FocusedColor = System.Drawing.Color.Empty;
+            this.btn_orderby_depositDate.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_orderby_depositDate.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
+            this.btn_orderby_depositDate.Image = null;
+            this.btn_orderby_depositDate.ImageSize = new System.Drawing.Size(20, 20);
+            this.btn_orderby_depositDate.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(33)))), ((int)(((byte)(255)))));
+            this.btn_orderby_depositDate.Location = new System.Drawing.Point(70, 81);
+            this.btn_orderby_depositDate.Name = "btn_orderby_depositDate";
+            this.btn_orderby_depositDate.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(33)))), ((int)(((byte)(255)))));
+            this.btn_orderby_depositDate.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btn_orderby_depositDate.OnHoverForeColor = System.Drawing.Color.White;
+            this.btn_orderby_depositDate.OnHoverImage = null;
+            this.btn_orderby_depositDate.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(33)))), ((int)(((byte)(255)))));
+            this.btn_orderby_depositDate.OnPressedColor = System.Drawing.Color.Black;
+            this.btn_orderby_depositDate.Radius = 13;
+            this.btn_orderby_depositDate.Size = new System.Drawing.Size(140, 30);
+            this.btn_orderby_depositDate.TabIndex = 11;
+            this.btn_orderby_depositDate.Text = "DATE DE DEPOT";
+            this.btn_orderby_depositDate.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btn_orderby_depositDate.Click += new System.EventHandler(this.btn_orderby_depositDate_Click);
+            // 
+            // btn_orderby_molecule
+            // 
+            this.btn_orderby_molecule.AnimationHoverSpeed = 0.07F;
+            this.btn_orderby_molecule.AnimationSpeed = 0.03F;
+            this.btn_orderby_molecule.BackColor = System.Drawing.Color.Transparent;
+            this.btn_orderby_molecule.BaseColor = System.Drawing.Color.White;
+            this.btn_orderby_molecule.BorderColor = System.Drawing.Color.Black;
+            this.btn_orderby_molecule.ButtonType = Guna.UI.WinForms.AdvenceButtonType.RadioButton;
+            this.btn_orderby_molecule.CheckedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
+            this.btn_orderby_molecule.CheckedBorderColor = System.Drawing.Color.Black;
+            this.btn_orderby_molecule.CheckedForeColor = System.Drawing.Color.White;
+            this.btn_orderby_molecule.CheckedImage = null;
+            this.btn_orderby_molecule.CheckedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
+            this.btn_orderby_molecule.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_orderby_molecule.FocusedColor = System.Drawing.Color.Empty;
+            this.btn_orderby_molecule.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_orderby_molecule.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
+            this.btn_orderby_molecule.Image = null;
+            this.btn_orderby_molecule.ImageSize = new System.Drawing.Size(20, 20);
+            this.btn_orderby_molecule.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(33)))), ((int)(((byte)(255)))));
+            this.btn_orderby_molecule.Location = new System.Drawing.Point(216, 81);
+            this.btn_orderby_molecule.Name = "btn_orderby_molecule";
+            this.btn_orderby_molecule.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(33)))), ((int)(((byte)(255)))));
+            this.btn_orderby_molecule.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btn_orderby_molecule.OnHoverForeColor = System.Drawing.Color.White;
+            this.btn_orderby_molecule.OnHoverImage = null;
+            this.btn_orderby_molecule.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(33)))), ((int)(((byte)(255)))));
+            this.btn_orderby_molecule.OnPressedColor = System.Drawing.Color.Black;
+            this.btn_orderby_molecule.Radius = 13;
+            this.btn_orderby_molecule.Size = new System.Drawing.Size(140, 30);
+            this.btn_orderby_molecule.TabIndex = 12;
+            this.btn_orderby_molecule.Text = "MOLECULE";
+            this.btn_orderby_molecule.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btn_orderby_molecule.Click += new System.EventHandler(this.btn_orderby_molecule_Click);
+            // 
+            // btn_orderby_company
+            // 
+            this.btn_orderby_company.AnimationHoverSpeed = 0.07F;
+            this.btn_orderby_company.AnimationSpeed = 0.03F;
+            this.btn_orderby_company.BackColor = System.Drawing.Color.Transparent;
+            this.btn_orderby_company.BaseColor = System.Drawing.Color.White;
+            this.btn_orderby_company.BorderColor = System.Drawing.Color.Black;
+            this.btn_orderby_company.ButtonType = Guna.UI.WinForms.AdvenceButtonType.RadioButton;
+            this.btn_orderby_company.CheckedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
+            this.btn_orderby_company.CheckedBorderColor = System.Drawing.Color.Black;
+            this.btn_orderby_company.CheckedForeColor = System.Drawing.Color.White;
+            this.btn_orderby_company.CheckedImage = null;
+            this.btn_orderby_company.CheckedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
+            this.btn_orderby_company.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_orderby_company.FocusedColor = System.Drawing.Color.Empty;
+            this.btn_orderby_company.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_orderby_company.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
+            this.btn_orderby_company.Image = null;
+            this.btn_orderby_company.ImageSize = new System.Drawing.Size(20, 20);
+            this.btn_orderby_company.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(33)))), ((int)(((byte)(255)))));
+            this.btn_orderby_company.Location = new System.Drawing.Point(362, 81);
+            this.btn_orderby_company.Name = "btn_orderby_company";
+            this.btn_orderby_company.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(33)))), ((int)(((byte)(255)))));
+            this.btn_orderby_company.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btn_orderby_company.OnHoverForeColor = System.Drawing.Color.White;
+            this.btn_orderby_company.OnHoverImage = null;
+            this.btn_orderby_company.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(33)))), ((int)(((byte)(255)))));
+            this.btn_orderby_company.OnPressedColor = System.Drawing.Color.Black;
+            this.btn_orderby_company.Radius = 13;
+            this.btn_orderby_company.Size = new System.Drawing.Size(140, 30);
+            this.btn_orderby_company.TabIndex = 13;
+            this.btn_orderby_company.Text = "ENTREPRISE";
+            this.btn_orderby_company.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btn_orderby_company.Click += new System.EventHandler(this.btn_orderby_company_Click);
+            // 
             // uc_MainPatent
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.Controls.Add(this.btn_refresh);
-            this.Controls.Add(this.gunaShadowPanel1);
-            this.Controls.Add(this.btn_create_patent);
             this.Controls.Add(this.btn_orderby_company);
             this.Controls.Add(this.btn_orderby_molecule);
             this.Controls.Add(this.btn_orderby_depositDate);
+            this.Controls.Add(this.btn_refresh);
+            this.Controls.Add(this.gunaShadowPanel1);
+            this.Controls.Add(this.btn_create_patent);
             this.Controls.Add(this.pnl_patents);
             this.Controls.Add(this.pnl_tableHeader);
             this.Name = "uc_MainPatent";
@@ -366,13 +391,13 @@
         private Guna.UI.WinForms.GunaLabel lbl_molecule;
         private Guna.UI.WinForms.GunaLabel lbl_number;
         private System.Windows.Forms.FlowLayoutPanel pnl_patents;
-        private Guna.UI.WinForms.GunaButton btn_orderby_depositDate;
-        private Guna.UI.WinForms.GunaButton btn_orderby_molecule;
-        private Guna.UI.WinForms.GunaButton btn_orderby_company;
         private Guna.UI.WinForms.GunaButton btn_create_patent;
         private Guna.UI.WinForms.GunaShadowPanel gunaShadowPanel1;
         private Guna.UI.WinForms.GunaCircleButton btn_search;
         private Guna.UI.WinForms.GunaTextBox tbox_search;
         private Guna.UI.WinForms.GunaCircleButton btn_refresh;
+        private Guna.UI.WinForms.GunaAdvenceButton btn_orderby_depositDate;
+        private Guna.UI.WinForms.GunaAdvenceButton btn_orderby_molecule;
+        private Guna.UI.WinForms.GunaAdvenceButton btn_orderby_company;
     }
 }

@@ -36,7 +36,7 @@
             this.btn_back_to_AllPatents = new Guna.UI.WinForms.GunaButton();
             this.lbl_molecule = new Guna.UI.WinForms.GunaLabel();
             this.cbox_molecules = new Guna.UI.WinForms.GunaComboBox();
-            this.tbox_description = new Guna.UI.WinForms.GunaTextBox();
+            this.tbox_description = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // lbl_name
@@ -63,8 +63,8 @@
             this.tbox_name.Size = new System.Drawing.Size(473, 36);
             this.tbox_name.TabIndex = 10;
             this.tbox_name.Text = "Renseignez un nom d\'utilitée";
-            this.tbox_name.Enter += new System.EventHandler(this.tbox_utility_Enter);
-            this.tbox_name.Leave += new System.EventHandler(this.tbox_utility_Leave);
+            this.tbox_name.Enter += new System.EventHandler(this.tbox_name_Enter);
+            this.tbox_name.Leave += new System.EventHandler(this.tbox_name_Leave);
             // 
             // lbl_description
             // 
@@ -169,23 +169,16 @@
             // 
             // tbox_description
             // 
-            this.tbox_description.BaseColor = System.Drawing.Color.White;
-            this.tbox_description.BorderColor = System.Drawing.Color.Silver;
-            this.tbox_description.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.tbox_description.FocusedBaseColor = System.Drawing.Color.White;
-            this.tbox_description.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.tbox_description.FocusedForeColor = System.Drawing.SystemColors.ControlText;
-            this.tbox_description.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.tbox_description.BackColor = System.Drawing.Color.White;
+            this.tbox_description.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.tbox_description.ForeColor = System.Drawing.Color.Gray;
             this.tbox_description.Location = new System.Drawing.Point(311, 325);
-            this.tbox_description.MultiLine = true;
+            this.tbox_description.Multiline = true;
             this.tbox_description.Name = "tbox_description";
-            this.tbox_description.PasswordChar = '\0';
-            this.tbox_description.Size = new System.Drawing.Size(474, 159);
+            this.tbox_description.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
+            this.tbox_description.Size = new System.Drawing.Size(474, 164);
             this.tbox_description.TabIndex = 27;
-            this.tbox_description.Text = "Renseigner une description";
-            this.tbox_description.Enter += new System.EventHandler(this.tbox_description_Enter);
-            this.tbox_description.Leave += new System.EventHandler(this.tbox_description_Leave);
+            this.tbox_description.Text = "Renseignez une description";
             // 
             // uc_CreateUpdateUtility
             // 
@@ -219,6 +212,6 @@
         private Guna.UI.WinForms.GunaTileButton btn_send_to_database;
         private Guna.UI.WinForms.GunaLabel lbl_molecule;
         private Guna.UI.WinForms.GunaComboBox cbox_molecules;
-        private Guna.UI.WinForms.GunaTextBox tbox_description;
+        private System.Windows.Forms.TextBox tbox_description;
     }
 }

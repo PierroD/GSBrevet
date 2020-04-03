@@ -12,6 +12,7 @@ using FrontEndGSBrevet.Views.Public.Contracts.CreateUpdate;
 using FrontEndGSBrevet.Views.Public.Patents.CreateUpdate;
 using FrontEndGSBrevet.Views.Public.Companies.CreateUpdate;
 using FrontEndGSBrevet.Views.Public.Molecules.CreateUpdate;
+using FrontEndGSBrevet.Views.Public.Utilities.CreateUpdate;
 using FrontEndGSBrevet.Utils;
 
 namespace FrontEndGSBrevet.Views.Shared
@@ -57,6 +58,7 @@ namespace FrontEndGSBrevet.Views.Shared
 
         private void btn_CreateUtility_Click(object sender, EventArgs e)
         {
+            SwitchUC.Switch(form_Public.pnl_main, uc_CreateUpdateUtility.Instance);
 
         }
     }

@@ -43,6 +43,12 @@ namespace FrontEndGSBrevet.Views.Public.Patents
         {
             pnl_patents.Controls.Clear();
             var patents = PatentController.getAll(); // .OrderBy(t => t.id).Reverse()
+            if (btn_orderby_depositDate.Checked)
+               patents = patents.OrderBy(p => p.deposit_date); // trier par date de dépôt
+            if (btn_orderby_molecule.Checked)
+                patents = patents.OrderBy(p => p.molecule_id); // trier par molécule
+            if (btn_orderby_company.Checked)
+                patents = patents.OrderBy(p => p.company_id); // trier par entreprise
             foreach (var p in patents)
             {
                 pnl_patents.Controls.Add(new uc_PatentModel
@@ -67,5 +73,23 @@ namespace FrontEndGSBrevet.Views.Public.Patents
         {
             ReloadPanel();
         }
+
+        #region orderby
+        private void btn_orderby_depositDate_Click(object sender, EventArgs e)
+        {
+            ReloadPanel();
+        }
+
+        private void btn_orderby_molecule_Click(object sender, EventArgs e)
+        {
+            ReloadPanel();
+        }
+
+        private void btn_orderby_company_Click(object sender, EventArgs e)
+        {
+            ReloadPanel();
+        }
+        #endregion
+
     }
 }
