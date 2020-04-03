@@ -60,5 +60,10 @@ namespace FrontEndGSBrevet.Views.Public.Molecules
         {
             SwitchUC.Switch(form_Public.pnl_main, uc_CreateUpdateMolecule.Instance);
         }
+
+        private void btn_refresh_Click(object sender, EventArgs e)
+        {
+            ReloadPanel();
+        }
     }
 }

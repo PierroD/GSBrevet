@@ -32,5 +32,11 @@ namespace FrontEndGSBrevet.Views.Public
             new SelectMenu().menuColor(this, btn_menu, Properties.Resources.menu_on, Properties.Resources.menu_off);
             SwitchUC.Switch(pnl_sideMenu, uc_MainMenu.Instance);
         }
+
+        private void btn_add_Click(object sender, EventArgs e)
+        {
+            new SelectMenu().menuColor(this, btn_add, Properties.Resources.add_on, Properties.Resources.add_off);
+            SwitchUC.Switch(pnl_sideMenu, uc_CreateMenu.Instance);
+        }
     }
 }

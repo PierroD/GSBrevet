@@ -31,3 +31,9 @@ C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\obj\Debug\FrontEndG
 C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\obj\Debug\FrontEndGSBrevet.Views.Public.Molecules.uc_MainMolecule.resources
 C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\obj\Debug\FrontEndGSBrevet.Views.Public.Molecules.CreateUpdate.uc_CreateUpdateMolecule.resources
 C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\obj\Debug\FrontEndGSBrevet.Views.Public.Companies.CreateUpdate.uc_CreateUpdateCompany.resources
+C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\obj\Debug\FrontEndGSBrevet.Views.Public.Patents.CreateUpdate.uc_CreateUpdatePatent.resources
+C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\obj\Debug\FrontEndGSBrevet.Views.Public.Contracts.CreateUpdate.uc_CreateUpdateContract.resources
+C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\obj\Debug\FrontEndGSBrevet.Views.Shared.uc_CreateMenu.resources
+C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\obj\Debug\FrontEndGSBrevet.Views.Public.Utilities.uc_MainUtility.resources
+C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\obj\Debug\FrontEndGSBrevet.Views.Public.Utilities.UtilityModel.uc_UtilityModel.resources
+C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\obj\Debug\FrontEndGSBrevet.Views.Public.Utilities.CreateUpdate.uc_CreateUpdateUtility.resources

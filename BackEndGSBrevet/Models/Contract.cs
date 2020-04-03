@@ -13,12 +13,8 @@ namespace BackEndGSBrevet.Models
         [Key, Column(Order = 0)]
         public int id { get; set; }
         [Required]
-        [Key, Column(Order = 1)]
         public int company_id { get; set; }
-        [Required]
-        [Key, Column(Order = 2)]
         public int patent_id { get; set; }
-        [Required]
         public DateTime create_date { get; set; }
         public int duration { get; set; }
         public double price { get; set; }

@@ -124,6 +124,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Controller\UtilityController.cs" />
     <Compile Include="Controller\MoleculeController.cs" />
     <Compile Include="Controller\ContractController.cs" />
     <Compile Include="Controller\PatentController.cs" />
@@ -169,6 +170,10 @@
     <Compile Include="Migrations\202004011606188_EmptyMigration1.cs" />
     <Compile Include="Migrations\202004011606188_EmptyMigration1.designer.cs">
       <DependentUpon>202004011606188_EmptyMigration1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004030857040_update-models.cs" />
+    <Compile Include="Migrations\202004030857040_update-models.designer.cs">
+      <DependentUpon>202004030857040_update-models.cs</DependentUpon>
     </Compile>
     <Compile Include="Models\Contract.cs" />
     <Compile Include="Models\Patent.cs" />
@@ -240,6 +245,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202004011606188_EmptyMigration1.resx">
       <DependentUpon>202004011606188_EmptyMigration1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004030857040_update-models.resx">
+      <DependentUpon>202004030857040_update-models.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

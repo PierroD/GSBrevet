@@ -37,6 +37,7 @@
             this.gunaDragControl1 = new Guna.UI.WinForms.GunaDragControl(this.components);
             this.gunaElipse1 = new Guna.UI.WinForms.GunaElipse(this.components);
             this.pnl_Menu = new Guna.UI.WinForms.GunaPanel();
+            this.btn_add = new Guna.UI.WinForms.GunaButton();
             this.btn_menu = new Guna.UI.WinForms.GunaButton();
             this.btn_settings = new Guna.UI.WinForms.GunaButton();
             this.pnl_sideMenu = new Guna.UI.WinForms.GunaPanel();
@@ -139,12 +140,37 @@
             // pnl_Menu
             // 
             this.pnl_Menu.BackColor = System.Drawing.Color.White;
+            this.pnl_Menu.Controls.Add(this.btn_add);
             this.pnl_Menu.Controls.Add(this.btn_menu);
             this.pnl_Menu.Controls.Add(this.btn_settings);
             this.pnl_Menu.Location = new System.Drawing.Point(0, 57);
             this.pnl_Menu.Name = "pnl_Menu";
             this.pnl_Menu.Size = new System.Drawing.Size(60, 743);
             this.pnl_Menu.TabIndex = 1;
+            // 
+            // btn_add
+            // 
+            this.btn_add.AnimationHoverSpeed = 0.07F;
+            this.btn_add.AnimationSpeed = 0.03F;
+            this.btn_add.BaseColor = System.Drawing.Color.White;
+            this.btn_add.BorderColor = System.Drawing.Color.Black;
+            this.btn_add.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_add.FocusedColor = System.Drawing.Color.Empty;
+            this.btn_add.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_add.ForeColor = System.Drawing.Color.White;
+            this.btn_add.Image = global::FrontEndGSBrevet.Properties.Resources.add_off;
+            this.btn_add.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btn_add.ImageSize = new System.Drawing.Size(20, 20);
+            this.btn_add.Location = new System.Drawing.Point(0, 54);
+            this.btn_add.Name = "btn_add";
+            this.btn_add.OnHoverBaseColor = System.Drawing.SystemColors.ControlLight;
+            this.btn_add.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btn_add.OnHoverForeColor = System.Drawing.Color.White;
+            this.btn_add.OnHoverImage = global::FrontEndGSBrevet.Properties.Resources.add_off;
+            this.btn_add.OnPressedColor = System.Drawing.Color.Black;
+            this.btn_add.Size = new System.Drawing.Size(60, 42);
+            this.btn_add.TabIndex = 2;
+            this.btn_add.Click += new System.EventHandler(this.btn_add_Click);
             // 
             // btn_menu
             // 
@@ -207,7 +233,6 @@
             pnl_main.LineBottom = 3;
             pnl_main.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
             pnl_main.LineLeft = 3;
-            pnl_main.LineRight = 3;
             pnl_main.LineStyle = System.Windows.Forms.BorderStyle.None;
             pnl_main.LineTop = 3;
             pnl_main.Location = new System.Drawing.Point(260, 63);
@@ -248,6 +273,7 @@
         private Guna.UI.WinForms.GunaButton btn_settings;
         private Guna.UI.WinForms.GunaButton btn_menu;
         private Guna.UI.WinForms.GunaCircleButton gunaCircleButton1;
+        private Guna.UI.WinForms.GunaButton btn_add;
         public static Guna.UI.WinForms.GunaLinePanel pnl_main;
     }
 }

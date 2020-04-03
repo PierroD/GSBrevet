@@ -60,5 +60,10 @@ namespace FrontEndGSBrevet.Views.Public.Companies
         {
             SwitchUC.Switch(form_Public.pnl_main, uc_CreateUpdateCompany.Instance);
         }
+
+        private void btn_refresh_Click(object sender, EventArgs e)
+        {
+            ReloadPanel();
+        }
     }
 }

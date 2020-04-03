@@ -99,6 +99,12 @@
     <Compile Include="Views\Public\Contracts\ContractModel\uc_ContractModel.Designer.cs">
       <DependentUpon>uc_ContractModel.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\Public\Contracts\CreateUpdate\uc_CreateUpdateContract.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Public\Contracts\CreateUpdate\uc_CreateUpdateContract.Designer.cs">
+      <DependentUpon>uc_CreateUpdateContract.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\Public\Contracts\uc_MainContract.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -129,6 +135,12 @@
     <Compile Include="Views\Public\Molecules\CreateUpdate\uc_CreateUpdateMolecule.Designer.cs">
       <DependentUpon>uc_CreateUpdateMolecule.cs</DependentUpon>
     </Compile>
+    <Compile Include="Views\Public\Patents\CreateUpdate\uc_CreateUpdatePatent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Public\Patents\CreateUpdate\uc_CreateUpdatePatent.Designer.cs">
+      <DependentUpon>uc_CreateUpdatePatent.cs</DependentUpon>
+    </Compile>
     <Compile Include="Views\Public\Patents\PatentModel\uc_PatentModel.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -146,6 +158,30 @@
     </Compile>
     <Compile Include="Views\Public\Settings\uc_Options.Designer.cs">
       <DependentUpon>uc_Options.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Public\Utilities\CreateUpdate\uc_CreateUpdateUtility.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Public\Utilities\CreateUpdate\uc_CreateUpdateUtility.Designer.cs">
+      <DependentUpon>uc_CreateUpdateUtility.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Public\Utilities\uc_MainUtility.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Public\Utilities\uc_MainUtility.Designer.cs">
+      <DependentUpon>uc_MainUtility.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Public\Utilities\UtilityModel\uc_UtilityModel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Public\Utilities\UtilityModel\uc_UtilityModel.Designer.cs">
+      <DependentUpon>uc_UtilityModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Shared\uc_CreateMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Shared\uc_CreateMenu.Designer.cs">
+      <DependentUpon>uc_CreateMenu.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\Shared\uc_MainMenu.cs">
       <SubType>UserControl</SubType>
@@ -179,6 +215,9 @@
     <EmbeddedResource Include="Views\Public\Contracts\ContractModel\uc_ContractModel.resx">
       <DependentUpon>uc_ContractModel.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Views\Public\Contracts\CreateUpdate\uc_CreateUpdateContract.resx">
+      <DependentUpon>uc_CreateUpdateContract.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\Public\Contracts\uc_MainContract.resx">
       <DependentUpon>uc_MainContract.cs</DependentUpon>
     </EmbeddedResource>
@@ -194,6 +233,9 @@
     <EmbeddedResource Include="Views\Public\Molecules\CreateUpdate\uc_CreateUpdateMolecule.resx">
       <DependentUpon>uc_CreateUpdateMolecule.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Views\Public\Patents\CreateUpdate\uc_CreateUpdatePatent.resx">
+      <DependentUpon>uc_CreateUpdatePatent.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Views\Public\Patents\PatentModel\uc_PatentModel.resx">
       <DependentUpon>uc_PatentModel.cs</DependentUpon>
     </EmbeddedResource>
@@ -202,6 +244,18 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Public\Settings\uc_Options.resx">
       <DependentUpon>uc_Options.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Public\Utilities\CreateUpdate\uc_CreateUpdateUtility.resx">
+      <DependentUpon>uc_CreateUpdateUtility.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Public\Utilities\uc_MainUtility.resx">
+      <DependentUpon>uc_MainUtility.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Public\Utilities\UtilityModel\uc_UtilityModel.resx">
+      <DependentUpon>uc_UtilityModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Shared\uc_CreateMenu.resx">
+      <DependentUpon>uc_CreateMenu.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Shared\uc_MainMenu.resx">
       <DependentUpon>uc_MainMenu.cs</DependentUpon>
@@ -305,6 +359,18 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_on.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh_off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh_on.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

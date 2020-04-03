@@ -12,6 +12,7 @@ using FrontEndGSBrevet.Views.Public.Patents;
 using FrontEndGSBrevet.Views.Public.Contracts;
 using FrontEndGSBrevet.Views.Public.Companies;
 using FrontEndGSBrevet.Views.Public.Molecules;
+using FrontEndGSBrevet.Views.Public.Utilities;
 using FrontEndGSBrevet.Utils;
 
 namespace FrontEndGSBrevet.Views.Shared
@@ -55,6 +56,9 @@ namespace FrontEndGSBrevet.Views.Shared
             SwitchUC.Switch(form_Public.pnl_main, uc_MainMolecule.Instance); // on charge toutes les molécules
         }
 
-
+        private void btn_AllUtilities_Click(object sender, EventArgs e)
+        {
+            SwitchUC.Switch(form_Public.pnl_main, uc_MainUtility.Instance); // on charge toutes les utilitées
+        }
     }
 }

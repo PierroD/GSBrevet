@@ -48,7 +48,7 @@ namespace FrontEndGSBrevet.Views.Public.Companies.CompanyModel
                 uc_MainCompany.Instance.ReloadPanel();
             }
             else
-                MessageBox.Show("La molécule est utilisée par un brevet ou par une utilitée", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("L'entreprise est utilisée par un brevet ou par un contrat", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
 
         }
     }

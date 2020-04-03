@@ -44,6 +44,7 @@
             this.tbox_search = new Guna.UI.WinForms.GunaTextBox();
             this.btn_search = new Guna.UI.WinForms.GunaCircleButton();
             this.btn_create_contract = new Guna.UI.WinForms.GunaButton();
+            this.btn_refresh = new Guna.UI.WinForms.GunaCircleButton();
             this.pnl_tableHeader.SuspendLayout();
             this.gunaShadowPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -309,12 +310,37 @@
             this.btn_create_contract.TabIndex = 7;
             this.btn_create_contract.Text = "CREER UN CONTRAT";
             this.btn_create_contract.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btn_create_contract.Click += new System.EventHandler(this.btn_create_contract_Click);
+            // 
+            // btn_refresh
+            // 
+            this.btn_refresh.AnimationHoverSpeed = 0.07F;
+            this.btn_refresh.AnimationSpeed = 0.03F;
+            this.btn_refresh.BaseColor = System.Drawing.Color.White;
+            this.btn_refresh.BorderColor = System.Drawing.Color.Black;
+            this.btn_refresh.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_refresh.FocusedColor = System.Drawing.Color.Empty;
+            this.btn_refresh.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_refresh.ForeColor = System.Drawing.Color.White;
+            this.btn_refresh.Image = global::FrontEndGSBrevet.Properties.Resources.refresh_off;
+            this.btn_refresh.ImageSize = new System.Drawing.Size(30, 30);
+            this.btn_refresh.Location = new System.Drawing.Point(837, 77);
+            this.btn_refresh.Name = "btn_refresh";
+            this.btn_refresh.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(33)))), ((int)(((byte)(255)))));
+            this.btn_refresh.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btn_refresh.OnHoverForeColor = System.Drawing.Color.White;
+            this.btn_refresh.OnHoverImage = global::FrontEndGSBrevet.Properties.Resources.refresh_on;
+            this.btn_refresh.OnPressedColor = System.Drawing.Color.Black;
+            this.btn_refresh.Size = new System.Drawing.Size(42, 42);
+            this.btn_refresh.TabIndex = 10;
+            this.btn_refresh.Click += new System.EventHandler(this.btn_refresh_Click);
             // 
             // uc_MainContract
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.btn_refresh);
             this.Controls.Add(this.gunaShadowPanel1);
             this.Controls.Add(this.btn_create_contract);
             this.Controls.Add(this.btn_orderby_company);
@@ -347,5 +373,7 @@
         private Guna.UI.WinForms.GunaCircleButton btn_search;
         private Guna.UI.WinForms.GunaTextBox tbox_search;
         #endregion
+
+        private Guna.UI.WinForms.GunaCircleButton btn_refresh;
     }
 }

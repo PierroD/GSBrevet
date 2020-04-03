@@ -118,7 +118,7 @@ namespace FrontEndGSBrevet.Views.Public.Companies.CreateUpdate
                 tbox_name.Text = name;
             if (address != null)
                 tbox_address.Text = address;
-            if (tbox_city != null)
+            if (city != null)
                 tbox_city.Text = city;
             if (zip_code != null)
                 tbox_zip_code.Text = zip_code;
@@ -142,6 +142,8 @@ namespace FrontEndGSBrevet.Views.Public.Companies.CreateUpdate
                 CompanyController.AddCompany(tbox_name.Text, tbox_address.Text, tbox_city.Text, tbox_zip_code.Text);
                 MessageBox.Show("L'entreprise a été correctement ajoutée à la base de données", "Information", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
+            uc_MainCompany.Instance.ReloadPanel();
+            this.SendToBack();
         }
     }
 }

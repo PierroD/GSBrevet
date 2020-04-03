@@ -33,7 +33,7 @@
             this.btn_AllCompanies = new Guna.UI.WinForms.GunaButton();
             this.btn_AllContracts = new Guna.UI.WinForms.GunaButton();
             this.btn_AllPatents = new Guna.UI.WinForms.GunaButton();
-            this.gunaButton3 = new Guna.UI.WinForms.GunaButton();
+            this.btn_AllUtilities = new Guna.UI.WinForms.GunaButton();
             this.SuspendLayout();
             // 
             // gunaSeparator1
@@ -152,38 +152,39 @@
             this.btn_AllPatents.Text = "Tous les brevets";
             this.btn_AllPatents.Click += new System.EventHandler(this.btn_AllPatents_Click);
             // 
-            // gunaButton3
+            // btn_AllUtilities
             // 
-            this.gunaButton3.AnimationHoverSpeed = 0.07F;
-            this.gunaButton3.AnimationSpeed = 0.03F;
-            this.gunaButton3.BackColor = System.Drawing.Color.Transparent;
-            this.gunaButton3.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
-            this.gunaButton3.BorderColor = System.Drawing.Color.Black;
-            this.gunaButton3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.gunaButton3.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton3.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton3.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaButton3.ForeColor = System.Drawing.Color.White;
-            this.gunaButton3.Image = global::FrontEndGSBrevet.Properties.Resources.utility;
-            this.gunaButton3.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton3.Location = new System.Drawing.Point(3, 321);
-            this.gunaButton3.Name = "gunaButton3";
-            this.gunaButton3.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(33)))), ((int)(((byte)(255)))));
-            this.gunaButton3.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton3.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton3.OnHoverImage = null;
-            this.gunaButton3.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton3.Radius = 5;
-            this.gunaButton3.Size = new System.Drawing.Size(194, 42);
-            this.gunaButton3.TabIndex = 5;
-            this.gunaButton3.Text = "Toutes les utilisations";
+            this.btn_AllUtilities.AnimationHoverSpeed = 0.07F;
+            this.btn_AllUtilities.AnimationSpeed = 0.03F;
+            this.btn_AllUtilities.BackColor = System.Drawing.Color.Transparent;
+            this.btn_AllUtilities.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
+            this.btn_AllUtilities.BorderColor = System.Drawing.Color.Black;
+            this.btn_AllUtilities.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_AllUtilities.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_AllUtilities.FocusedColor = System.Drawing.Color.Empty;
+            this.btn_AllUtilities.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_AllUtilities.ForeColor = System.Drawing.Color.White;
+            this.btn_AllUtilities.Image = global::FrontEndGSBrevet.Properties.Resources.utility;
+            this.btn_AllUtilities.ImageSize = new System.Drawing.Size(20, 20);
+            this.btn_AllUtilities.Location = new System.Drawing.Point(3, 321);
+            this.btn_AllUtilities.Name = "btn_AllUtilities";
+            this.btn_AllUtilities.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(33)))), ((int)(((byte)(255)))));
+            this.btn_AllUtilities.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btn_AllUtilities.OnHoverForeColor = System.Drawing.Color.White;
+            this.btn_AllUtilities.OnHoverImage = null;
+            this.btn_AllUtilities.OnPressedColor = System.Drawing.Color.Black;
+            this.btn_AllUtilities.Radius = 5;
+            this.btn_AllUtilities.Size = new System.Drawing.Size(194, 42);
+            this.btn_AllUtilities.TabIndex = 5;
+            this.btn_AllUtilities.Text = "Toutes les utilisations";
+            this.btn_AllUtilities.Click += new System.EventHandler(this.btn_AllUtilities_Click);
             // 
             // uc_MainMenu
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Transparent;
-            this.Controls.Add(this.gunaButton3);
+            this.Controls.Add(this.btn_AllUtilities);
             this.Controls.Add(this.btn_AllMolecules);
             this.Controls.Add(this.gunaSeparator1);
             this.Controls.Add(this.btn_AllCompanies);
@@ -202,6 +203,6 @@
         private Guna.UI.WinForms.GunaButton btn_AllCompanies;
         private Guna.UI.WinForms.GunaSeparator gunaSeparator1;
         private Guna.UI.WinForms.GunaButton btn_AllMolecules;
-        private Guna.UI.WinForms.GunaButton gunaButton3;
+        private Guna.UI.WinForms.GunaButton btn_AllUtilities;
     }
 }

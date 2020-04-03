@@ -20,6 +20,11 @@ namespace BackEndGSBrevet.Controller
             return unitOfWork.Companies.FirstOrDefault(c => c.id == id);
         }
 
+        public static int getByName(string name)
+        {
+            return unitOfWork.Companies.FirstOrDefault(c => c.name == name).id;
+        }
+
         public static void AddCompany(string name, string address, string city, string zip_code)
         {
             unitOfWork.Companies.Add(new Company
@@ -48,9 +53,9 @@ namespace BackEndGSBrevet.Controller
             Patent usedby_patent = unitOfWork.Patents.FirstOrDefault(c => c.company_id == id);
             Contract usedby_contract = unitOfWork.Contracts.FirstOrDefault(c => c.company_id == id);
             if (usedby_patent != null && usedby_contract != null)
-                return true;
-            else
                 return false;
+            else
+                return true;
         }
 
         public static void Delete(int id)

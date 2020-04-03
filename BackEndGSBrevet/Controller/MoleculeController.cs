@@ -20,6 +20,11 @@ namespace BackEndGSBrevet.Controller
             return unitOfWork.Molecules.FirstOrDefault(m => m.id == id);
         }
 
+        public static int getByName(string real_name)
+        {
+            return unitOfWork.Molecules.FirstOrDefault(m => m.real_name == real_name).id;
+        }
+
         public static void AddMolecule(string generic_name, string real_name, string formula)
         {
             unitOfWork.Molecules.Add(new Molecule
@@ -46,9 +51,9 @@ namespace BackEndGSBrevet.Controller
             Patent usedby_patent = unitOfWork.Patents.FirstOrDefault(m => m.molecule_id == id);
             Utility usedby_utility = unitOfWork.Utilities.FirstOrDefault(m => m.molecule_id == id);
             if (usedby_patent != null && usedby_utility != null)
-                return true;
-            else
                 return false;
+            else
+                return true;
         }
 
         public static void Delete(int id)

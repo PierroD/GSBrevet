@@ -8,7 +8,9 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using BackEndGSBrevet.Controller;
+using FrontEndGSBrevet.Utils;
 using FrontEndGSBrevet.Views.Public.Patents.PatentModel;
+using FrontEndGSBrevet.Views.Public.Patents.CreateUpdate;
 
 namespace FrontEndGSBrevet.Views.Public.Patents
 {
@@ -34,22 +36,36 @@ namespace FrontEndGSBrevet.Views.Public.Patents
 
         private void uc_MainPatent_Load(object sender, EventArgs e)
         {
+            ReloadPanel();
+        }
+
+        public void ReloadPanel()
+        {
+            pnl_patents.Controls.Clear();
             var patents = PatentController.getAll(); // .OrderBy(t => t.id).Reverse()
             foreach (var p in patents)
             {
-                var molecule = MoleculeController.getById(p.molecule_id);
-                var company = CompanyController.getById(p.company_id);
                 pnl_patents.Controls.Add(new uc_PatentModel
                 {
+                    id = p.id,
                     number = p.number,
-                    molecule = molecule.generic_name,
-                    company = company.name,
+                    molecule_id = p.molecule_id,
+                    company_id = p.company_id,
                     deposit_date = p.deposit_date,
                     duration = p.duration,
                     country = p.country
-                }); 
+                });
             }
+        }
 
+        private void btn_create_patent_Click(object sender, EventArgs e)
+        {
+            SwitchUC.Switch(form_Public.pnl_main, uc_CreateUpdatePatent.Instance);
+        }
+
+        private void btn_refresh_Click(object sender, EventArgs e)
+        {
+            ReloadPanel();
         }
     }
 }

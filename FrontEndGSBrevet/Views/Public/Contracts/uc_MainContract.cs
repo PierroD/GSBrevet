@@ -9,6 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using BackEndGSBrevet.Controller;
 using FrontEndGSBrevet.Views.Public.Contracts.ContractModel;
+using FrontEndGSBrevet.Views.Public.Contracts.CreateUpdate;
+using FrontEndGSBrevet.Utils;
 
 namespace FrontEndGSBrevet.Views.Public.Contracts
 {
@@ -35,21 +37,35 @@ namespace FrontEndGSBrevet.Views.Public.Contracts
 
         private void uc_MainContract_Load(object sender, EventArgs e)
         {
+            ReloadPanel();
+        }
+
+        public void ReloadPanel()
+        {
+            pnl_contracts.Controls.Clear();
             var contracts = ContractController.getAll(); // .OrderBy(t => t.id).Reverse()
             foreach (var c in contracts)
             {
-                var company = CompanyController.getById(c.company_id);
-                var patent = PatentController.getById(c.patent_id);
                 pnl_contracts.Controls.Add(new uc_ContractModel
                 {
                     id = c.id,
-                    company = company.name,
-                    patent = patent.number,
+                    company_id = c.company_id,
+                    patent_id = c.patent_id,
                     create_date = c.create_date,
                     duration = c.duration,
                     price = c.price
                 });
             }
+        }
+
+        private void btn_create_contract_Click(object sender, EventArgs e)
+        {
+            SwitchUC.Switch(form_Public.pnl_main, uc_CreateUpdateContract.Instance);
+        }
+
+        private void btn_refresh_Click(object sender, EventArgs e)
+        {
+            ReloadPanel();
         }
     }
 }
