@@ -63,7 +63,56 @@ namespace FrontEndGSBrevet.Views.Public.Utilities
 
         private void btn_create_utility_Click(object sender, EventArgs e)
         {
-            SwitchUC.Switch(form_Public.pnl_main, uc_CreateUpdateUtility.Instance);   
+            SwitchUC.Switch(form_Public.pnl_main, uc_CreateUpdateUtility.Instance);
+        }
+
+        #region textbox enter / leave / pressed
+        private void tbox_search_Enter(object sender, EventArgs e)
+        {
+            if (tbox_search.Text == "Rechercher...")
+                tbox_search.Text = "";
+
+            tbox_search.ForeColor = Color.Black;
+
+        }
+
+        private void tbox_search_Leave(object sender, EventArgs e)
+        {
+            if (tbox_search.Text == String.Empty)
+                tbox_search.Text = "Rechercher...";
+
+            tbox_search.ForeColor = Color.Gray;
+
+        }
+        private void tbox_search_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == 13)
+                btn_search.PerformClick();
+        }
+        #endregion
+
+        private void btn_search_Click(object sender, EventArgs e)
+        {
+            if (tbox_search.Text != "Rechercher...")
+            {
+                pnl_utilities.Controls.Clear();
+                var utilities = UtilityController.getAll(); // .OrderBy(t => t.id).Reverse()
+                utilities = utilities.Where(u => u.name.Contains(tbox_search.Text) || u.description.Contains(tbox_search.Text));
+                foreach (var u in utilities)
+                {
+                    pnl_utilities.Controls.Add(new uc_UtilityModel
+                    {
+                        id = u.id,
+                        molecule_id = u.molecule_id,
+                        name = u.name,
+                        description = u.description
+                    });
+                }
+            }
+            else
+            {
+                ReloadPanel();
+            }
         }
     }
 }

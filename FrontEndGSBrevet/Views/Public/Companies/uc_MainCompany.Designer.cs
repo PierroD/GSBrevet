@@ -36,13 +36,13 @@
             this.lbl_molecule = new Guna.UI.WinForms.GunaLabel();
             this.lbl_number = new Guna.UI.WinForms.GunaLabel();
             this.pnl_companies = new System.Windows.Forms.FlowLayoutPanel();
-            this.btn_orderby_name = new Guna.UI.WinForms.GunaButton();
-            this.btn_orderby_city = new Guna.UI.WinForms.GunaButton();
             this.gunaShadowPanel1 = new Guna.UI.WinForms.GunaShadowPanel();
             this.tbox_search = new Guna.UI.WinForms.GunaTextBox();
             this.btn_search = new Guna.UI.WinForms.GunaCircleButton();
             this.btn_create_company = new Guna.UI.WinForms.GunaButton();
             this.btn_refresh = new Guna.UI.WinForms.GunaCircleButton();
+            this.btn_orderby_name = new Guna.UI.WinForms.GunaAdvenceButton();
+            this.btn_orderby_city = new Guna.UI.WinForms.GunaAdvenceButton();
             this.pnl_tableHeader.SuspendLayout();
             this.gunaShadowPanel1.SuspendLayout();
             this.SuspendLayout();
@@ -133,60 +133,6 @@
             this.pnl_companies.Size = new System.Drawing.Size(1040, 546);
             this.pnl_companies.TabIndex = 3;
             // 
-            // btn_orderby_name
-            // 
-            this.btn_orderby_name.AnimationHoverSpeed = 0.07F;
-            this.btn_orderby_name.AnimationSpeed = 0.03F;
-            this.btn_orderby_name.BackColor = System.Drawing.Color.Transparent;
-            this.btn_orderby_name.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
-            this.btn_orderby_name.BorderColor = System.Drawing.Color.Black;
-            this.btn_orderby_name.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_orderby_name.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btn_orderby_name.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_orderby_name.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_orderby_name.ForeColor = System.Drawing.Color.White;
-            this.btn_orderby_name.Image = null;
-            this.btn_orderby_name.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_orderby_name.Location = new System.Drawing.Point(70, 81);
-            this.btn_orderby_name.Name = "btn_orderby_name";
-            this.btn_orderby_name.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(33)))), ((int)(((byte)(255)))));
-            this.btn_orderby_name.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.btn_orderby_name.OnHoverForeColor = System.Drawing.Color.White;
-            this.btn_orderby_name.OnHoverImage = null;
-            this.btn_orderby_name.OnPressedColor = System.Drawing.Color.Black;
-            this.btn_orderby_name.Radius = 13;
-            this.btn_orderby_name.Size = new System.Drawing.Size(140, 30);
-            this.btn_orderby_name.TabIndex = 4;
-            this.btn_orderby_name.Text = "NOM";
-            this.btn_orderby_name.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // btn_orderby_city
-            // 
-            this.btn_orderby_city.AnimationHoverSpeed = 0.07F;
-            this.btn_orderby_city.AnimationSpeed = 0.03F;
-            this.btn_orderby_city.BackColor = System.Drawing.Color.Transparent;
-            this.btn_orderby_city.BaseColor = System.Drawing.Color.White;
-            this.btn_orderby_city.BorderColor = System.Drawing.Color.Black;
-            this.btn_orderby_city.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.btn_orderby_city.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btn_orderby_city.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_orderby_city.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btn_orderby_city.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
-            this.btn_orderby_city.Image = null;
-            this.btn_orderby_city.ImageSize = new System.Drawing.Size(20, 20);
-            this.btn_orderby_city.Location = new System.Drawing.Point(216, 81);
-            this.btn_orderby_city.Name = "btn_orderby_city";
-            this.btn_orderby_city.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(33)))), ((int)(((byte)(255)))));
-            this.btn_orderby_city.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.btn_orderby_city.OnHoverForeColor = System.Drawing.Color.White;
-            this.btn_orderby_city.OnHoverImage = null;
-            this.btn_orderby_city.OnPressedColor = System.Drawing.Color.Black;
-            this.btn_orderby_city.Radius = 13;
-            this.btn_orderby_city.Size = new System.Drawing.Size(110, 30);
-            this.btn_orderby_city.TabIndex = 5;
-            this.btn_orderby_city.Text = "VILLE";
-            this.btn_orderby_city.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
             // gunaShadowPanel1
             // 
             this.gunaShadowPanel1.BackColor = System.Drawing.Color.Transparent;
@@ -220,6 +166,9 @@
             this.tbox_search.TabIndex = 1;
             this.tbox_search.Text = "Rechercher...";
             this.tbox_search.TextOffsetX = 15;
+            this.tbox_search.Enter += new System.EventHandler(this.tbox_search_Enter);
+            this.tbox_search.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbox_search_KeyPress);
+            this.tbox_search.Leave += new System.EventHandler(this.tbox_search_Leave);
             // 
             // btn_search
             // 
@@ -242,6 +191,7 @@
             this.btn_search.OnPressedColor = System.Drawing.Color.Black;
             this.btn_search.Size = new System.Drawing.Size(40, 40);
             this.btn_search.TabIndex = 0;
+            this.btn_search.Click += new System.EventHandler(this.btn_search_Click);
             // 
             // btn_create_company
             // 
@@ -294,16 +244,87 @@
             this.btn_refresh.TabIndex = 10;
             this.btn_refresh.Click += new System.EventHandler(this.btn_refresh_Click);
             // 
+            // btn_orderby_name
+            // 
+            this.btn_orderby_name.AnimationHoverSpeed = 0.07F;
+            this.btn_orderby_name.AnimationSpeed = 0.03F;
+            this.btn_orderby_name.BackColor = System.Drawing.Color.Transparent;
+            this.btn_orderby_name.BaseColor = System.Drawing.Color.White;
+            this.btn_orderby_name.BorderColor = System.Drawing.Color.Black;
+            this.btn_orderby_name.ButtonType = Guna.UI.WinForms.AdvenceButtonType.RadioButton;
+            this.btn_orderby_name.Checked = true;
+            this.btn_orderby_name.CheckedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
+            this.btn_orderby_name.CheckedBorderColor = System.Drawing.Color.Black;
+            this.btn_orderby_name.CheckedForeColor = System.Drawing.Color.White;
+            this.btn_orderby_name.CheckedImage = null;
+            this.btn_orderby_name.CheckedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
+            this.btn_orderby_name.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_orderby_name.FocusedColor = System.Drawing.Color.Empty;
+            this.btn_orderby_name.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_orderby_name.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
+            this.btn_orderby_name.Image = null;
+            this.btn_orderby_name.ImageSize = new System.Drawing.Size(20, 20);
+            this.btn_orderby_name.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(33)))), ((int)(((byte)(255)))));
+            this.btn_orderby_name.Location = new System.Drawing.Point(55, 81);
+            this.btn_orderby_name.Name = "btn_orderby_name";
+            this.btn_orderby_name.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(33)))), ((int)(((byte)(255)))));
+            this.btn_orderby_name.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btn_orderby_name.OnHoverForeColor = System.Drawing.Color.White;
+            this.btn_orderby_name.OnHoverImage = null;
+            this.btn_orderby_name.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(33)))), ((int)(((byte)(255)))));
+            this.btn_orderby_name.OnPressedColor = System.Drawing.Color.Black;
+            this.btn_orderby_name.Radius = 13;
+            this.btn_orderby_name.Size = new System.Drawing.Size(140, 30);
+            this.btn_orderby_name.TabIndex = 15;
+            this.btn_orderby_name.Text = "NOM";
+            this.btn_orderby_name.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btn_orderby_name.Click += new System.EventHandler(this.btn_orderby_name_Click);
+            // 
+            // btn_orderby_city
+            // 
+            this.btn_orderby_city.AnimationHoverSpeed = 0.07F;
+            this.btn_orderby_city.AnimationSpeed = 0.03F;
+            this.btn_orderby_city.BackColor = System.Drawing.Color.Transparent;
+            this.btn_orderby_city.BaseColor = System.Drawing.Color.White;
+            this.btn_orderby_city.BorderColor = System.Drawing.Color.Black;
+            this.btn_orderby_city.ButtonType = Guna.UI.WinForms.AdvenceButtonType.RadioButton;
+            this.btn_orderby_city.CheckedBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
+            this.btn_orderby_city.CheckedBorderColor = System.Drawing.Color.Black;
+            this.btn_orderby_city.CheckedForeColor = System.Drawing.Color.White;
+            this.btn_orderby_city.CheckedImage = null;
+            this.btn_orderby_city.CheckedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
+            this.btn_orderby_city.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_orderby_city.FocusedColor = System.Drawing.Color.Empty;
+            this.btn_orderby_city.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_orderby_city.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
+            this.btn_orderby_city.Image = null;
+            this.btn_orderby_city.ImageSize = new System.Drawing.Size(20, 20);
+            this.btn_orderby_city.LineColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(33)))), ((int)(((byte)(255)))));
+            this.btn_orderby_city.Location = new System.Drawing.Point(201, 81);
+            this.btn_orderby_city.Name = "btn_orderby_city";
+            this.btn_orderby_city.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(33)))), ((int)(((byte)(255)))));
+            this.btn_orderby_city.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btn_orderby_city.OnHoverForeColor = System.Drawing.Color.White;
+            this.btn_orderby_city.OnHoverImage = null;
+            this.btn_orderby_city.OnHoverLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(33)))), ((int)(((byte)(255)))));
+            this.btn_orderby_city.OnPressedColor = System.Drawing.Color.Black;
+            this.btn_orderby_city.Radius = 13;
+            this.btn_orderby_city.Size = new System.Drawing.Size(140, 30);
+            this.btn_orderby_city.TabIndex = 16;
+            this.btn_orderby_city.Text = "VILLE";
+            this.btn_orderby_city.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btn_orderby_city.Click += new System.EventHandler(this.btn_orderby_city_Click);
+            // 
             // uc_MainCompany
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.btn_orderby_city);
+            this.Controls.Add(this.btn_orderby_name);
             this.Controls.Add(this.btn_refresh);
             this.Controls.Add(this.gunaShadowPanel1);
             this.Controls.Add(this.btn_create_company);
-            this.Controls.Add(this.btn_orderby_city);
-            this.Controls.Add(this.btn_orderby_name);
             this.Controls.Add(this.pnl_companies);
             this.Controls.Add(this.pnl_tableHeader);
             this.Name = "uc_MainCompany";
@@ -325,12 +346,12 @@
         private Guna.UI.WinForms.GunaLabel lbl_molecule;
         private Guna.UI.WinForms.GunaLabel lbl_number;
         private System.Windows.Forms.FlowLayoutPanel pnl_companies;
-        private Guna.UI.WinForms.GunaButton btn_orderby_name;
-        private Guna.UI.WinForms.GunaButton btn_orderby_city;
         private Guna.UI.WinForms.GunaButton btn_create_company;
         private Guna.UI.WinForms.GunaShadowPanel gunaShadowPanel1;
         private Guna.UI.WinForms.GunaCircleButton btn_search;
         private Guna.UI.WinForms.GunaTextBox tbox_search;
         private Guna.UI.WinForms.GunaCircleButton btn_refresh;
+        private Guna.UI.WinForms.GunaAdvenceButton btn_orderby_name;
+        private Guna.UI.WinForms.GunaAdvenceButton btn_orderby_city;
     }
 }

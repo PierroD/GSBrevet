@@ -90,5 +90,6 @@ namespace FrontEndGSBrevet.Views.Public.Contracts
             ReloadPanel();
         }
         #endregion
+
     }
 }

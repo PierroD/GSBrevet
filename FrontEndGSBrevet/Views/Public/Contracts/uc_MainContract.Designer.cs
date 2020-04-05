@@ -37,16 +37,12 @@
             this.lbl_patent = new Guna.UI.WinForms.GunaLabel();
             this.lbl_id = new Guna.UI.WinForms.GunaLabel();
             this.pnl_contracts = new System.Windows.Forms.FlowLayoutPanel();
-            this.gunaShadowPanel1 = new Guna.UI.WinForms.GunaShadowPanel();
-            this.tbox_search = new Guna.UI.WinForms.GunaTextBox();
-            this.btn_search = new Guna.UI.WinForms.GunaCircleButton();
             this.btn_create_contract = new Guna.UI.WinForms.GunaButton();
             this.btn_refresh = new Guna.UI.WinForms.GunaCircleButton();
             this.btn_orderby_company = new Guna.UI.WinForms.GunaAdvenceButton();
             this.btn_orderby_patent = new Guna.UI.WinForms.GunaAdvenceButton();
             this.btn_orderby_createDate = new Guna.UI.WinForms.GunaAdvenceButton();
             this.pnl_tableHeader.SuspendLayout();
-            this.gunaShadowPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // pnl_tableHeader
@@ -146,62 +142,6 @@
             this.pnl_contracts.Name = "pnl_contracts";
             this.pnl_contracts.Size = new System.Drawing.Size(1040, 546);
             this.pnl_contracts.TabIndex = 3;
-            // 
-            // gunaShadowPanel1
-            // 
-            this.gunaShadowPanel1.BackColor = System.Drawing.Color.Transparent;
-            this.gunaShadowPanel1.BaseColor = System.Drawing.Color.White;
-            this.gunaShadowPanel1.Controls.Add(this.tbox_search);
-            this.gunaShadowPanel1.Controls.Add(this.btn_search);
-            this.gunaShadowPanel1.Location = new System.Drawing.Point(45, 13);
-            this.gunaShadowPanel1.Name = "gunaShadowPanel1";
-            this.gunaShadowPanel1.Padding = new System.Windows.Forms.Padding(3, 1, 3, 2);
-            this.gunaShadowPanel1.Radius = 10;
-            this.gunaShadowPanel1.ShadowColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
-            this.gunaShadowPanel1.ShadowShift = 3;
-            this.gunaShadowPanel1.Size = new System.Drawing.Size(1040, 50);
-            this.gunaShadowPanel1.TabIndex = 8;
-            // 
-            // tbox_search
-            // 
-            this.tbox_search.BaseColor = System.Drawing.Color.White;
-            this.tbox_search.BorderColor = System.Drawing.Color.Silver;
-            this.tbox_search.BorderSize = 0;
-            this.tbox_search.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.tbox_search.FocusedBaseColor = System.Drawing.Color.White;
-            this.tbox_search.FocusedBorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.tbox_search.FocusedForeColor = System.Drawing.Color.Black;
-            this.tbox_search.Font = new System.Drawing.Font("Segoe UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.tbox_search.ForeColor = System.Drawing.Color.Gray;
-            this.tbox_search.Location = new System.Drawing.Point(65, 5);
-            this.tbox_search.Name = "tbox_search";
-            this.tbox_search.PasswordChar = '\0';
-            this.tbox_search.Size = new System.Drawing.Size(945, 40);
-            this.tbox_search.TabIndex = 1;
-            this.tbox_search.Text = "Rechercher...";
-            this.tbox_search.TextOffsetX = 15;
-            // 
-            // btn_search
-            // 
-            this.btn_search.AnimationHoverSpeed = 0.07F;
-            this.btn_search.AnimationSpeed = 0.03F;
-            this.btn_search.BaseColor = System.Drawing.Color.White;
-            this.btn_search.BorderColor = System.Drawing.Color.Black;
-            this.btn_search.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btn_search.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_search.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.btn_search.ForeColor = System.Drawing.Color.White;
-            this.btn_search.Image = global::FrontEndGSBrevet.Properties.Resources.search;
-            this.btn_search.ImageSize = new System.Drawing.Size(30, 30);
-            this.btn_search.Location = new System.Drawing.Point(19, 5);
-            this.btn_search.Name = "btn_search";
-            this.btn_search.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(33)))), ((int)(((byte)(255)))));
-            this.btn_search.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.btn_search.OnHoverForeColor = System.Drawing.Color.White;
-            this.btn_search.OnHoverImage = global::FrontEndGSBrevet.Properties.Resources.search_on;
-            this.btn_search.OnPressedColor = System.Drawing.Color.Black;
-            this.btn_search.Size = new System.Drawing.Size(40, 40);
-            this.btn_search.TabIndex = 0;
             // 
             // btn_create_contract
             // 
@@ -369,7 +309,6 @@
             this.Controls.Add(this.btn_orderby_patent);
             this.Controls.Add(this.btn_orderby_company);
             this.Controls.Add(this.btn_refresh);
-            this.Controls.Add(this.gunaShadowPanel1);
             this.Controls.Add(this.btn_create_contract);
             this.Controls.Add(this.pnl_contracts);
             this.Controls.Add(this.pnl_tableHeader);
@@ -377,7 +316,6 @@
             this.Size = new System.Drawing.Size(1140, 737);
             this.Load += new System.EventHandler(this.uc_MainContract_Load);
             this.pnl_tableHeader.ResumeLayout(false);
-            this.gunaShadowPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -391,9 +329,6 @@
         private Guna.UI.WinForms.GunaLabel lbl_id;
         private System.Windows.Forms.FlowLayoutPanel pnl_contracts;
         private Guna.UI.WinForms.GunaButton btn_create_contract;
-        private Guna.UI.WinForms.GunaShadowPanel gunaShadowPanel1;
-        private Guna.UI.WinForms.GunaCircleButton btn_search;
-        private Guna.UI.WinForms.GunaTextBox tbox_search;
         #endregion
 
         private Guna.UI.WinForms.GunaCircleButton btn_refresh;

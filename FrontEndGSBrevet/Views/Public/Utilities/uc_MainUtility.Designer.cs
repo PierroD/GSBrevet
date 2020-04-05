@@ -151,6 +151,9 @@
             this.tbox_search.TabIndex = 1;
             this.tbox_search.Text = "Rechercher...";
             this.tbox_search.TextOffsetX = 15;
+            this.tbox_search.Enter += new System.EventHandler(this.tbox_search_Enter);
+            this.tbox_search.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbox_search_KeyPress);
+            this.tbox_search.Leave += new System.EventHandler(this.tbox_search_Leave);
             // 
             // btn_search
             // 
@@ -173,6 +176,7 @@
             this.btn_search.OnPressedColor = System.Drawing.Color.Black;
             this.btn_search.Size = new System.Drawing.Size(40, 40);
             this.btn_search.TabIndex = 0;
+            this.btn_search.Click += new System.EventHandler(this.btn_search_Click);
             // 
             // btn_refresh
             // 

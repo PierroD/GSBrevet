@@ -44,7 +44,7 @@ namespace FrontEndGSBrevet.Views.Public.Patents
             pnl_patents.Controls.Clear();
             var patents = PatentController.getAll(); // .OrderBy(t => t.id).Reverse()
             if (btn_orderby_depositDate.Checked)
-               patents = patents.OrderBy(p => p.deposit_date); // trier par date de dépôt
+                patents = patents.OrderBy(p => p.deposit_date); // trier par date de dépôt
             if (btn_orderby_molecule.Checked)
                 patents = patents.OrderBy(p => p.molecule_id); // trier par molécule
             if (btn_orderby_company.Checked)
@@ -91,5 +91,57 @@ namespace FrontEndGSBrevet.Views.Public.Patents
         }
         #endregion
 
+
+        #region textbox enter / leave / pressed
+        private void tbox_search_Enter(object sender, EventArgs e)
+        {
+            if (tbox_search.Text == "Rechercher...")
+                tbox_search.Text = "";
+
+            tbox_search.ForeColor = Color.Black;
+
+        }
+
+        private void tbox_search_Leave(object sender, EventArgs e)
+        {
+            if (tbox_search.Text == String.Empty)
+                tbox_search.Text = "Rechercher...";
+
+            tbox_search.ForeColor = Color.Gray;
+
+        }
+        private void tbox_search_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == 13)
+                btn_search.PerformClick();
+        }
+        #endregion
+
+        private void btn_search_Click(object sender, EventArgs e)
+        {
+            if (tbox_search.Text != "Rechercher...")
+            {
+                pnl_patents.Controls.Clear();
+                var patents = PatentController.getAll();
+                patents = patents.Where(m => m.number.Contains(tbox_search.Text) || m.country.Contains(tbox_search.Text));
+                foreach (var p in patents)
+                {
+                    pnl_patents.Controls.Add(new uc_PatentModel
+                    {
+                        id = p.id,
+                        number = p.number,
+                        molecule_id = p.molecule_id,
+                        company_id = p.company_id,
+                        deposit_date = p.deposit_date,
+                        duration = p.duration,
+                        country = p.country
+                    });
+                }
+            }
+            else
+            {
+                ReloadPanel();
+            }
+        }
     }
 }

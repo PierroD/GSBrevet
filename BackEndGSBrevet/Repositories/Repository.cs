@@ -30,7 +30,6 @@ namespace BackEndGSBrevet.Repositories
 
         public IEnumerable<TEntity> GetAll()
         {
-
             return _entities.ToList();
         }
 
