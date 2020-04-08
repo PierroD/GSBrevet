@@ -319,6 +319,7 @@
             this.ResumeLayout(false);
 
         }
+        #endregion
         private Guna.UI.WinForms.GunaPanel pnl_tableHeader;
         private Guna.UI.WinForms.GunaLabel lbl_actions;
         private Guna.UI.WinForms.GunaLabel lbl_price;
@@ -329,8 +330,6 @@
         private Guna.UI.WinForms.GunaLabel lbl_id;
         private System.Windows.Forms.FlowLayoutPanel pnl_contracts;
         private Guna.UI.WinForms.GunaButton btn_create_contract;
-        #endregion
-
         private Guna.UI.WinForms.GunaCircleButton btn_refresh;
         private Guna.UI.WinForms.GunaAdvenceButton btn_orderby_company;
         private Guna.UI.WinForms.GunaAdvenceButton btn_orderby_patent;

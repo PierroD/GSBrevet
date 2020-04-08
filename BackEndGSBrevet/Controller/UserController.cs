@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using BackEndGSBrevet;
 using BackEndGSBrevet.Models;
 using BackEndGSBrevet.Repositories;
+using PLogger;
 
 namespace BackEndGSBrevet.Controller
 {
@@ -13,63 +14,62 @@ namespace BackEndGSBrevet.Controller
     {
         public static IEnumerable<User> getAll()
         {
+            Log.Infos("Retourne tous les utilisateurs");
             return unitOfWork.Users.GetAll();
         }
 
         public static User find(int id)
         {
+            Log.Infos($"Retourne l'utilisateur qui a pour Id : {id}");
             return unitOfWork.Users.Get(id);
         }
-        public static async Task<IEnumerable<User>> getAllAsync()
+        public static async Task<IEnumerable<User>> getAllAsync() // test des requêtes async
         {
             return await unitOfWork.Users.GetAllAsync();
         }
 
-        public static (bool, string, int) signIn(string Username, string Password)
+        public static bool signIn(string username, string password)
         {
-            var user = unitOfWork.Users.FirstOrDefault(u => u.username == Username);
+            var user = unitOfWork.Users.FirstOrDefault(u => u.username == username);
             if (user != null)
             {
-                if (user.password == Password)
+                if (BCrypt.Net.BCrypt.Verify(password, user.password))
                 {
-                    switch (unitOfWork.Roles.FirstOrDefault(u => u.id == user.id).id)
+                    Role role = unitOfWork.Roles.FirstOrDefault(u => u.id == user.id);
+                    switch (role.id)
                     {
                         case 1:
-                            return (true, "Vous êtes connecté en tant qu'utilisateur", 1);
+                            {
+                                Log.Infos($"L'utilisateur {user.last_name + " " + user.first_name} est connecté en tant qu'Utilisateur");
+                                new Auth(user, role);
+                                return (Auth.True());
+                            }
                         case 2:
-                            return (true, "Vous êtes connecté en tant qu'administrateur", 2);
+                            {
+                                Log.Infos($"L'utilisateur {user.last_name + " " + user.first_name} est connecté en tant qu'Admin");
+                                new Auth(user, role);
+                                return (Auth.True());
+                            }
                         default:
-                            return (true, "Vous êtes connecté en tant qu'utilisateur", 1);
+                            {
+                                Log.Infos($"Ne pouvant déterminé le rôle de {user.last_name + " " + user.first_name} il est automatiquement connecté en tant qu'utilisateur");
+                                new Auth(user, role);
+                                return (Auth.True());
+                            }
                     }
                 }
                 else
                 {
-                    return (false, "Le mot de passe est incorrect", 0);
+                    Log.Error($"L'utilisateur {user.last_name + " " + user.first_name} : a rentré un identifiant incorrect");
+                    return (Auth.True());
                 }
             }
             else
             {
-                return (false, "L'identifiant est incorrect", 0);
+                Log.Error($"L'identifiant renseigné {username} est incorrect");
+                return (Auth.True());
             }
 
         }
-        /*  
-                public static ticket find(int id)
-                {
-                    ticket t = gsbapp.ticket.Find(id);
-                    return t;
-                }
-                public static void create(ticket t)
-                {
-                    gsbapp.ticket.Add(t);
-                    gsbapp.SaveChanges();
-                }
-                public static void delete(int id)
-                {
-                    ticket t = gsbapp.ticket.Find(id);
-                    gsbapp.ticket.Remove(t);
-                }*/
-
-
     }
 }

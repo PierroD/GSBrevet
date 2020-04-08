@@ -38,27 +38,27 @@ namespace FrontEndGSBrevet.Views.Shared
 
         private void btn_CreateContract_Click(object sender, EventArgs e)
         {
-            SwitchUC.Switch(form_Public.pnl_main, uc_CreateUpdateContract.Instance);   
+            SwitchUC.Switch(form_Public.pnl_main, new uc_CreateUpdateContract());   
         }
 
         private void btn_CreatePatent_Click(object sender, EventArgs e)
         {
-            SwitchUC.Switch(form_Public.pnl_main, uc_CreateUpdatePatent.Instance);   
+            SwitchUC.Switch(form_Public.pnl_main, new uc_CreateUpdatePatent());   
         }
 
         private void btn_CreateCompany_Click(object sender, EventArgs e)
         {
-            SwitchUC.Switch(form_Public.pnl_main, uc_CreateUpdateCompany.Instance);
+            SwitchUC.Switch(form_Public.pnl_main, new uc_CreateUpdateCompany());
         }
 
         private void btn_CreateMolecule_Click(object sender, EventArgs e)
         {
-            SwitchUC.Switch(form_Public.pnl_main, uc_CreateUpdateMolecule.Instance);
+            SwitchUC.Switch(form_Public.pnl_main, new uc_CreateUpdateMolecule());
         }
 
         private void btn_CreateUtility_Click(object sender, EventArgs e)
         {
-            SwitchUC.Switch(form_Public.pnl_main, uc_CreateUpdateUtility.Instance);
+            SwitchUC.Switch(form_Public.pnl_main, new uc_CreateUpdateUtility());
 
         }
     }

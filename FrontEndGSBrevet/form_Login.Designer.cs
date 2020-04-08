@@ -148,6 +148,7 @@
             this.tbox_password.TabIndex = 2;
             this.tbox_password.Text = "Mot de passe";
             this.tbox_password.Enter += new System.EventHandler(this.tbox_password_Enter);
+            this.tbox_password.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbox_password_KeyPress);
             this.tbox_password.Leave += new System.EventHandler(this.tbox_password_Leave);
             // 
             // pbox_password
@@ -191,6 +192,7 @@
             this.tbox_username.TabIndex = 1;
             this.tbox_username.Text = "Identifiant";
             this.tbox_username.Enter += new System.EventHandler(this.tbox_username_Enter);
+            this.tbox_username.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbox_username_KeyPress);
             this.tbox_username.Leave += new System.EventHandler(this.tbox_username_Leave);
             // 
             // pbox_username

@@ -28,35 +28,36 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.gunaButton2 = new Guna.UI.WinForms.GunaButton();
+            this.btn_profil = new Guna.UI.WinForms.GunaButton();
             this.btn_options = new Guna.UI.WinForms.GunaButton();
             this.SuspendLayout();
             // 
-            // gunaButton2
+            // btn_profil
             // 
-            this.gunaButton2.AnimationHoverSpeed = 0.07F;
-            this.gunaButton2.AnimationSpeed = 0.03F;
-            this.gunaButton2.BackColor = System.Drawing.Color.Transparent;
-            this.gunaButton2.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
-            this.gunaButton2.BorderColor = System.Drawing.Color.Black;
-            this.gunaButton2.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.gunaButton2.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaButton2.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaButton2.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaButton2.ForeColor = System.Drawing.Color.White;
-            this.gunaButton2.Image = global::FrontEndGSBrevet.Properties.Resources.user;
-            this.gunaButton2.ImageSize = new System.Drawing.Size(20, 20);
-            this.gunaButton2.Location = new System.Drawing.Point(3, 63);
-            this.gunaButton2.Name = "gunaButton2";
-            this.gunaButton2.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(33)))), ((int)(((byte)(255)))));
-            this.gunaButton2.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaButton2.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaButton2.OnHoverImage = null;
-            this.gunaButton2.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaButton2.Radius = 5;
-            this.gunaButton2.Size = new System.Drawing.Size(194, 42);
-            this.gunaButton2.TabIndex = 3;
-            this.gunaButton2.Text = "Profil";
+            this.btn_profil.AnimationHoverSpeed = 0.07F;
+            this.btn_profil.AnimationSpeed = 0.03F;
+            this.btn_profil.BackColor = System.Drawing.Color.Transparent;
+            this.btn_profil.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
+            this.btn_profil.BorderColor = System.Drawing.Color.Black;
+            this.btn_profil.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_profil.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_profil.FocusedColor = System.Drawing.Color.Empty;
+            this.btn_profil.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_profil.ForeColor = System.Drawing.Color.White;
+            this.btn_profil.Image = global::FrontEndGSBrevet.Properties.Resources.user;
+            this.btn_profil.ImageSize = new System.Drawing.Size(20, 20);
+            this.btn_profil.Location = new System.Drawing.Point(3, 63);
+            this.btn_profil.Name = "btn_profil";
+            this.btn_profil.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(33)))), ((int)(((byte)(255)))));
+            this.btn_profil.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btn_profil.OnHoverForeColor = System.Drawing.Color.White;
+            this.btn_profil.OnHoverImage = null;
+            this.btn_profil.OnPressedColor = System.Drawing.Color.Black;
+            this.btn_profil.Radius = 5;
+            this.btn_profil.Size = new System.Drawing.Size(194, 42);
+            this.btn_profil.TabIndex = 3;
+            this.btn_profil.Text = "Profil";
+            this.btn_profil.Click += new System.EventHandler(this.btn_profil_Click);
             // 
             // btn_options
             // 
@@ -90,7 +91,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.Transparent;
-            this.Controls.Add(this.gunaButton2);
+            this.Controls.Add(this.btn_profil);
             this.Controls.Add(this.btn_options);
             this.Name = "uc_SettingsMenu";
             this.Size = new System.Drawing.Size(200, 734);
@@ -100,7 +101,7 @@
 
         #endregion
 
-        private Guna.UI.WinForms.GunaButton gunaButton2;
+        private Guna.UI.WinForms.GunaButton btn_profil;
         private Guna.UI.WinForms.GunaButton btn_options;
     }
 }

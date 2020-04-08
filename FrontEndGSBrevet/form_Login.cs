@@ -38,7 +38,7 @@ namespace FrontEndGSBrevet
         }
         #endregion
 
-        #region empty/fill textbox
+        #region enter/leave/pressed textbox
         private void tbox_username_Enter(object sender, EventArgs e)
         {
             if(tbox_username.Text == "Identifiant")
@@ -53,16 +53,36 @@ namespace FrontEndGSBrevet
 
         private void tbox_password_Enter(object sender, EventArgs e)
         {
-            if(tbox_password.Text == "Mot de passe")
-            tbox_password.Text = "";
+            if (tbox_password.Text == "Mot de passe")
+            {
+                tbox_password.Text = "";
+                pbox_showPassword_Click(pbox_showPassword, e);
+            }
         }
 
         private void tbox_password_Leave(object sender, EventArgs e)
         {
             if (tbox_password.Text == String.Empty)
+            {
                 tbox_password.Text = "Mot de passe";
+                pbox_showPassword_Click(pbox_showPassword, e);
+            }
         }
 
+        private void tbox_password_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == Convert.ToChar(Keys.Enter)) // enter key e.KeyChar == 13
+                btn_login.PerformClick();
+            if (e.KeyChar == Convert.ToChar(Keys.Tab))
+                tbox_username_Enter(tbox_username, e);
+        }
+        private void tbox_username_KeyPress(object sender, KeyPressEventArgs e)
+        {
+            if (e.KeyChar == Convert.ToChar(Keys.Tab))
+                tbox_password_Enter(tbox_password, e);
+            if (e.KeyChar == Convert.ToChar(Keys.Enter))
+                btn_login.PerformClick();
+        }
         #endregion
 
         #region Login 
@@ -70,9 +90,9 @@ namespace FrontEndGSBrevet
         {
             string username = tbox_username.Text, password = tbox_password.Text;
             var request = UserController.signIn(username, password);
-            if(request.Item1) // true or false
+            if(request) // true or false
             {
-                switch(request.Item3)
+                switch(Auth.Role().id)
                 {
                     case 1:
                         new form_Public().Show();
@@ -87,8 +107,11 @@ namespace FrontEndGSBrevet
                 }
             }
             else
-                MessageBox.Show(request.Item2, "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                MessageBox.Show("La connexion a échouée", "ERROR", MessageBoxButtons.OK, MessageBoxIcon.Error);
         }
+
         #endregion
+
+
     }
 }

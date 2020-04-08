@@ -179,6 +179,8 @@
             this.tbox_description.Size = new System.Drawing.Size(474, 164);
             this.tbox_description.TabIndex = 27;
             this.tbox_description.Text = "Renseignez une description";
+            this.tbox_description.Enter += new System.EventHandler(this.tbox_description_Enter);
+            this.tbox_description.Leave += new System.EventHandler(this.tbox_description_Leave);
             // 
             // uc_CreateUpdateUtility
             // 

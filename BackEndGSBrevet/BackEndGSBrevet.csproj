@@ -34,6 +34,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="BCrypt.Net-Next, Version=3.3.3.0, Culture=neutral, PublicKeyToken=1e11be04b6288443, processorArchitecture=MSIL">
+      <HintPath>..\packages\BCrypt.Net-Next.3.3.3\lib\net472\BCrypt.Net-Next.dll</HintPath>
+    </Reference>
     <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>..\packages\EntityFramework.6.4.0\lib\net45\EntityFramework.dll</HintPath>
     </Reference>
@@ -85,6 +88,10 @@
     <Reference Include="Microsoft.Extensions.Primitives, Version=3.1.3.0, Culture=neutral, PublicKeyToken=adb9793829ddae60, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Extensions.Primitives.3.1.3\lib\netstandard2.0\Microsoft.Extensions.Primitives.dll</HintPath>
     </Reference>
+    <Reference Include="PLogger, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\PLoggerSQLOnly\bin\Debug\PLogger.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Buffers, Version=4.0.2.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Buffers.4.4.0\lib\netstandard2.0\System.Buffers.dll</HintPath>
@@ -124,6 +131,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Class1.cs" />
+    <Compile Include="Controller\Auth.cs" />
     <Compile Include="Controller\UtilityController.cs" />
     <Compile Include="Controller\MoleculeController.cs" />
     <Compile Include="Controller\ContractController.cs" />
@@ -174,6 +182,10 @@
     <Compile Include="Migrations\202004030857040_update-models.cs" />
     <Compile Include="Migrations\202004030857040_update-models.designer.cs">
       <DependentUpon>202004030857040_update-models.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004051652329_create_table_logs.cs" />
+    <Compile Include="Migrations\202004051652329_create_table_logs.designer.cs">
+      <DependentUpon>202004051652329_create_table_logs.cs</DependentUpon>
     </Compile>
     <Compile Include="Models\Contract.cs" />
     <Compile Include="Models\Patent.cs" />
@@ -248,6 +260,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202004030857040_update-models.resx">
       <DependentUpon>202004030857040_update-models.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004051652329_create_table_logs.resx">
+      <DependentUpon>202004051652329_create_table_logs.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

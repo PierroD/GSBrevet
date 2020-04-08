@@ -17,5 +17,6 @@ namespace BackEndGSBrevet.Models
         public DateTime birth_date { get; set; }
         public string username { get; set; }
         public string password { get; set; }
+        public int role_id { get; set; }
     }
 }

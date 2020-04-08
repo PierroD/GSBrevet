@@ -30,13 +30,15 @@
         {
             this.components = new System.ComponentModel.Container();
             this.pnl_top = new Guna.UI.WinForms.GunaPanel();
-            this.gunaCircleButton1 = new Guna.UI.WinForms.GunaCircleButton();
+            this.lbl_userType = new Guna.UI.WinForms.GunaLabel();
+            this.btn_initial = new Guna.UI.WinForms.GunaCircleButton();
             this.lbl_title = new Guna.UI.WinForms.GunaLabel();
             this.gunaControlBox1 = new Guna.UI.WinForms.GunaControlBox();
             this.btn_close = new Guna.UI.WinForms.GunaControlBox();
             this.gunaDragControl1 = new Guna.UI.WinForms.GunaDragControl(this.components);
             this.gunaElipse1 = new Guna.UI.WinForms.GunaElipse(this.components);
             this.pnl_Menu = new Guna.UI.WinForms.GunaPanel();
+            this.btn_analytics = new Guna.UI.WinForms.GunaButton();
             this.btn_add = new Guna.UI.WinForms.GunaButton();
             this.btn_menu = new Guna.UI.WinForms.GunaButton();
             this.btn_settings = new Guna.UI.WinForms.GunaButton();
@@ -49,7 +51,8 @@
             // pnl_top
             // 
             this.pnl_top.BackColor = System.Drawing.Color.White;
-            this.pnl_top.Controls.Add(this.gunaCircleButton1);
+            this.pnl_top.Controls.Add(this.lbl_userType);
+            this.pnl_top.Controls.Add(this.btn_initial);
             this.pnl_top.Controls.Add(this.lbl_title);
             this.pnl_top.Controls.Add(this.gunaControlBox1);
             this.pnl_top.Controls.Add(this.btn_close);
@@ -59,30 +62,42 @@
             this.pnl_top.Size = new System.Drawing.Size(1400, 57);
             this.pnl_top.TabIndex = 0;
             // 
-            // gunaCircleButton1
+            // lbl_userType
             // 
-            this.gunaCircleButton1.AnimationHoverSpeed = 0.07F;
-            this.gunaCircleButton1.AnimationSpeed = 0.03F;
-            this.gunaCircleButton1.BackColor = System.Drawing.Color.Transparent;
-            this.gunaCircleButton1.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
-            this.gunaCircleButton1.BorderColor = System.Drawing.Color.Black;
-            this.gunaCircleButton1.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.gunaCircleButton1.FocusedColor = System.Drawing.Color.Empty;
-            this.gunaCircleButton1.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.gunaCircleButton1.ForeColor = System.Drawing.Color.White;
-            this.gunaCircleButton1.Image = null;
-            this.gunaCircleButton1.ImageSize = new System.Drawing.Size(52, 52);
-            this.gunaCircleButton1.Location = new System.Drawing.Point(1231, 3);
-            this.gunaCircleButton1.Margin = new System.Windows.Forms.Padding(0);
-            this.gunaCircleButton1.Name = "gunaCircleButton1";
-            this.gunaCircleButton1.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(33)))), ((int)(((byte)(255)))));
-            this.gunaCircleButton1.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.gunaCircleButton1.OnHoverForeColor = System.Drawing.Color.White;
-            this.gunaCircleButton1.OnHoverImage = null;
-            this.gunaCircleButton1.OnPressedColor = System.Drawing.Color.Black;
-            this.gunaCircleButton1.Size = new System.Drawing.Size(50, 50);
-            this.gunaCircleButton1.TabIndex = 3;
-            this.gunaCircleButton1.Text = "PD";
+            this.lbl_userType.BackColor = System.Drawing.Color.Transparent;
+            this.lbl_userType.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.lbl_userType.ForeColor = System.Drawing.SystemColors.ControlDark;
+            this.lbl_userType.Location = new System.Drawing.Point(0, 37);
+            this.lbl_userType.Name = "lbl_userType";
+            this.lbl_userType.Size = new System.Drawing.Size(146, 17);
+            this.lbl_userType.TabIndex = 4;
+            this.lbl_userType.Text = "Utilisateur";
+            this.lbl_userType.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // btn_initial
+            // 
+            this.btn_initial.AnimationHoverSpeed = 0.07F;
+            this.btn_initial.AnimationSpeed = 0.03F;
+            this.btn_initial.BackColor = System.Drawing.Color.Transparent;
+            this.btn_initial.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(209)))), ((int)(((byte)(113)))), ((int)(((byte)(255)))));
+            this.btn_initial.BorderColor = System.Drawing.Color.Black;
+            this.btn_initial.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_initial.FocusedColor = System.Drawing.Color.Empty;
+            this.btn_initial.Font = new System.Drawing.Font("Segoe UI", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_initial.ForeColor = System.Drawing.Color.White;
+            this.btn_initial.Image = null;
+            this.btn_initial.ImageSize = new System.Drawing.Size(52, 52);
+            this.btn_initial.Location = new System.Drawing.Point(1231, 3);
+            this.btn_initial.Margin = new System.Windows.Forms.Padding(0);
+            this.btn_initial.Name = "btn_initial";
+            this.btn_initial.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(183)))), ((int)(((byte)(33)))), ((int)(((byte)(255)))));
+            this.btn_initial.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btn_initial.OnHoverForeColor = System.Drawing.Color.White;
+            this.btn_initial.OnHoverImage = null;
+            this.btn_initial.OnPressedColor = System.Drawing.Color.Black;
+            this.btn_initial.Size = new System.Drawing.Size(50, 50);
+            this.btn_initial.TabIndex = 3;
+            this.btn_initial.Text = "PD";
             // 
             // lbl_title
             // 
@@ -140,6 +155,7 @@
             // pnl_Menu
             // 
             this.pnl_Menu.BackColor = System.Drawing.Color.White;
+            this.pnl_Menu.Controls.Add(this.btn_analytics);
             this.pnl_Menu.Controls.Add(this.btn_add);
             this.pnl_Menu.Controls.Add(this.btn_menu);
             this.pnl_Menu.Controls.Add(this.btn_settings);
@@ -147,6 +163,30 @@
             this.pnl_Menu.Name = "pnl_Menu";
             this.pnl_Menu.Size = new System.Drawing.Size(60, 743);
             this.pnl_Menu.TabIndex = 1;
+            // 
+            // btn_analytics
+            // 
+            this.btn_analytics.AnimationHoverSpeed = 0.07F;
+            this.btn_analytics.AnimationSpeed = 0.03F;
+            this.btn_analytics.BaseColor = System.Drawing.Color.White;
+            this.btn_analytics.BorderColor = System.Drawing.Color.Black;
+            this.btn_analytics.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_analytics.FocusedColor = System.Drawing.Color.Empty;
+            this.btn_analytics.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.btn_analytics.ForeColor = System.Drawing.Color.White;
+            this.btn_analytics.Image = global::FrontEndGSBrevet.Properties.Resources.analytics_off;
+            this.btn_analytics.ImageAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btn_analytics.ImageSize = new System.Drawing.Size(20, 20);
+            this.btn_analytics.Location = new System.Drawing.Point(0, 102);
+            this.btn_analytics.Name = "btn_analytics";
+            this.btn_analytics.OnHoverBaseColor = System.Drawing.SystemColors.ControlLight;
+            this.btn_analytics.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btn_analytics.OnHoverForeColor = System.Drawing.Color.White;
+            this.btn_analytics.OnHoverImage = global::FrontEndGSBrevet.Properties.Resources.analytics_off;
+            this.btn_analytics.OnPressedColor = System.Drawing.Color.Black;
+            this.btn_analytics.Size = new System.Drawing.Size(60, 42);
+            this.btn_analytics.TabIndex = 3;
+            this.btn_analytics.Click += new System.EventHandler(this.btn_analytics_Click);
             // 
             // btn_add
             // 
@@ -272,8 +312,10 @@
         private Guna.UI.WinForms.GunaPanel pnl_sideMenu;
         private Guna.UI.WinForms.GunaButton btn_settings;
         private Guna.UI.WinForms.GunaButton btn_menu;
-        private Guna.UI.WinForms.GunaCircleButton gunaCircleButton1;
+        private Guna.UI.WinForms.GunaCircleButton btn_initial;
         private Guna.UI.WinForms.GunaButton btn_add;
+        private Guna.UI.WinForms.GunaButton btn_analytics;
+        private Guna.UI.WinForms.GunaLabel lbl_userType;
         public static Guna.UI.WinForms.GunaLinePanel pnl_main;
     }
 }

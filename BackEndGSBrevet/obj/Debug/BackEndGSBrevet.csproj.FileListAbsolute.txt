@@ -134,3 +134,10 @@ C:\Users\Light\source\repos\BackEndGSBrevet\BackEndGSBrevet\obj\Debug\BackEndGSB
 C:\Users\Light\source\repos\BackEndGSBrevet\BackEndGSBrevet\obj\Debug\BackEndGSBrevet.Migrations.add_roleId_to_users.resources
 C:\Users\Light\source\repos\BackEndGSBrevet\BackEndGSBrevet\obj\Debug\BackEndGSBrevet.Migrations.EmptyMigration1.resources
 C:\Users\Light\source\repos\BackEndGSBrevet\BackEndGSBrevet\obj\Debug\BackEndGSBrevet.Migrations.updatemodels.resources
+C:\Users\Light\source\repos\BackEndGSBrevet\BackEndGSBrevet\bin\Debug\PLogger.dll
+C:\Users\Light\source\repos\BackEndGSBrevet\BackEndGSBrevet\obj\Debug\BackEndGSBrevet.Migrations.create_table_logs.resources
+C:\Users\Light\source\repos\BackEndGSBrevet\BackEndGSBrevet\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Light\source\repos\BackEndGSBrevet\BackEndGSBrevet\bin\Debug\PLogger.pdb
+C:\Users\Light\source\repos\BackEndGSBrevet\BackEndGSBrevet\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Light\source\repos\BackEndGSBrevet\BackEndGSBrevet\bin\Debug\BCrypt.Net-Next.dll
+C:\Users\Light\source\repos\BackEndGSBrevet\BackEndGSBrevet\bin\Debug\BCrypt.Net-Next.xml
