@@ -132,6 +132,7 @@
   <ItemGroup>
     <Compile Include="Class1.cs" />
     <Compile Include="Controller\Auth.cs" />
+    <Compile Include="Controller\RoleController.cs" />
     <Compile Include="Controller\UtilityController.cs" />
     <Compile Include="Controller\MoleculeController.cs" />
     <Compile Include="Controller\ContractController.cs" />
@@ -186,6 +187,10 @@
     <Compile Include="Migrations\202004051652329_create_table_logs.cs" />
     <Compile Include="Migrations\202004051652329_create_table_logs.designer.cs">
       <DependentUpon>202004051652329_create_table_logs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202004091253362_update_user_model.cs" />
+    <Compile Include="Migrations\202004091253362_update_user_model.designer.cs">
+      <DependentUpon>202004091253362_update_user_model.cs</DependentUpon>
     </Compile>
     <Compile Include="Models\Contract.cs" />
     <Compile Include="Models\Patent.cs" />
@@ -263,6 +268,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202004051652329_create_table_logs.resx">
       <DependentUpon>202004051652329_create_table_logs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202004091253362_update_user_model.resx">
+      <DependentUpon>202004091253362_update_user_model.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

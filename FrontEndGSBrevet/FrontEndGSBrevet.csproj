@@ -120,10 +120,34 @@
     <Compile Include="Views\Admin\form_Admin.Designer.cs">
       <DependentUpon>form_Admin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Views\Admin\UserModel\uc_UserModel.cs">
+    <Compile Include="Views\Admin\Role\RoleModel\uc_RoleModel.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Views\Admin\UserModel\uc_UserModel.Designer.cs">
+    <Compile Include="Views\Admin\Role\RoleModel\uc_RoleModel.Designer.cs">
+      <DependentUpon>uc_RoleModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Admin\Role\uc_MainRole.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Admin\Role\uc_MainRole.Designer.cs">
+      <DependentUpon>uc_MainRole.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Admin\Users\CreateUpdate\uc_CreateUpdateUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Admin\Users\CreateUpdate\uc_CreateUpdateUser.Designer.cs">
+      <DependentUpon>uc_CreateUpdateUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Admin\Users\uc_MainUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Admin\Users\uc_MainUser.Designer.cs">
+      <DependentUpon>uc_MainUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Admin\Users\UserModel\uc_UserModel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Admin\Users\UserModel\uc_UserModel.Designer.cs">
       <DependentUpon>uc_UserModel.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\Public\Analytics\uc_MainAnalytic.cs">
@@ -287,7 +311,19 @@
     <EmbeddedResource Include="Views\Admin\form_Admin.resx">
       <DependentUpon>form_Admin.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Views\Admin\UserModel\uc_UserModel.resx">
+    <EmbeddedResource Include="Views\Admin\Role\RoleModel\uc_RoleModel.resx">
+      <DependentUpon>uc_RoleModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Admin\Role\uc_MainRole.resx">
+      <DependentUpon>uc_MainRole.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Admin\Users\CreateUpdate\uc_CreateUpdateUser.resx">
+      <DependentUpon>uc_CreateUpdateUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Admin\Users\uc_MainUser.resx">
+      <DependentUpon>uc_MainUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Admin\Users\UserModel\uc_UserModel.resx">
       <DependentUpon>uc_UserModel.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Public\Analytics\uc_MainAnalytic.resx">
@@ -482,6 +518,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\search_admin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\role.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pen_admin.png" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

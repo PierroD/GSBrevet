@@ -72,7 +72,7 @@ namespace BackEndGSBrevet.Controller
         {
             Molecule delete_molecule = unitOfWork.Molecules.FirstOrDefault(m => m.id == id);
             unitOfWork.Molecules.Remove(delete_molecule);
-            Log.Infos($"L'entreprise nommée : {delete_molecule.real_name} a correctement été supprimée");
+            Log.Infos($"La molécule nommée : {delete_molecule.real_name} a correctement été supprimée");
 
         }
     }

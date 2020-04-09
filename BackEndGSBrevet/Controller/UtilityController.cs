@@ -56,7 +56,7 @@ namespace BackEndGSBrevet.Controller
         {
             Utility delete_utility = unitOfWork.Utilities.FirstOrDefault(u => u.id == id);
             unitOfWork.Utilities.Remove(delete_utility);
-            Log.Infos($"L'entreprise nommée : {delete_utility.name} a correctement été supprimée");
+            Log.Infos($"L'utilitée nommée : {delete_utility.name} a correctement été supprimée");
         }
     }
 }

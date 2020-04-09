@@ -14,15 +14,63 @@ namespace BackEndGSBrevet.Controller
     {
         public static IEnumerable<User> getAll()
         {
-            Log.Infos("Retourne tous les utilisateurs");
-            return unitOfWork.Users.GetAll();
+            if (Auth.Role().id == 2)
+            {
+                Log.Infos("Retourne tous les utilisateurs");
+                return unitOfWork.Users.GetAll();
+            }
+            else
+                return null;
         }
 
-        public static User find(int id)
+        public static User FirstOrDefault(int id)
         {
-            Log.Infos($"Retourne l'utilisateur qui a pour Id : {id}");
-            return unitOfWork.Users.Get(id);
+            if (Auth.Role().id == 2) // 2 is admin
+            {
+                Log.Infos($"Retourne l'utilisateur qui a pour Id : {id}");
+                return unitOfWork.Users.Get(id);
+            }
+            else
+                return null;
         }
+        public static void UpdateUser(int id, string last_name, string first_name, string username, string password, DateTime birth_date, int role_id)
+        {
+            unitOfWork.Users.Update(c => c.id == id, new User
+            {
+                id = id,
+                last_name = last_name,
+                first_name = first_name,
+                username = username,
+                password = (password.Contains("$2a") ? password : BCrypt.Net.BCrypt.HashPassword(password)),
+                birth_date = birth_date,
+                role_id = role_id
+            });
+            Log.Infos($"On met à jour un utilisateur qui a pour Id : {id}");
+        }
+        public static void AddUser(string last_name, string first_name, string username, string password, DateTime birth_date, int role_id)
+        {
+            unitOfWork.Users.Add(new User
+            {
+                last_name = last_name,
+                first_name = first_name,
+                username = username,
+                password = (password.Contains("$2a") ? password : BCrypt.Net.BCrypt.HashPassword(password)),
+                birth_date = birth_date,
+                role_id = role_id
+            });
+            Log.Infos($"On ajoute un nouvel utilisateur");
+        }
+
+        public static void Delete(int id)
+        {
+            if (Auth.Role().id == 2) // 2 is admin
+            {
+                User delete_user = unitOfWork.Users.FirstOrDefault(r => r.id == id);
+                unitOfWork.Users.Remove(delete_user);
+                Log.Infos($"L'utilisateur nommée : {delete_user.last_name} {delete_user.first_name} a correctement été supprimée");
+            }
+        }
+
         public static async Task<IEnumerable<User>> getAllAsync() // test des requêtes async
         {
             return await unitOfWork.Users.GetAllAsync();
@@ -35,7 +83,7 @@ namespace BackEndGSBrevet.Controller
             {
                 if (BCrypt.Net.BCrypt.Verify(password, user.password))
                 {
-                    Role role = unitOfWork.Roles.FirstOrDefault(u => u.id == user.id);
+                    Role role = unitOfWork.Roles.FirstOrDefault(u => u.id == user.role_id);
                     switch (role.id)
                     {
                         case 1:

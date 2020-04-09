@@ -72,3 +72,9 @@ C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\obj\Debug\FrontEndG
 C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\obj\Debug\FrontEndGSBrevet.Views.Shared.CreateMenu.uc_MainCreateMenu.resources
 C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\obj\Debug\FrontEndGSBrevet.Views.Shared.MainMenu.uc_MainMainMenu.resources
 C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\obj\Debug\FrontEndGSBrevet.Views.Shared.SettingsMenu.uc_MainSettingsMenu.resources
+C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\obj\Debug\FrontEndGSBrevet.Views.Admin.form_Admin.resources
+C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\obj\Debug\FrontEndGSBrevet.Views.Admin.Users.uc_MainUser.resources
+C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\obj\Debug\FrontEndGSBrevet.Views.Admin.Users.UserModel.uc_UserModel.resources
+C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\obj\Debug\FrontEndGSBrevet.Views.Admin.Users.CreateUpdate.uc_CreateUpdateUser.resources
+C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\obj\Debug\FrontEndGSBrevet.Views.Admin.Role.RoleModel.uc_RoleModel.resources
+C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\obj\Debug\FrontEndGSBrevet.Views.Admin.Role.uc_MainRole.resources

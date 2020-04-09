@@ -233,6 +233,16 @@ namespace FrontEndGSBrevet.Properties {
         /// <summary>
         ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap pen_admin {
+            get {
+                object obj = ResourceManager.GetObject("pen_admin", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap pen_off {
             get {
                 object obj = ResourceManager.GetObject("pen_off", resourceCulture);
@@ -286,6 +296,16 @@ namespace FrontEndGSBrevet.Properties {
         internal static System.Drawing.Bitmap refresh_on {
             get {
                 object obj = ResourceManager.GetObject("refresh_on", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap role {
+            get {
+                object obj = ResourceManager.GetObject("role", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

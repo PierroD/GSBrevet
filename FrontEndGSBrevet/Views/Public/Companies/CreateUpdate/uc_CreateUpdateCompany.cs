@@ -111,7 +111,7 @@ namespace FrontEndGSBrevet.Views.Public.Companies.CreateUpdate
         }
         #endregion
 
-        #region create or update database
+        #region load uc
         private void uc_CreateUpdateCompany_Load(object sender, EventArgs e)
         {
             if (name != null)

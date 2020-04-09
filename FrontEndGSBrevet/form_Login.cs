@@ -10,6 +10,7 @@ using System.Windows.Forms;
 using BackEndGSBrevet.Controller;
 using BackEndGSBrevet.Models;
 using FrontEndGSBrevet.Views.Public;
+using FrontEndGSBrevet.Views.Admin;
 
 namespace FrontEndGSBrevet
 {
@@ -99,6 +100,7 @@ namespace FrontEndGSBrevet
                         this.Visible = false;
                         break;
                     case 2:
+                        new form_Admin().Show();
                         //admin form
                         break;
                     default:

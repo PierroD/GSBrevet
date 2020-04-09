@@ -141,3 +141,4 @@ C:\Users\Light\source\repos\BackEndGSBrevet\BackEndGSBrevet\bin\Debug\PLogger.pd
 C:\Users\Light\source\repos\BackEndGSBrevet\BackEndGSBrevet\bin\Debug\Newtonsoft.Json.xml
 C:\Users\Light\source\repos\BackEndGSBrevet\BackEndGSBrevet\bin\Debug\BCrypt.Net-Next.dll
 C:\Users\Light\source\repos\BackEndGSBrevet\BackEndGSBrevet\bin\Debug\BCrypt.Net-Next.xml
+C:\Users\Light\source\repos\BackEndGSBrevet\BackEndGSBrevet\obj\Debug\BackEndGSBrevet.Migrations.update_user_model.resources
