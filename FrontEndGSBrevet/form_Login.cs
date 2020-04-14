@@ -25,7 +25,7 @@ namespace FrontEndGSBrevet
         private bool visible_password = true;
         private void pbox_showPassword_Click(object sender, EventArgs e)
         {
-            if(visible_password)
+            if (visible_password)
             {
                 pbox_showPassword.Image = Properties.Resources.icons8_hide_30px;
                 tbox_password.UseSystemPasswordChar = true;
@@ -42,8 +42,8 @@ namespace FrontEndGSBrevet
         #region enter/leave/pressed textbox
         private void tbox_username_Enter(object sender, EventArgs e)
         {
-            if(tbox_username.Text == "Identifiant")
-            tbox_username.Text = "";
+            if (tbox_username.Text == "Identifiant")
+                tbox_username.Text = "";
         }
 
         private void tbox_username_Leave(object sender, EventArgs e)
@@ -91,20 +91,22 @@ namespace FrontEndGSBrevet
         {
             string username = tbox_username.Text, password = tbox_password.Text;
             var request = UserController.signIn(username, password);
-            if(request) // true or false
+            if (request) // true or false
             {
-                switch(Auth.Role().id)
+                switch (Auth.Role().id)
                 {
                     case 1:
-                        new form_Public().Show();
+                        new form_Public(this).Show();
                         this.Visible = false;
                         break;
                     case 2:
-                        new form_Admin().Show();
+                        new form_Admin(this).Show();
+                        this.Visible = false;
                         //admin form
                         break;
                     default:
-                        //public form
+                        new form_Public(this).Show();
+                        this.Visible = false;
                         break;
                 }
             }

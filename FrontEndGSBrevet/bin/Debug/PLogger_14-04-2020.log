@@ -1,0 +1,507 @@
+!! [ERROR] Light 14/04/2020 < 09:45:09.1777 > L'identifiant renseigné Identifiant est incorrect
+!! [ERROR] Light 14/04/2020 < 09:45:15.3037 > L'utilisateur duv pierro : a rentré un identifiant incorrect
+I  [INFOS] Light 14/04/2020 < 09:45:21.7420 > L'utilisateur duv pierro est connecté en tant qu'Admin
+I  [INFOS] Light 14/04/2020 < 09:45:21.8022 > Retourne tous les utilisateurs
+I  [INFOS] Light 14/04/2020 < 09:45:21.8384 > Retourne le role qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 09:45:21.8722 > Retourne le role qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 09:45:21.9001 > Retourne le role qui a pour Id : 2
+!! [ERROR] Light 14/04/2020 < 09:45:28.2148 > L'utilisateur arabian mickael : a rentré un identifiant incorrect
+I  [INFOS] Light 14/04/2020 < 09:45:28.2622 > Retourne tous les utilisateurs
+I  [INFOS] Light 14/04/2020 < 09:45:28.2961 > Retourne le role qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 09:45:28.3248 > Retourne le role qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 09:45:28.3387 > Retourne le role qui a pour Id : 2
+I  [INFOS] Light 14/04/2020 < 09:45:46.7370 > L'utilisateur arabian mickael est connecté en tant qu'Utilisateur
+!! [ERROR] Light 14/04/2020 < 09:45:54.2899 > L'utilisateur duv pierro : a rentré un identifiant incorrect
+I  [INFOS] Light 14/04/2020 < 09:46:41.0142 > L'utilisateur duv pierro est connecté en tant qu'Admin
+I  [INFOS] Light 14/04/2020 < 09:46:41.0991 > Retourne tous les utilisateurs
+I  [INFOS] Light 14/04/2020 < 09:46:41.1383 > Retourne le role qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 09:46:41.1598 > Retourne le role qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 09:46:41.1938 > Retourne le role qui a pour Id : 2
+!! [ERROR] Light 14/04/2020 < 09:46:50.6776 > L'utilisateur arabian mickael : a rentré un identifiant incorrect
+I  [INFOS] Light 14/04/2020 < 09:46:50.7225 > Retourne tous les utilisateurs
+I  [INFOS] Light 14/04/2020 < 09:46:50.7532 > Retourne le role qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 09:46:50.7905 > Retourne le role qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 09:46:50.8175 > Retourne le role qui a pour Id : 2
+!! [ERROR] Light 14/04/2020 < 09:46:57.2364 > L'utilisateur arabian mickael : a rentré un identifiant incorrect
+I  [INFOS] Light 14/04/2020 < 09:46:57.2742 > Retourne tous les utilisateurs
+I  [INFOS] Light 14/04/2020 < 09:46:57.2926 > Retourne le role qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 09:46:57.3092 > Retourne le role qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 09:46:57.3290 > Retourne le role qui a pour Id : 2
+I  [INFOS] Light 14/04/2020 < 09:47:07.9502 > L'utilisateur arabian mickael est connecté en tant qu'Utilisateur
+I  [INFOS] Light 14/04/2020 < 09:47:15.3927 > L'utilisateur arabian mickael est connecté en tant qu'Utilisateur
+!! [ERROR] Light 14/04/2020 < 09:49:52.4344 > L'identifiant renseigné Identifiant est incorrect
+!! [ERROR] Light 14/04/2020 < 09:49:55.8758 > L'identifiant renseigné Identifiant est incorrect
+!! [ERROR] Light 14/04/2020 < 09:50:05.0109 > L'utilisateur duv pierro : a rentré un identifiant incorrect
+I  [INFOS] Light 14/04/2020 < 09:50:10.3093 > L'utilisateur duv pierro est connecté en tant qu'Admin
+I  [INFOS] Light 14/04/2020 < 09:50:10.3644 > Retourne tous les utilisateurs
+I  [INFOS] Light 14/04/2020 < 09:50:10.4023 > Retourne le role qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 09:50:10.4313 > Retourne le role qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 09:50:10.4619 > Retourne le role qui a pour Id : 2
+!! [ERROR] Light 14/04/2020 < 09:50:24.0504 > L'utilisateur duv pierro : a rentré un identifiant incorrect
+I  [INFOS] Light 14/04/2020 < 09:50:24.1093 > Retourne tous les utilisateurs
+I  [INFOS] Light 14/04/2020 < 09:50:24.1379 > Retourne le role qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 09:50:24.1535 > Retourne le role qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 09:50:24.1697 > Retourne le role qui a pour Id : 2
+I  [INFOS] Light 14/04/2020 < 09:52:13.9584 > L'utilisateur duv pierro est connecté en tant qu'Admin
+I  [INFOS] Light 14/04/2020 < 09:52:20.5665 > Retourne tous les utilisateurs
+I  [INFOS] Light 14/04/2020 < 09:52:20.6048 > Retourne le role qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 09:52:20.6234 > Retourne le role qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 09:52:20.6535 > Retourne le role qui a pour Id : 2
+!! [ERROR] Light 14/04/2020 < 09:53:38.1126 > L'utilisateur duv pierro : a rentré un identifiant incorrect
+I  [INFOS] Light 14/04/2020 < 09:54:57.6153 > L'utilisateur duv pierro est connecté en tant qu'Admin
+I  [INFOS] Light 14/04/2020 < 09:54:57.6951 > Retourne tous les utilisateurs
+I  [INFOS] Light 14/04/2020 < 09:54:57.7320 > Retourne le role qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 09:54:57.7505 > Retourne le role qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 09:54:57.7815 > Retourne le role qui a pour Id : 2
+I  [INFOS] Light 14/04/2020 < 09:55:30.3178 > L'utilisateur arabian mickael est connecté en tant qu'Utilisateur
+I  [INFOS] Light 14/04/2020 < 09:56:43.9084 > L'utilisateur duv pierro est connecté en tant qu'Admin
+I  [INFOS] Light 14/04/2020 < 09:56:43.9791 > Retourne tous les utilisateurs
+I  [INFOS] Light 14/04/2020 < 09:56:44.0143 > Retourne le role qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 09:56:44.0447 > Retourne le role qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 09:56:44.0746 > Retourne le role qui a pour Id : 2
+!! [ERROR] Light 14/04/2020 < 09:56:51.4659 > L'utilisateur arabian mickael : a rentré un identifiant incorrect
+I  [INFOS] Light 14/04/2020 < 09:57:00.2345 > L'utilisateur arabian mickael est connecté en tant qu'Utilisateur
+I  [INFOS] Light 14/04/2020 < 09:57:53.1329 > L'utilisateur arabian mickael est connecté en tant qu'Utilisateur
+I  [INFOS] Light 14/04/2020 < 10:12:18.5426 > L'utilisateur arabian mickael est connecté en tant qu'Utilisateur
+I  [INFOS] Light 14/04/2020 < 10:12:20.6978 > Retourne tous les contrats
+I  [INFOS] Light 14/04/2020 < 10:12:20.7585 > Retourne l'entreprise qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 10:12:20.8026 > Retourne le brevet qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 10:12:20.8526 > Retourne l'entreprise qui a pour Id : 3
+I  [INFOS] Light 14/04/2020 < 10:12:20.8826 > Retourne le brevet qui a pour Id : 2
+I  [INFOS] Light 14/04/2020 < 10:12:23.8786 > Retourne tous les contrats
+I  [INFOS] Light 14/04/2020 < 10:12:23.9057 > Retourne l'entreprise qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 10:12:23.9207 > Retourne le brevet qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 10:12:23.9488 > Retourne l'entreprise qui a pour Id : 3
+I  [INFOS] Light 14/04/2020 < 10:12:23.9625 > Retourne le brevet qui a pour Id : 2
+I  [INFOS] Light 14/04/2020 < 10:12:25.0699 > Retourne tous les contrats
+I  [INFOS] Light 14/04/2020 < 10:12:25.1139 > Retourne l'entreprise qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 10:12:25.1465 > Retourne le brevet qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 10:12:25.1889 > Retourne l'entreprise qui a pour Id : 3
+I  [INFOS] Light 14/04/2020 < 10:12:25.2166 > Retourne le brevet qui a pour Id : 2
+I  [INFOS] Light 14/04/2020 < 10:12:26.4100 > Retourne tous les contrats
+I  [INFOS] Light 14/04/2020 < 10:12:26.4685 > Retourne l'entreprise qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 10:12:26.5038 > Retourne le brevet qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 10:12:26.5306 > Retourne l'entreprise qui a pour Id : 3
+I  [INFOS] Light 14/04/2020 < 10:12:26.5467 > Retourne le brevet qui a pour Id : 2
+I  [INFOS] Light 14/04/2020 < 10:12:33.5088 > Retourne tous les brevets
+I  [INFOS] Light 14/04/2020 < 10:12:35.5396 > Retourne toutes les entreprises
+I  [INFOS] Light 14/04/2020 < 10:12:40.3080 > Retourne tous les brevets
+I  [INFOS] Light 14/04/2020 < 10:12:40.3468 > Retourne la molécule qui a pour Id : 2
+I  [INFOS] Light 14/04/2020 < 10:12:40.3736 > Retourne l'entreprise qui a pour Id : 2
+I  [INFOS] Light 14/04/2020 < 10:12:40.3967 > Retourne la molécule qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 10:12:40.4076 > Retourne l'entreprise qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 10:12:42.6086 > Retourne tous les brevets
+I  [INFOS] Light 14/04/2020 < 10:12:42.6308 > Retourne la molécule qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 10:12:42.6706 > Retourne l'entreprise qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 10:12:42.7135 > Retourne la molécule qui a pour Id : 2
+I  [INFOS] Light 14/04/2020 < 10:12:42.7543 > Retourne l'entreprise qui a pour Id : 2
+I  [INFOS] Light 14/04/2020 < 10:12:44.7068 > Retourne tous les brevets
+I  [INFOS] Light 14/04/2020 < 10:12:44.7445 > Retourne la molécule qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 10:12:44.7605 > Retourne l'entreprise qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 10:12:44.7937 > Retourne la molécule qui a pour Id : 2
+I  [INFOS] Light 14/04/2020 < 10:12:44.8116 > Retourne l'entreprise qui a pour Id : 2
+I  [INFOS] Light 14/04/2020 < 10:12:47.2501 > Retourne tous les brevets
+I  [INFOS] Light 14/04/2020 < 10:12:47.2767 > Retourne la molécule qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 10:12:47.2936 > Retourne l'entreprise qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 10:12:47.3240 > Retourne la molécule qui a pour Id : 2
+I  [INFOS] Light 14/04/2020 < 10:12:47.3359 > Retourne l'entreprise qui a pour Id : 2
+I  [INFOS] Light 14/04/2020 < 10:12:48.0037 > Retourne tous les brevets
+I  [INFOS] Light 14/04/2020 < 10:12:48.0307 > Retourne la molécule qui a pour Id : 2
+I  [INFOS] Light 14/04/2020 < 10:12:48.0514 > Retourne l'entreprise qui a pour Id : 2
+I  [INFOS] Light 14/04/2020 < 10:12:48.0776 > Retourne la molécule qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 10:12:48.1184 > Retourne l'entreprise qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 10:12:57.0906 > Retourne tous les molécules
+I  [INFOS] Light 14/04/2020 < 10:12:58.7628 > Retourne toutes les entreprises
+I  [INFOS] Light 14/04/2020 < 10:13:01.9895 > Retourne toutes les entreprises
+I  [INFOS] Light 14/04/2020 < 10:13:03.4500 > Retourne toutes les entreprises
+I  [INFOS] Light 14/04/2020 < 10:13:04.4953 > Retourne toutes les entreprises
+I  [INFOS] Light 14/04/2020 < 10:13:09.6096 > Retourne tous les molécules
+I  [INFOS] Light 14/04/2020 < 10:13:13.1202 > Retourne tous les molécules
+I  [INFOS] Light 14/04/2020 < 10:13:15.7735 > Retourne tous les molécules
+I  [INFOS] Light 14/04/2020 < 10:13:19.9623 > Retourne tous les molécules
+I  [INFOS] Light 14/04/2020 < 10:13:22.1508 > Retourne tous les molécules
+I  [INFOS] Light 14/04/2020 < 10:13:35.5693 > On ajoute une nouvelle molécule qui a pour Nom : test
+I  [INFOS] Light 14/04/2020 < 10:13:37.0944 > Retourne tous les molécules
+I  [INFOS] Light 14/04/2020 < 10:13:43.9085 > On met à jour une molécule qui a pour Id : 1007 et pour Nom : test
+I  [INFOS] Light 14/04/2020 < 10:13:45.1816 > Retourne tous les molécules
+I  [INFOS] Light 14/04/2020 < 10:13:47.6486 > La molécule peut être supprimé
+I  [INFOS] Light 14/04/2020 < 10:13:47.6804 > La molécule nommée : test a correctement été supprimée
+I  [INFOS] Light 14/04/2020 < 10:13:47.7024 > Retourne tous les molécules
+I  [INFOS] Light 14/04/2020 < 10:13:52.8794 > Retourne toutes les utilitées
+I  [INFOS] Light 14/04/2020 < 10:13:52.9065 > Retourne la molécule qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 10:13:52.9246 > Retourne la molécule qui a pour Id : 2
+I  [INFOS] Light 14/04/2020 < 10:13:52.9457 > Retourne la molécule qui a pour Id : 4
+I  [INFOS] Light 14/04/2020 < 10:13:52.9656 > Retourne la molécule qui a pour Id : 5
+I  [INFOS] Light 14/04/2020 < 10:13:55.7415 > Retourne la molécule qui a pour Id : 5
+I  [INFOS] Light 14/04/2020 < 10:13:58.0666 > Retourne tous les molécules
+I  [INFOS] Light 14/04/2020 < 10:14:00.8797 > Retourne l'id de la molécule qui a pour Nom : fe
+I  [INFOS] Light 14/04/2020 < 10:14:00.9187 > On met à jour une entreprise qui a pour Id : 9 et pour Nom : test
+I  [INFOS] Light 14/04/2020 < 10:14:03.2745 > Retourne toutes les utilitées
+I  [INFOS] Light 14/04/2020 < 10:14:03.2966 > Retourne la molécule qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 10:14:03.3178 > Retourne la molécule qui a pour Id : 2
+I  [INFOS] Light 14/04/2020 < 10:14:03.3371 > Retourne la molécule qui a pour Id : 4
+I  [INFOS] Light 14/04/2020 < 10:14:03.3588 > Retourne la molécule qui a pour Id : 4
+I  [INFOS] Light 14/04/2020 < 10:14:05.6804 > Retourne la molécule qui a pour Id : 4
+I  [INFOS] Light 14/04/2020 < 10:14:06.8346 > Retourne tous les molécules
+I  [INFOS] Light 14/04/2020 < 10:14:09.2735 > Retourne l'id de la molécule qui a pour Nom : Protoxyde d'azote
+I  [INFOS] Light 14/04/2020 < 10:14:09.2945 > On met à jour une entreprise qui a pour Id : 9 et pour Nom : test
+I  [INFOS] Light 14/04/2020 < 10:14:10.8723 > Retourne toutes les utilitées
+I  [INFOS] Light 14/04/2020 < 10:14:10.9028 > Retourne la molécule qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 10:14:10.9381 > Retourne la molécule qui a pour Id : 2
+I  [INFOS] Light 14/04/2020 < 10:14:10.9620 > Retourne la molécule qui a pour Id : 4
+I  [INFOS] Light 14/04/2020 < 10:14:10.9911 > Retourne la molécule qui a pour Id : 5
+I  [INFOS] Light 14/04/2020 < 10:14:16.3704 > Retourne la plus petite et la plus grande année dans les contrats
+I  [INFOS] Light 14/04/2020 < 10:14:16.3896 > Retourne la somme des contrats en fonction de l'année(2010) et du mois(0)
+I  [INFOS] Light 14/04/2020 < 10:14:16.4072 > Retourne la somme des contrats en fonction de l'année(2010) et du mois(1)
+I  [INFOS] Light 14/04/2020 < 10:14:16.4207 > Retourne la somme des contrats en fonction de l'année(2010) et du mois(2)
+I  [INFOS] Light 14/04/2020 < 10:14:16.4327 > Retourne la somme des contrats en fonction de l'année(2010) et du mois(3)
+I  [INFOS] Light 14/04/2020 < 10:14:16.4457 > Retourne la somme des contrats en fonction de l'année(2010) et du mois(4)
+I  [INFOS] Light 14/04/2020 < 10:14:16.4657 > Retourne la somme des contrats en fonction de l'année(2010) et du mois(5)
+I  [INFOS] Light 14/04/2020 < 10:14:16.4825 > Retourne la somme des contrats en fonction de l'année(2010) et du mois(6)
+I  [INFOS] Light 14/04/2020 < 10:14:16.5025 > Retourne la somme des contrats en fonction de l'année(2010) et du mois(7)
+I  [INFOS] Light 14/04/2020 < 10:14:16.5194 > Retourne la somme des contrats en fonction de l'année(2010) et du mois(8)
+I  [INFOS] Light 14/04/2020 < 10:14:16.5354 > Retourne la somme des contrats en fonction de l'année(2010) et du mois(9)
+I  [INFOS] Light 14/04/2020 < 10:14:16.5565 > Retourne la somme des contrats en fonction de l'année(2010) et du mois(10)
+I  [INFOS] Light 14/04/2020 < 10:14:16.5716 > Retourne la somme des contrats en fonction de l'année(2010) et du mois(11)
+I  [INFOS] Light 14/04/2020 < 10:14:16.5857 > Retourne la somme des contrats en fonction de l'année(2010) et du mois(12)
+I  [INFOS] Light 14/04/2020 < 10:14:16.6435 > Retourne la somme des contrats en fonction de l'année(2011) et du mois(0)
+I  [INFOS] Light 14/04/2020 < 10:14:16.6626 > Retourne la somme des contrats en fonction de l'année(2011) et du mois(1)
+I  [INFOS] Light 14/04/2020 < 10:14:16.6745 > Retourne la somme des contrats en fonction de l'année(2011) et du mois(2)
+I  [INFOS] Light 14/04/2020 < 10:14:16.6864 > Retourne la somme des contrats en fonction de l'année(2011) et du mois(3)
+I  [INFOS] Light 14/04/2020 < 10:14:16.7084 > Retourne la somme des contrats en fonction de l'année(2011) et du mois(4)
+I  [INFOS] Light 14/04/2020 < 10:14:16.7303 > Retourne la somme des contrats en fonction de l'année(2011) et du mois(5)
+I  [INFOS] Light 14/04/2020 < 10:14:16.7905 > Retourne la somme des contrats en fonction de l'année(2011) et du mois(6)
+I  [INFOS] Light 14/04/2020 < 10:14:16.8274 > Retourne la somme des contrats en fonction de l'année(2011) et du mois(7)
+I  [INFOS] Light 14/04/2020 < 10:14:16.8594 > Retourne la somme des contrats en fonction de l'année(2011) et du mois(8)
+I  [INFOS] Light 14/04/2020 < 10:14:16.8947 > Retourne la somme des contrats en fonction de l'année(2011) et du mois(9)
+I  [INFOS] Light 14/04/2020 < 10:14:16.9348 > Retourne la somme des contrats en fonction de l'année(2011) et du mois(10)
+I  [INFOS] Light 14/04/2020 < 10:14:16.9729 > Retourne la somme des contrats en fonction de l'année(2011) et du mois(11)
+I  [INFOS] Light 14/04/2020 < 10:14:17.0028 > Retourne la somme des contrats en fonction de l'année(2011) et du mois(12)
+I  [INFOS] Light 14/04/2020 < 10:14:17.0330 > Retourne la somme des contrats en fonction de l'année(2012) et du mois(0)
+I  [INFOS] Light 14/04/2020 < 10:14:17.0678 > Retourne la somme des contrats en fonction de l'année(2012) et du mois(1)
+I  [INFOS] Light 14/04/2020 < 10:14:17.1065 > Retourne la somme des contrats en fonction de l'année(2012) et du mois(2)
+I  [INFOS] Light 14/04/2020 < 10:14:17.1404 > Retourne la somme des contrats en fonction de l'année(2012) et du mois(3)
+I  [INFOS] Light 14/04/2020 < 10:14:17.1786 > Retourne la somme des contrats en fonction de l'année(2012) et du mois(4)
+I  [INFOS] Light 14/04/2020 < 10:14:17.2254 > Retourne la somme des contrats en fonction de l'année(2012) et du mois(5)
+I  [INFOS] Light 14/04/2020 < 10:14:17.2416 > Retourne la somme des contrats en fonction de l'année(2012) et du mois(6)
+I  [INFOS] Light 14/04/2020 < 10:14:17.2565 > Retourne la somme des contrats en fonction de l'année(2012) et du mois(7)
+I  [INFOS] Light 14/04/2020 < 10:14:17.2697 > Retourne la somme des contrats en fonction de l'année(2012) et du mois(8)
+I  [INFOS] Light 14/04/2020 < 10:14:17.2813 > Retourne la somme des contrats en fonction de l'année(2012) et du mois(9)
+I  [INFOS] Light 14/04/2020 < 10:14:17.2974 > Retourne la somme des contrats en fonction de l'année(2012) et du mois(10)
+I  [INFOS] Light 14/04/2020 < 10:14:17.3118 > Retourne la somme des contrats en fonction de l'année(2012) et du mois(11)
+I  [INFOS] Light 14/04/2020 < 10:14:17.3268 > Retourne la somme des contrats en fonction de l'année(2012) et du mois(12)
+I  [INFOS] Light 14/04/2020 < 10:14:17.3408 > Retourne la somme des contrats en fonction de l'année(2013) et du mois(0)
+I  [INFOS] Light 14/04/2020 < 10:14:17.3564 > Retourne la somme des contrats en fonction de l'année(2013) et du mois(1)
+I  [INFOS] Light 14/04/2020 < 10:14:17.3709 > Retourne la somme des contrats en fonction de l'année(2013) et du mois(2)
+I  [INFOS] Light 14/04/2020 < 10:14:17.3804 > Retourne la somme des contrats en fonction de l'année(2013) et du mois(3)
+I  [INFOS] Light 14/04/2020 < 10:14:17.3935 > Retourne la somme des contrats en fonction de l'année(2013) et du mois(4)
+I  [INFOS] Light 14/04/2020 < 10:14:17.4094 > Retourne la somme des contrats en fonction de l'année(2013) et du mois(5)
+I  [INFOS] Light 14/04/2020 < 10:14:17.4234 > Retourne la somme des contrats en fonction de l'année(2013) et du mois(6)
+I  [INFOS] Light 14/04/2020 < 10:14:17.4334 > Retourne la somme des contrats en fonction de l'année(2013) et du mois(7)
+I  [INFOS] Light 14/04/2020 < 10:14:17.4464 > Retourne la somme des contrats en fonction de l'année(2013) et du mois(8)
+I  [INFOS] Light 14/04/2020 < 10:14:17.4586 > Retourne la somme des contrats en fonction de l'année(2013) et du mois(9)
+I  [INFOS] Light 14/04/2020 < 10:14:17.4706 > Retourne la somme des contrats en fonction de l'année(2013) et du mois(10)
+I  [INFOS] Light 14/04/2020 < 10:14:17.4805 > Retourne la somme des contrats en fonction de l'année(2013) et du mois(11)
+I  [INFOS] Light 14/04/2020 < 10:14:17.4943 > Retourne la somme des contrats en fonction de l'année(2013) et du mois(12)
+I  [INFOS] Light 14/04/2020 < 10:14:17.5096 > Retourne la somme des contrats en fonction de l'année(2014) et du mois(0)
+I  [INFOS] Light 14/04/2020 < 10:14:17.5224 > Retourne la somme des contrats en fonction de l'année(2014) et du mois(1)
+I  [INFOS] Light 14/04/2020 < 10:14:17.5334 > Retourne la somme des contrats en fonction de l'année(2014) et du mois(2)
+I  [INFOS] Light 14/04/2020 < 10:14:17.5515 > Retourne la somme des contrats en fonction de l'année(2014) et du mois(3)
+I  [INFOS] Light 14/04/2020 < 10:14:17.5641 > Retourne la somme des contrats en fonction de l'année(2014) et du mois(4)
+I  [INFOS] Light 14/04/2020 < 10:14:17.5767 > Retourne la somme des contrats en fonction de l'année(2014) et du mois(5)
+I  [INFOS] Light 14/04/2020 < 10:14:17.5893 > Retourne la somme des contrats en fonction de l'année(2014) et du mois(6)
+I  [INFOS] Light 14/04/2020 < 10:14:17.6030 > Retourne la somme des contrats en fonction de l'année(2014) et du mois(7)
+I  [INFOS] Light 14/04/2020 < 10:14:17.6148 > Retourne la somme des contrats en fonction de l'année(2014) et du mois(8)
+I  [INFOS] Light 14/04/2020 < 10:14:17.6256 > Retourne la somme des contrats en fonction de l'année(2014) et du mois(9)
+I  [INFOS] Light 14/04/2020 < 10:14:17.6376 > Retourne la somme des contrats en fonction de l'année(2014) et du mois(10)
+I  [INFOS] Light 14/04/2020 < 10:14:17.6527 > Retourne la somme des contrats en fonction de l'année(2014) et du mois(11)
+I  [INFOS] Light 14/04/2020 < 10:14:17.6776 > Retourne la somme des contrats en fonction de l'année(2014) et du mois(12)
+I  [INFOS] Light 14/04/2020 < 10:14:17.7107 > Retourne la somme des contrats en fonction de l'année(2015) et du mois(0)
+I  [INFOS] Light 14/04/2020 < 10:14:17.7455 > Retourne la somme des contrats en fonction de l'année(2015) et du mois(1)
+I  [INFOS] Light 14/04/2020 < 10:14:17.7768 > Retourne la somme des contrats en fonction de l'année(2015) et du mois(2)
+I  [INFOS] Light 14/04/2020 < 10:14:17.8127 > Retourne la somme des contrats en fonction de l'année(2015) et du mois(3)
+I  [INFOS] Light 14/04/2020 < 10:14:17.8247 > Retourne la somme des contrats en fonction de l'année(2015) et du mois(4)
+I  [INFOS] Light 14/04/2020 < 10:14:17.8366 > Retourne la somme des contrats en fonction de l'année(2015) et du mois(5)
+I  [INFOS] Light 14/04/2020 < 10:14:17.8496 > Retourne la somme des contrats en fonction de l'année(2015) et du mois(6)
+I  [INFOS] Light 14/04/2020 < 10:14:17.8638 > Retourne la somme des contrats en fonction de l'année(2015) et du mois(7)
+I  [INFOS] Light 14/04/2020 < 10:14:17.8746 > Retourne la somme des contrats en fonction de l'année(2015) et du mois(8)
+I  [INFOS] Light 14/04/2020 < 10:14:17.8847 > Retourne la somme des contrats en fonction de l'année(2015) et du mois(9)
+I  [INFOS] Light 14/04/2020 < 10:14:17.8985 > Retourne la somme des contrats en fonction de l'année(2015) et du mois(10)
+I  [INFOS] Light 14/04/2020 < 10:14:17.9123 > Retourne la somme des contrats en fonction de l'année(2015) et du mois(11)
+I  [INFOS] Light 14/04/2020 < 10:14:17.9284 > Retourne la somme des contrats en fonction de l'année(2015) et du mois(12)
+I  [INFOS] Light 14/04/2020 < 10:14:17.9424 > Retourne la somme des contrats en fonction de l'année(2016) et du mois(0)
+I  [INFOS] Light 14/04/2020 < 10:14:17.9585 > Retourne la somme des contrats en fonction de l'année(2016) et du mois(1)
+I  [INFOS] Light 14/04/2020 < 10:14:17.9746 > Retourne la somme des contrats en fonction de l'année(2016) et du mois(2)
+I  [INFOS] Light 14/04/2020 < 10:14:17.9875 > Retourne la somme des contrats en fonction de l'année(2016) et du mois(3)
+I  [INFOS] Light 14/04/2020 < 10:14:18.0026 > Retourne la somme des contrats en fonction de l'année(2016) et du mois(4)
+I  [INFOS] Light 14/04/2020 < 10:14:18.0136 > Retourne la somme des contrats en fonction de l'année(2016) et du mois(5)
+I  [INFOS] Light 14/04/2020 < 10:14:18.0255 > Retourne la somme des contrats en fonction de l'année(2016) et du mois(6)
+I  [INFOS] Light 14/04/2020 < 10:14:18.0375 > Retourne la somme des contrats en fonction de l'année(2016) et du mois(7)
+I  [INFOS] Light 14/04/2020 < 10:14:18.0516 > Retourne la somme des contrats en fonction de l'année(2016) et du mois(8)
+I  [INFOS] Light 14/04/2020 < 10:14:18.0634 > Retourne la somme des contrats en fonction de l'année(2016) et du mois(9)
+I  [INFOS] Light 14/04/2020 < 10:14:18.0758 > Retourne la somme des contrats en fonction de l'année(2016) et du mois(10)
+I  [INFOS] Light 14/04/2020 < 10:14:18.0878 > Retourne la somme des contrats en fonction de l'année(2016) et du mois(11)
+I  [INFOS] Light 14/04/2020 < 10:14:18.1036 > Retourne la somme des contrats en fonction de l'année(2016) et du mois(12)
+I  [INFOS] Light 14/04/2020 < 10:14:18.1176 > Retourne la somme des contrats en fonction de l'année(2017) et du mois(0)
+I  [INFOS] Light 14/04/2020 < 10:14:18.1316 > Retourne la somme des contrats en fonction de l'année(2017) et du mois(1)
+I  [INFOS] Light 14/04/2020 < 10:14:18.1496 > Retourne la somme des contrats en fonction de l'année(2017) et du mois(2)
+I  [INFOS] Light 14/04/2020 < 10:14:18.1647 > Retourne la somme des contrats en fonction de l'année(2017) et du mois(3)
+I  [INFOS] Light 14/04/2020 < 10:14:18.1798 > Retourne la somme des contrats en fonction de l'année(2017) et du mois(4)
+I  [INFOS] Light 14/04/2020 < 10:14:18.1916 > Retourne la somme des contrats en fonction de l'année(2017) et du mois(5)
+I  [INFOS] Light 14/04/2020 < 10:14:18.2068 > Retourne la somme des contrats en fonction de l'année(2017) et du mois(6)
+I  [INFOS] Light 14/04/2020 < 10:14:18.2187 > Retourne la somme des contrats en fonction de l'année(2017) et du mois(7)
+I  [INFOS] Light 14/04/2020 < 10:14:18.2298 > Retourne la somme des contrats en fonction de l'année(2017) et du mois(8)
+I  [INFOS] Light 14/04/2020 < 10:14:18.2396 > Retourne la somme des contrats en fonction de l'année(2017) et du mois(9)
+I  [INFOS] Light 14/04/2020 < 10:14:18.2527 > Retourne la somme des contrats en fonction de l'année(2017) et du mois(10)
+I  [INFOS] Light 14/04/2020 < 10:14:18.2655 > Retourne la somme des contrats en fonction de l'année(2017) et du mois(11)
+I  [INFOS] Light 14/04/2020 < 10:14:18.2789 > Retourne la somme des contrats en fonction de l'année(2017) et du mois(12)
+I  [INFOS] Light 14/04/2020 < 10:14:18.2889 > Retourne la somme des contrats en fonction de l'année(2018) et du mois(0)
+I  [INFOS] Light 14/04/2020 < 10:14:18.3016 > Retourne la somme des contrats en fonction de l'année(2018) et du mois(1)
+I  [INFOS] Light 14/04/2020 < 10:14:18.3324 > Retourne la somme des contrats en fonction de l'année(2018) et du mois(2)
+I  [INFOS] Light 14/04/2020 < 10:14:18.3704 > Retourne la somme des contrats en fonction de l'année(2018) et du mois(3)
+I  [INFOS] Light 14/04/2020 < 10:14:18.4013 > Retourne la somme des contrats en fonction de l'année(2018) et du mois(4)
+I  [INFOS] Light 14/04/2020 < 10:14:18.4344 > Retourne la somme des contrats en fonction de l'année(2018) et du mois(5)
+I  [INFOS] Light 14/04/2020 < 10:14:18.4486 > Retourne la somme des contrats en fonction de l'année(2018) et du mois(6)
+I  [INFOS] Light 14/04/2020 < 10:14:18.4606 > Retourne la somme des contrats en fonction de l'année(2018) et du mois(7)
+I  [INFOS] Light 14/04/2020 < 10:14:18.4718 > Retourne la somme des contrats en fonction de l'année(2018) et du mois(8)
+I  [INFOS] Light 14/04/2020 < 10:14:18.4834 > Retourne la somme des contrats en fonction de l'année(2018) et du mois(9)
+I  [INFOS] Light 14/04/2020 < 10:14:18.4966 > Retourne la somme des contrats en fonction de l'année(2018) et du mois(10)
+I  [INFOS] Light 14/04/2020 < 10:14:18.5114 > Retourne la somme des contrats en fonction de l'année(2018) et du mois(11)
+I  [INFOS] Light 14/04/2020 < 10:14:18.5296 > Retourne la somme des contrats en fonction de l'année(2018) et du mois(12)
+I  [INFOS] Light 14/04/2020 < 10:14:18.5447 > Retourne la somme des contrats en fonction de l'année(2019) et du mois(0)
+I  [INFOS] Light 14/04/2020 < 10:14:18.5637 > Retourne la somme des contrats en fonction de l'année(2019) et du mois(1)
+I  [INFOS] Light 14/04/2020 < 10:14:18.5808 > Retourne la somme des contrats en fonction de l'année(2019) et du mois(2)
+I  [INFOS] Light 14/04/2020 < 10:14:18.5978 > Retourne la somme des contrats en fonction de l'année(2019) et du mois(3)
+I  [INFOS] Light 14/04/2020 < 10:14:18.6126 > Retourne la somme des contrats en fonction de l'année(2019) et du mois(4)
+I  [INFOS] Light 14/04/2020 < 10:14:18.6275 > Retourne la somme des contrats en fonction de l'année(2019) et du mois(5)
+I  [INFOS] Light 14/04/2020 < 10:14:18.6394 > Retourne la somme des contrats en fonction de l'année(2019) et du mois(6)
+I  [INFOS] Light 14/04/2020 < 10:14:18.6555 > Retourne la somme des contrats en fonction de l'année(2019) et du mois(7)
+I  [INFOS] Light 14/04/2020 < 10:14:18.6701 > Retourne la somme des contrats en fonction de l'année(2019) et du mois(8)
+I  [INFOS] Light 14/04/2020 < 10:14:18.6805 > Retourne la somme des contrats en fonction de l'année(2019) et du mois(9)
+I  [INFOS] Light 14/04/2020 < 10:14:18.6925 > Retourne la somme des contrats en fonction de l'année(2019) et du mois(10)
+I  [INFOS] Light 14/04/2020 < 10:14:18.7097 > Retourne la somme des contrats en fonction de l'année(2019) et du mois(11)
+I  [INFOS] Light 14/04/2020 < 10:14:18.7277 > Retourne la somme des contrats en fonction de l'année(2019) et du mois(12)
+I  [INFOS] Light 14/04/2020 < 10:14:18.7416 > Retourne la somme des contrats en fonction de l'année(2020) et du mois(0)
+I  [INFOS] Light 14/04/2020 < 10:14:18.7627 > Retourne la somme des contrats en fonction de l'année(2020) et du mois(1)
+I  [INFOS] Light 14/04/2020 < 10:14:18.7798 > Retourne la somme des contrats en fonction de l'année(2020) et du mois(2)
+I  [INFOS] Light 14/04/2020 < 10:14:18.7933 > Retourne la somme des contrats en fonction de l'année(2020) et du mois(3)
+I  [INFOS] Light 14/04/2020 < 10:14:18.8098 > Retourne la somme des contrats en fonction de l'année(2020) et du mois(4)
+I  [INFOS] Light 14/04/2020 < 10:14:18.8230 > Retourne la somme des contrats en fonction de l'année(2020) et du mois(5)
+I  [INFOS] Light 14/04/2020 < 10:14:18.8345 > Retourne la somme des contrats en fonction de l'année(2020) et du mois(6)
+I  [INFOS] Light 14/04/2020 < 10:14:18.8500 > Retourne la somme des contrats en fonction de l'année(2020) et du mois(7)
+I  [INFOS] Light 14/04/2020 < 10:14:18.8635 > Retourne la somme des contrats en fonction de l'année(2020) et du mois(8)
+I  [INFOS] Light 14/04/2020 < 10:14:18.8747 > Retourne la somme des contrats en fonction de l'année(2020) et du mois(9)
+I  [INFOS] Light 14/04/2020 < 10:14:18.8854 > Retourne la somme des contrats en fonction de l'année(2020) et du mois(10)
+I  [INFOS] Light 14/04/2020 < 10:14:18.9007 > Retourne la somme des contrats en fonction de l'année(2020) et du mois(11)
+I  [INFOS] Light 14/04/2020 < 10:14:18.9144 > Retourne la somme des contrats en fonction de l'année(2020) et du mois(12)
+I  [INFOS] Light 14/04/2020 < 10:14:18.9268 > Retourne toutes les entreprises
+I  [INFOS] Light 14/04/2020 < 10:14:18.9428 > Retourne tous les contracts qui on appartiennent à l'entreprise qui a pour id : 1
+I  [INFOS] Light 14/04/2020 < 10:14:18.9607 > Retourne tous les contracts qui on appartiennent à l'entreprise qui a pour id : 2
+I  [INFOS] Light 14/04/2020 < 10:14:18.9755 > Retourne tous les contracts qui on appartiennent à l'entreprise qui a pour id : 3
+I  [INFOS] Light 14/04/2020 < 10:14:18.9880 > Retourne tous les contracts qui on appartiennent à l'entreprise qui a pour id : 5
+I  [INFOS] Light 14/04/2020 < 10:14:19.0075 > Retourne tous les molécules
+I  [INFOS] Light 14/04/2020 < 10:14:19.0225 > Retourne tous les utilitées qui on appartiennent à la molécule qui a pour id : 1
+I  [INFOS] Light 14/04/2020 < 10:14:19.0349 > Retourne tous les utilitées qui on appartiennent à la molécule qui a pour id : 2
+I  [INFOS] Light 14/04/2020 < 10:14:19.0647 > Retourne tous les utilitées qui on appartiennent à la molécule qui a pour id : 3
+I  [INFOS] Light 14/04/2020 < 10:14:19.0901 > Retourne tous les utilitées qui on appartiennent à la molécule qui a pour id : 4
+I  [INFOS] Light 14/04/2020 < 10:14:19.1225 > Retourne tous les utilitées qui on appartiennent à la molécule qui a pour id : 5
+I  [INFOS] Light 14/04/2020 < 10:14:23.0516 > Retourne la plus petite et la plus grande année dans les contrats
+I  [INFOS] Light 14/04/2020 < 10:14:23.0646 > Retourne la somme des contrats en fonction de l'année(2010) et du mois(0)
+I  [INFOS] Light 14/04/2020 < 10:14:23.0802 > Retourne la somme des contrats en fonction de l'année(2010) et du mois(1)
+I  [INFOS] Light 14/04/2020 < 10:14:23.0939 > Retourne la somme des contrats en fonction de l'année(2010) et du mois(2)
+I  [INFOS] Light 14/04/2020 < 10:14:23.1046 > Retourne la somme des contrats en fonction de l'année(2010) et du mois(3)
+I  [INFOS] Light 14/04/2020 < 10:14:23.1328 > Retourne la somme des contrats en fonction de l'année(2010) et du mois(4)
+I  [INFOS] Light 14/04/2020 < 10:14:23.1468 > Retourne la somme des contrats en fonction de l'année(2010) et du mois(5)
+I  [INFOS] Light 14/04/2020 < 10:14:23.1578 > Retourne la somme des contrats en fonction de l'année(2010) et du mois(6)
+I  [INFOS] Light 14/04/2020 < 10:14:23.1724 > Retourne la somme des contrats en fonction de l'année(2010) et du mois(7)
+I  [INFOS] Light 14/04/2020 < 10:14:23.1867 > Retourne la somme des contrats en fonction de l'année(2010) et du mois(8)
+I  [INFOS] Light 14/04/2020 < 10:14:23.2007 > Retourne la somme des contrats en fonction de l'année(2010) et du mois(9)
+I  [INFOS] Light 14/04/2020 < 10:14:23.2115 > Retourne la somme des contrats en fonction de l'année(2010) et du mois(10)
+I  [INFOS] Light 14/04/2020 < 10:14:23.2274 > Retourne la somme des contrats en fonction de l'année(2010) et du mois(11)
+I  [INFOS] Light 14/04/2020 < 10:14:23.2455 > Retourne la somme des contrats en fonction de l'année(2010) et du mois(12)
+I  [INFOS] Light 14/04/2020 < 10:14:23.2574 > Retourne la somme des contrats en fonction de l'année(2011) et du mois(0)
+I  [INFOS] Light 14/04/2020 < 10:14:23.2715 > Retourne la somme des contrats en fonction de l'année(2011) et du mois(1)
+I  [INFOS] Light 14/04/2020 < 10:14:23.2864 > Retourne la somme des contrats en fonction de l'année(2011) et du mois(2)
+I  [INFOS] Light 14/04/2020 < 10:14:23.3015 > Retourne la somme des contrats en fonction de l'année(2011) et du mois(3)
+I  [INFOS] Light 14/04/2020 < 10:14:23.3135 > Retourne la somme des contrats en fonction de l'année(2011) et du mois(4)
+I  [INFOS] Light 14/04/2020 < 10:14:23.3277 > Retourne la somme des contrats en fonction de l'année(2011) et du mois(5)
+I  [INFOS] Light 14/04/2020 < 10:14:23.3415 > Retourne la somme des contrats en fonction de l'année(2011) et du mois(6)
+I  [INFOS] Light 14/04/2020 < 10:14:23.3545 > Retourne la somme des contrats en fonction de l'année(2011) et du mois(7)
+I  [INFOS] Light 14/04/2020 < 10:14:23.3661 > Retourne la somme des contrats en fonction de l'année(2011) et du mois(8)
+I  [INFOS] Light 14/04/2020 < 10:14:23.3810 > Retourne la somme des contrats en fonction de l'année(2011) et du mois(9)
+I  [INFOS] Light 14/04/2020 < 10:14:23.3944 > Retourne la somme des contrats en fonction de l'année(2011) et du mois(10)
+I  [INFOS] Light 14/04/2020 < 10:14:23.4057 > Retourne la somme des contrats en fonction de l'année(2011) et du mois(11)
+I  [INFOS] Light 14/04/2020 < 10:14:23.4187 > Retourne la somme des contrats en fonction de l'année(2011) et du mois(12)
+I  [INFOS] Light 14/04/2020 < 10:14:23.4337 > Retourne la somme des contrats en fonction de l'année(2012) et du mois(0)
+I  [INFOS] Light 14/04/2020 < 10:14:23.4505 > Retourne la somme des contrats en fonction de l'année(2012) et du mois(1)
+I  [INFOS] Light 14/04/2020 < 10:14:23.4638 > Retourne la somme des contrats en fonction de l'année(2012) et du mois(2)
+I  [INFOS] Light 14/04/2020 < 10:14:23.4829 > Retourne la somme des contrats en fonction de l'année(2012) et du mois(3)
+I  [INFOS] Light 14/04/2020 < 10:14:23.4970 > Retourne la somme des contrats en fonction de l'année(2012) et du mois(4)
+I  [INFOS] Light 14/04/2020 < 10:14:23.5099 > Retourne la somme des contrats en fonction de l'année(2012) et du mois(5)
+I  [INFOS] Light 14/04/2020 < 10:14:23.5251 > Retourne la somme des contrats en fonction de l'année(2012) et du mois(6)
+I  [INFOS] Light 14/04/2020 < 10:14:23.5385 > Retourne la somme des contrats en fonction de l'année(2012) et du mois(7)
+I  [INFOS] Light 14/04/2020 < 10:14:23.5545 > Retourne la somme des contrats en fonction de l'année(2012) et du mois(8)
+I  [INFOS] Light 14/04/2020 < 10:14:23.5657 > Retourne la somme des contrats en fonction de l'année(2012) et du mois(9)
+I  [INFOS] Light 14/04/2020 < 10:14:23.5808 > Retourne la somme des contrats en fonction de l'année(2012) et du mois(10)
+I  [INFOS] Light 14/04/2020 < 10:14:23.5975 > Retourne la somme des contrats en fonction de l'année(2012) et du mois(11)
+I  [INFOS] Light 14/04/2020 < 10:14:23.6086 > Retourne la somme des contrats en fonction de l'année(2012) et du mois(12)
+I  [INFOS] Light 14/04/2020 < 10:14:23.6206 > Retourne la somme des contrats en fonction de l'année(2013) et du mois(0)
+I  [INFOS] Light 14/04/2020 < 10:14:23.6370 > Retourne la somme des contrats en fonction de l'année(2013) et du mois(1)
+I  [INFOS] Light 14/04/2020 < 10:14:23.6514 > Retourne la somme des contrats en fonction de l'année(2013) et du mois(2)
+I  [INFOS] Light 14/04/2020 < 10:14:23.6678 > Retourne la somme des contrats en fonction de l'année(2013) et du mois(3)
+I  [INFOS] Light 14/04/2020 < 10:14:23.6839 > Retourne la somme des contrats en fonction de l'année(2013) et du mois(4)
+I  [INFOS] Light 14/04/2020 < 10:14:23.7140 > Retourne la somme des contrats en fonction de l'année(2013) et du mois(5)
+I  [INFOS] Light 14/04/2020 < 10:14:23.7289 > Retourne la somme des contrats en fonction de l'année(2013) et du mois(6)
+I  [INFOS] Light 14/04/2020 < 10:14:23.7470 > Retourne la somme des contrats en fonction de l'année(2013) et du mois(7)
+I  [INFOS] Light 14/04/2020 < 10:14:23.7576 > Retourne la somme des contrats en fonction de l'année(2013) et du mois(8)
+I  [INFOS] Light 14/04/2020 < 10:14:23.7697 > Retourne la somme des contrats en fonction de l'année(2013) et du mois(9)
+I  [INFOS] Light 14/04/2020 < 10:14:23.7828 > Retourne la somme des contrats en fonction de l'année(2013) et du mois(10)
+I  [INFOS] Light 14/04/2020 < 10:14:23.8115 > Retourne la somme des contrats en fonction de l'année(2013) et du mois(11)
+I  [INFOS] Light 14/04/2020 < 10:14:23.8407 > Retourne la somme des contrats en fonction de l'année(2013) et du mois(12)
+I  [INFOS] Light 14/04/2020 < 10:14:23.8707 > Retourne la somme des contrats en fonction de l'année(2014) et du mois(0)
+I  [INFOS] Light 14/04/2020 < 10:14:23.9157 > Retourne la somme des contrats en fonction de l'année(2014) et du mois(1)
+I  [INFOS] Light 14/04/2020 < 10:14:23.9548 > Retourne la somme des contrats en fonction de l'année(2014) et du mois(2)
+I  [INFOS] Light 14/04/2020 < 10:14:23.9875 > Retourne la somme des contrats en fonction de l'année(2014) et du mois(3)
+I  [INFOS] Light 14/04/2020 < 10:14:24.0164 > Retourne la somme des contrats en fonction de l'année(2014) et du mois(4)
+I  [INFOS] Light 14/04/2020 < 10:14:24.0618 > Retourne la somme des contrats en fonction de l'année(2014) et du mois(5)
+I  [INFOS] Light 14/04/2020 < 10:14:24.0803 > Retourne la somme des contrats en fonction de l'année(2014) et du mois(6)
+I  [INFOS] Light 14/04/2020 < 10:14:24.0934 > Retourne la somme des contrats en fonction de l'année(2014) et du mois(7)
+I  [INFOS] Light 14/04/2020 < 10:14:24.1065 > Retourne la somme des contrats en fonction de l'année(2014) et du mois(8)
+I  [INFOS] Light 14/04/2020 < 10:14:24.1209 > Retourne la somme des contrats en fonction de l'année(2014) et du mois(9)
+I  [INFOS] Light 14/04/2020 < 10:14:24.1386 > Retourne la somme des contrats en fonction de l'année(2014) et du mois(10)
+I  [INFOS] Light 14/04/2020 < 10:14:24.1564 > Retourne la somme des contrats en fonction de l'année(2014) et du mois(11)
+I  [INFOS] Light 14/04/2020 < 10:14:24.1695 > Retourne la somme des contrats en fonction de l'année(2014) et du mois(12)
+I  [INFOS] Light 14/04/2020 < 10:14:24.1867 > Retourne la somme des contrats en fonction de l'année(2015) et du mois(0)
+I  [INFOS] Light 14/04/2020 < 10:14:24.2007 > Retourne la somme des contrats en fonction de l'année(2015) et du mois(1)
+I  [INFOS] Light 14/04/2020 < 10:14:24.2125 > Retourne la somme des contrats en fonction de l'année(2015) et du mois(2)
+I  [INFOS] Light 14/04/2020 < 10:14:24.2267 > Retourne la somme des contrats en fonction de l'année(2015) et du mois(3)
+I  [INFOS] Light 14/04/2020 < 10:14:24.2396 > Retourne la somme des contrats en fonction de l'année(2015) et du mois(4)
+I  [INFOS] Light 14/04/2020 < 10:14:24.2516 > Retourne la somme des contrats en fonction de l'année(2015) et du mois(5)
+I  [INFOS] Light 14/04/2020 < 10:14:24.2616 > Retourne la somme des contrats en fonction de l'année(2015) et du mois(6)
+I  [INFOS] Light 14/04/2020 < 10:14:24.2744 > Retourne la somme des contrats en fonction de l'année(2015) et du mois(7)
+I  [INFOS] Light 14/04/2020 < 10:14:24.2896 > Retourne la somme des contrats en fonction de l'année(2015) et du mois(8)
+I  [INFOS] Light 14/04/2020 < 10:14:24.3064 > Retourne la somme des contrats en fonction de l'année(2015) et du mois(9)
+I  [INFOS] Light 14/04/2020 < 10:14:24.3169 > Retourne la somme des contrats en fonction de l'année(2015) et du mois(10)
+I  [INFOS] Light 14/04/2020 < 10:14:24.3356 > Retourne la somme des contrats en fonction de l'année(2015) et du mois(11)
+I  [INFOS] Light 14/04/2020 < 10:14:24.3506 > Retourne la somme des contrats en fonction de l'année(2015) et du mois(12)
+I  [INFOS] Light 14/04/2020 < 10:14:24.3605 > Retourne la somme des contrats en fonction de l'année(2016) et du mois(0)
+I  [INFOS] Light 14/04/2020 < 10:14:24.3716 > Retourne la somme des contrats en fonction de l'année(2016) et du mois(1)
+I  [INFOS] Light 14/04/2020 < 10:14:24.3855 > Retourne la somme des contrats en fonction de l'année(2016) et du mois(2)
+I  [INFOS] Light 14/04/2020 < 10:14:24.3965 > Retourne la somme des contrats en fonction de l'année(2016) et du mois(3)
+I  [INFOS] Light 14/04/2020 < 10:14:24.4074 > Retourne la somme des contrats en fonction de l'année(2016) et du mois(4)
+I  [INFOS] Light 14/04/2020 < 10:14:24.4175 > Retourne la somme des contrats en fonction de l'année(2016) et du mois(5)
+I  [INFOS] Light 14/04/2020 < 10:14:24.4335 > Retourne la somme des contrats en fonction de l'année(2016) et du mois(6)
+I  [INFOS] Light 14/04/2020 < 10:14:24.4465 > Retourne la somme des contrats en fonction de l'année(2016) et du mois(7)
+I  [INFOS] Light 14/04/2020 < 10:14:24.4564 > Retourne la somme des contrats en fonction de l'année(2016) et du mois(8)
+I  [INFOS] Light 14/04/2020 < 10:14:24.4674 > Retourne la somme des contrats en fonction de l'année(2016) et du mois(9)
+I  [INFOS] Light 14/04/2020 < 10:14:24.4815 > Retourne la somme des contrats en fonction de l'année(2016) et du mois(10)
+I  [INFOS] Light 14/04/2020 < 10:14:24.4968 > Retourne la somme des contrats en fonction de l'année(2016) et du mois(11)
+I  [INFOS] Light 14/04/2020 < 10:14:24.5115 > Retourne la somme des contrats en fonction de l'année(2016) et du mois(12)
+I  [INFOS] Light 14/04/2020 < 10:14:24.5319 > Retourne la somme des contrats en fonction de l'année(2017) et du mois(0)
+I  [INFOS] Light 14/04/2020 < 10:14:24.5457 > Retourne la somme des contrats en fonction de l'année(2017) et du mois(1)
+I  [INFOS] Light 14/04/2020 < 10:14:24.5576 > Retourne la somme des contrats en fonction de l'année(2017) et du mois(2)
+I  [INFOS] Light 14/04/2020 < 10:14:24.5695 > Retourne la somme des contrats en fonction de l'année(2017) et du mois(3)
+I  [INFOS] Light 14/04/2020 < 10:14:24.5836 > Retourne la somme des contrats en fonction de l'année(2017) et du mois(4)
+I  [INFOS] Light 14/04/2020 < 10:14:24.5976 > Retourne la somme des contrats en fonction de l'année(2017) et du mois(5)
+I  [INFOS] Light 14/04/2020 < 10:14:24.6086 > Retourne la somme des contrats en fonction de l'année(2017) et du mois(6)
+I  [INFOS] Light 14/04/2020 < 10:14:24.6205 > Retourne la somme des contrats en fonction de l'année(2017) et du mois(7)
+I  [INFOS] Light 14/04/2020 < 10:14:24.6348 > Retourne la somme des contrats en fonction de l'année(2017) et du mois(8)
+I  [INFOS] Light 14/04/2020 < 10:14:24.6471 > Retourne la somme des contrats en fonction de l'année(2017) et du mois(9)
+I  [INFOS] Light 14/04/2020 < 10:14:24.6596 > Retourne la somme des contrats en fonction de l'année(2017) et du mois(10)
+I  [INFOS] Light 14/04/2020 < 10:14:24.6738 > Retourne la somme des contrats en fonction de l'année(2017) et du mois(11)
+I  [INFOS] Light 14/04/2020 < 10:14:24.6875 > Retourne la somme des contrats en fonction de l'année(2017) et du mois(12)
+I  [INFOS] Light 14/04/2020 < 10:14:24.7015 > Retourne la somme des contrats en fonction de l'année(2018) et du mois(0)
+I  [INFOS] Light 14/04/2020 < 10:14:24.7144 > Retourne la somme des contrats en fonction de l'année(2018) et du mois(1)
+I  [INFOS] Light 14/04/2020 < 10:14:24.7325 > Retourne la somme des contrats en fonction de l'année(2018) et du mois(2)
+I  [INFOS] Light 14/04/2020 < 10:14:24.7467 > Retourne la somme des contrats en fonction de l'année(2018) et du mois(3)
+I  [INFOS] Light 14/04/2020 < 10:14:24.7594 > Retourne la somme des contrats en fonction de l'année(2018) et du mois(4)
+I  [INFOS] Light 14/04/2020 < 10:14:24.7728 > Retourne la somme des contrats en fonction de l'année(2018) et du mois(5)
+I  [INFOS] Light 14/04/2020 < 10:14:24.8036 > Retourne la somme des contrats en fonction de l'année(2018) et du mois(6)
+I  [INFOS] Light 14/04/2020 < 10:14:24.8326 > Retourne la somme des contrats en fonction de l'année(2018) et du mois(7)
+I  [INFOS] Light 14/04/2020 < 10:14:24.8594 > Retourne la somme des contrats en fonction de l'année(2018) et du mois(8)
+I  [INFOS] Light 14/04/2020 < 10:14:24.8875 > Retourne la somme des contrats en fonction de l'année(2018) et du mois(9)
+I  [INFOS] Light 14/04/2020 < 10:14:24.9208 > Retourne la somme des contrats en fonction de l'année(2018) et du mois(10)
+I  [INFOS] Light 14/04/2020 < 10:14:24.9564 > Retourne la somme des contrats en fonction de l'année(2018) et du mois(11)
+I  [INFOS] Light 14/04/2020 < 10:14:24.9895 > Retourne la somme des contrats en fonction de l'année(2018) et du mois(12)
+I  [INFOS] Light 14/04/2020 < 10:14:25.0165 > Retourne la somme des contrats en fonction de l'année(2019) et du mois(0)
+I  [INFOS] Light 14/04/2020 < 10:14:25.0476 > Retourne la somme des contrats en fonction de l'année(2019) et du mois(1)
+I  [INFOS] Light 14/04/2020 < 10:14:25.0724 > Retourne la somme des contrats en fonction de l'année(2019) et du mois(2)
+I  [INFOS] Light 14/04/2020 < 10:14:25.1060 > Retourne la somme des contrats en fonction de l'année(2019) et du mois(3)
+I  [INFOS] Light 14/04/2020 < 10:14:25.1590 > Retourne la somme des contrats en fonction de l'année(2019) et du mois(4)
+I  [INFOS] Light 14/04/2020 < 10:14:25.1751 > Retourne la somme des contrats en fonction de l'année(2019) et du mois(5)
+I  [INFOS] Light 14/04/2020 < 10:14:25.1877 > Retourne la somme des contrats en fonction de l'année(2019) et du mois(6)
+I  [INFOS] Light 14/04/2020 < 10:14:25.1994 > Retourne la somme des contrats en fonction de l'année(2019) et du mois(7)
+I  [INFOS] Light 14/04/2020 < 10:14:25.2104 > Retourne la somme des contrats en fonction de l'année(2019) et du mois(8)
+I  [INFOS] Light 14/04/2020 < 10:14:25.2235 > Retourne la somme des contrats en fonction de l'année(2019) et du mois(9)
+I  [INFOS] Light 14/04/2020 < 10:14:25.2368 > Retourne la somme des contrats en fonction de l'année(2019) et du mois(10)
+I  [INFOS] Light 14/04/2020 < 10:14:25.2488 > Retourne la somme des contrats en fonction de l'année(2019) et du mois(11)
+I  [INFOS] Light 14/04/2020 < 10:14:25.2597 > Retourne la somme des contrats en fonction de l'année(2019) et du mois(12)
+I  [INFOS] Light 14/04/2020 < 10:14:25.2740 > Retourne la somme des contrats en fonction de l'année(2020) et du mois(0)
+I  [INFOS] Light 14/04/2020 < 10:14:25.2878 > Retourne la somme des contrats en fonction de l'année(2020) et du mois(1)
+I  [INFOS] Light 14/04/2020 < 10:14:25.3000 > Retourne la somme des contrats en fonction de l'année(2020) et du mois(2)
+I  [INFOS] Light 14/04/2020 < 10:14:25.3144 > Retourne la somme des contrats en fonction de l'année(2020) et du mois(3)
+I  [INFOS] Light 14/04/2020 < 10:14:25.3325 > Retourne la somme des contrats en fonction de l'année(2020) et du mois(4)
+I  [INFOS] Light 14/04/2020 < 10:14:25.3500 > Retourne la somme des contrats en fonction de l'année(2020) et du mois(5)
+I  [INFOS] Light 14/04/2020 < 10:14:25.3616 > Retourne la somme des contrats en fonction de l'année(2020) et du mois(6)
+I  [INFOS] Light 14/04/2020 < 10:14:25.3786 > Retourne la somme des contrats en fonction de l'année(2020) et du mois(7)
+I  [INFOS] Light 14/04/2020 < 10:14:25.3940 > Retourne la somme des contrats en fonction de l'année(2020) et du mois(8)
+I  [INFOS] Light 14/04/2020 < 10:14:25.4045 > Retourne la somme des contrats en fonction de l'année(2020) et du mois(9)
+I  [INFOS] Light 14/04/2020 < 10:14:25.4164 > Retourne la somme des contrats en fonction de l'année(2020) et du mois(10)
+I  [INFOS] Light 14/04/2020 < 10:14:25.4304 > Retourne la somme des contrats en fonction de l'année(2020) et du mois(11)
+I  [INFOS] Light 14/04/2020 < 10:14:25.4438 > Retourne la somme des contrats en fonction de l'année(2020) et du mois(12)
+I  [INFOS] Light 14/04/2020 < 10:14:25.4545 > Retourne toutes les entreprises
+I  [INFOS] Light 14/04/2020 < 10:14:25.4675 > Retourne tous les contracts qui on appartiennent à l'entreprise qui a pour id : 1
+I  [INFOS] Light 14/04/2020 < 10:14:25.4828 > Retourne tous les contracts qui on appartiennent à l'entreprise qui a pour id : 2
+I  [INFOS] Light 14/04/2020 < 10:14:25.4954 > Retourne tous les contracts qui on appartiennent à l'entreprise qui a pour id : 3
+I  [INFOS] Light 14/04/2020 < 10:14:25.5066 > Retourne tous les contracts qui on appartiennent à l'entreprise qui a pour id : 5
+I  [INFOS] Light 14/04/2020 < 10:14:25.5205 > Retourne tous les molécules
+I  [INFOS] Light 14/04/2020 < 10:14:25.5384 > Retourne tous les utilitées qui on appartiennent à la molécule qui a pour id : 1
+I  [INFOS] Light 14/04/2020 < 10:14:25.5576 > Retourne tous les utilitées qui on appartiennent à la molécule qui a pour id : 2
+I  [INFOS] Light 14/04/2020 < 10:14:25.5737 > Retourne tous les utilitées qui on appartiennent à la molécule qui a pour id : 3
+I  [INFOS] Light 14/04/2020 < 10:14:25.5886 > Retourne tous les utilitées qui on appartiennent à la molécule qui a pour id : 4
+I  [INFOS] Light 14/04/2020 < 10:14:25.6015 > Retourne tous les utilitées qui on appartiennent à la molécule qui a pour id : 5
+I  [INFOS] Light 14/04/2020 < 10:15:01.9976 > L'utilisateur duv pierro est connecté en tant qu'Admin
+I  [INFOS] Light 14/04/2020 < 10:15:02.0665 > Retourne tous les utilisateurs
+I  [INFOS] Light 14/04/2020 < 10:15:02.0895 > Retourne le role qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 10:15:02.1054 > Retourne le role qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 10:15:02.1254 > Retourne le role qui a pour Id : 2
+I  [INFOS] Light 14/04/2020 < 10:15:04.4044 > Retourne tous les utilisateurs
+I  [INFOS] Light 14/04/2020 < 10:15:04.4336 > Retourne le role qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 10:15:04.4616 > Retourne le role qui a pour Id : 2
+I  [INFOS] Light 14/04/2020 < 10:15:04.5018 > Retourne le role qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 10:15:07.1145 > Retourne tous les utilisateurs
+I  [INFOS] Light 14/04/2020 < 10:15:07.1498 > Retourne le role qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 10:15:07.1818 > Retourne le role qui a pour Id : 2
+I  [INFOS] Light 14/04/2020 < 10:15:07.2168 > Retourne le role qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 10:15:08.8770 > Retourne tous les utilisateurs
+I  [INFOS] Light 14/04/2020 < 10:15:08.9077 > Retourne le role qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 10:15:08.9460 > Retourne le role qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 10:15:08.9766 > Retourne le role qui a pour Id : 2
+I  [INFOS] Light 14/04/2020 < 10:15:47.1177 > Retourne tous les roles
+I  [INFOS] Light 14/04/2020 < 10:15:49.5280 > On ajoute un nouvel utilisateur
+I  [INFOS] Light 14/04/2020 < 10:15:51.4196 > Retourne tous les utilisateurs
+I  [INFOS] Light 14/04/2020 < 10:15:54.8893 > Retourne tous les utilisateurs
+I  [INFOS] Light 14/04/2020 < 10:15:54.9263 > Retourne le role qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 10:15:54.9705 > Retourne le role qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 10:15:55.0055 > Retourne le role qui a pour Id : 2
+I  [INFOS] Light 14/04/2020 < 10:15:55.0415 > Retourne le role qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 10:15:57.7783 > Retourne le role qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 10:15:58.9456 > Retourne tous les roles
+I  [INFOS] Light 14/04/2020 < 10:16:00.7091 > On met à jour un utilisateur qui a pour Id : 5
+I  [INFOS] Light 14/04/2020 < 10:16:02.2625 > Retourne tous les utilisateurs
+I  [INFOS] Light 14/04/2020 < 10:16:04.4047 > Retourne tous les utilisateurs
+I  [INFOS] Light 14/04/2020 < 10:16:04.4325 > Retourne le role qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 10:16:04.4583 > Retourne le role qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 10:16:04.4935 > Retourne le role qui a pour Id : 2
+I  [INFOS] Light 14/04/2020 < 10:16:04.5369 > Retourne le role qui a pour Id : 2
+I  [INFOS] Light 14/04/2020 < 10:16:13.9663 > Retourne tous les roles
+I  [INFOS] Light 14/04/2020 < 10:16:25.9614 > Retourne tous les utilisateurs
+I  [INFOS] Light 14/04/2020 < 10:16:25.9863 > Retourne le role qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 10:16:26.0153 > Retourne le role qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 10:16:26.0384 > Retourne le role qui a pour Id : 2
+I  [INFOS] Light 14/04/2020 < 10:16:26.0633 > Retourne le role qui a pour Id : 2
+I  [INFOS] Light 14/04/2020 < 10:16:36.0064 > L'utilisateur nommée : prof mister a correctement été supprimée
+I  [INFOS] Light 14/04/2020 < 10:16:40.0994 > Retourne tous les utilisateurs
+I  [INFOS] Light 14/04/2020 < 10:16:40.1237 > Retourne le role qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 10:16:40.1573 > Retourne le role qui a pour Id : 1
+I  [INFOS] Light 14/04/2020 < 10:16:40.1973 > Retourne le role qui a pour Id : 2

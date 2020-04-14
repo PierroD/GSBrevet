@@ -1,0 +1,420 @@
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:00.4670 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:00.4750 > L'utilisateur duv pierro est connecté en tant qu'Admin
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:00.5398 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:00.5438 > Retourne tous les utilisateurs
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:00.5618 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:00.5688 > Retourne le role qui a pour Id : 1
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:00.5807 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:00.5857 > Retourne le role qui a pour Id : 1
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:00.5987 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:00.6037 > Retourne le role qui a pour Id : 2
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:07.4385 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:07.4445 > Retourne tous les utilisateurs
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:07.4584 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:07.4644 > Retourne le role qui a pour Id : 1
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:07.4804 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:07.4874 > Retourne le role qui a pour Id : 2
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:07.5044 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:07.5113 > Retourne le role qui a pour Id : 1
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:08.5730 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:08.5780 > Retourne tous les utilisateurs
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:08.5939 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:08.5989 > Retourne le role qui a pour Id : 1
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:08.6139 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:08.6189 > Retourne le role qui a pour Id : 2
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:08.6348 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:08.6398 > Retourne le role qui a pour Id : 1
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:09.6149 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:09.6199 > Retourne tous les utilisateurs
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:09.6329 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:09.6379 > Retourne le role qui a pour Id : 1
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:09.6548 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:09.6608 > Retourne le role qui a pour Id : 1
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:09.6748 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:09.6808 > Retourne le role qui a pour Id : 2
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:23.4838 > Verify your saveType in the app.config
+!! [ERROR] Light 13/04/2020 < 17:10:23.4907 > L'utilisateur arabian mickael : a rentré un identifiant incorrect
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:23.5256 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:23.5316 > Retourne tous les utilisateurs
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:23.5486 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:23.5536 > Retourne le role qui a pour Id : 1
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:23.5665 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:23.5715 > Retourne le role qui a pour Id : 1
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:23.5835 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:23.5895 > Retourne le role qui a pour Id : 2
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:33.0031 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:33.0091 > L'utilisateur arabian mickael est connecté en tant qu'Utilisateur
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:38.3032 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:38.3101 > Retourne la plus petite et la plus grande année dans les contrats
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:38.3351 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:38.3411 > Retourne la somme des contrats en fonction de l'année(2010) et du mois(0)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:38.3520 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:38.3570 > Retourne la somme des contrats en fonction de l'année(2010) et du mois(1)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:38.3650 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:38.3730 > Retourne la somme des contrats en fonction de l'année(2010) et du mois(2)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:38.3810 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:38.3879 > Retourne la somme des contrats en fonction de l'année(2010) et du mois(3)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:38.3959 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:38.4019 > Retourne la somme des contrats en fonction de l'année(2010) et du mois(4)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:38.4099 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:38.4159 > Retourne la somme des contrats en fonction de l'année(2010) et du mois(5)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:38.4248 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:38.4308 > Retourne la somme des contrats en fonction de l'année(2010) et du mois(6)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:38.4388 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:38.4458 > Retourne la somme des contrats en fonction de l'année(2010) et du mois(7)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:38.4538 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:38.4607 > Retourne la somme des contrats en fonction de l'année(2010) et du mois(8)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:38.4687 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:38.4757 > Retourne la somme des contrats en fonction de l'année(2010) et du mois(9)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:38.4847 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:38.4907 > Retourne la somme des contrats en fonction de l'année(2010) et du mois(10)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:38.5006 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:38.5056 > Retourne la somme des contrats en fonction de l'année(2010) et du mois(11)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:38.5146 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:38.5216 > Retourne la somme des contrats en fonction de l'année(2010) et du mois(12)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:38.5605 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:38.5675 > Retourne la somme des contrats en fonction de l'année(2011) et du mois(0)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:38.5804 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:38.5884 > Retourne la somme des contrats en fonction de l'année(2011) et du mois(1)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:38.5994 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:38.6063 > Retourne la somme des contrats en fonction de l'année(2011) et du mois(2)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:38.6153 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:38.6223 > Retourne la somme des contrats en fonction de l'année(2011) et du mois(3)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:38.6313 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:38.6373 > Retourne la somme des contrats en fonction de l'année(2011) et du mois(4)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:38.6462 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:38.6522 > Retourne la somme des contrats en fonction de l'année(2011) et du mois(5)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:38.6602 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:38.6662 > Retourne la somme des contrats en fonction de l'année(2011) et du mois(6)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:38.6752 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:38.6811 > Retourne la somme des contrats en fonction de l'année(2011) et du mois(7)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:38.6901 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:38.6961 > Retourne la somme des contrats en fonction de l'année(2011) et du mois(8)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:38.7041 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:38.7101 > Retourne la somme des contrats en fonction de l'année(2011) et du mois(9)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:38.7200 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:38.7260 > Retourne la somme des contrats en fonction de l'année(2011) et du mois(10)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:38.7350 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:38.7400 > Retourne la somme des contrats en fonction de l'année(2011) et du mois(11)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:38.7490 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:38.7560 > Retourne la somme des contrats en fonction de l'année(2011) et du mois(12)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:38.7660 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:38.7719 > Retourne la somme des contrats en fonction de l'année(2012) et du mois(0)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:38.7829 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:38.7909 > Retourne la somme des contrats en fonction de l'année(2012) et du mois(1)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:38.7999 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:38.8059 > Retourne la somme des contrats en fonction de l'année(2012) et du mois(2)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:38.8168 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:38.8238 > Retourne la somme des contrats en fonction de l'année(2012) et du mois(3)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:38.8328 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:38.8388 > Retourne la somme des contrats en fonction de l'année(2012) et du mois(4)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:38.8487 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:38.8547 > Retourne la somme des contrats en fonction de l'année(2012) et du mois(5)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:38.8637 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:38.8697 > Retourne la somme des contrats en fonction de l'année(2012) et du mois(6)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:38.8787 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:38.8847 > Retourne la somme des contrats en fonction de l'année(2012) et du mois(7)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:38.8936 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:38.8996 > Retourne la somme des contrats en fonction de l'année(2012) et du mois(8)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:38.9086 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:38.9156 > Retourne la somme des contrats en fonction de l'année(2012) et du mois(9)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:38.9255 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:38.9315 > Retourne la somme des contrats en fonction de l'année(2012) et du mois(10)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:38.9415 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:38.9485 > Retourne la somme des contrats en fonction de l'année(2012) et du mois(11)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:38.9574 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:38.9654 > Retourne la somme des contrats en fonction de l'année(2012) et du mois(12)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:38.9745 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:38.9824 > Retourne la somme des contrats en fonction de l'année(2013) et du mois(0)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:38.9933 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.0003 > Retourne la somme des contrats en fonction de l'année(2013) et du mois(1)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.0103 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.0163 > Retourne la somme des contrats en fonction de l'année(2013) et du mois(2)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.0273 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.0342 > Retourne la somme des contrats en fonction de l'année(2013) et du mois(3)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.0442 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.0502 > Retourne la somme des contrats en fonction de l'année(2013) et du mois(4)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.0602 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.0672 > Retourne la somme des contrats en fonction de l'année(2013) et du mois(5)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.0762 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.0832 > Retourne la somme des contrats en fonction de l'année(2013) et du mois(6)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.0931 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.0992 > Retourne la somme des contrats en fonction de l'année(2013) et du mois(7)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.1091 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.1151 > Retourne la somme des contrats en fonction de l'année(2013) et du mois(8)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.1250 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.1311 > Retourne la somme des contrats en fonction de l'année(2013) et du mois(9)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.1401 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.1470 > Retourne la somme des contrats en fonction de l'année(2013) et du mois(10)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.1590 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.1690 > Retourne la somme des contrats en fonction de l'année(2013) et du mois(11)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.1819 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.1889 > Retourne la somme des contrats en fonction de l'année(2013) et du mois(12)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.1999 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.2069 > Retourne la somme des contrats en fonction de l'année(2014) et du mois(0)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.2179 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.2248 > Retourne la somme des contrats en fonction de l'année(2014) et du mois(1)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.2348 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.2418 > Retourne la somme des contrats en fonction de l'année(2014) et du mois(2)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.2527 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.2617 > Retourne la somme des contrats en fonction de l'année(2014) et du mois(3)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.2717 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.2787 > Retourne la somme des contrats en fonction de l'année(2014) et du mois(4)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.2897 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.2966 > Retourne la somme des contrats en fonction de l'année(2014) et du mois(5)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.3076 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.3166 > Retourne la somme des contrats en fonction de l'année(2014) et du mois(6)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.3266 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.3335 > Retourne la somme des contrats en fonction de l'année(2014) et du mois(7)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.3435 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.3515 > Retourne la somme des contrats en fonction de l'année(2014) et du mois(8)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.3625 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.3714 > Retourne la somme des contrats en fonction de l'année(2014) et du mois(9)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.3824 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.3914 > Retourne la somme des contrats en fonction de l'année(2014) et du mois(10)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.4033 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.4103 > Retourne la somme des contrats en fonction de l'année(2014) et du mois(11)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.4223 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.4293 > Retourne la somme des contrats en fonction de l'année(2014) et du mois(12)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.4392 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.4462 > Retourne la somme des contrats en fonction de l'année(2015) et du mois(0)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.4562 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.4622 > Retourne la somme des contrats en fonction de l'année(2015) et du mois(1)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.4722 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.4792 > Retourne la somme des contrats en fonction de l'année(2015) et du mois(2)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.4961 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.5031 > Retourne la somme des contrats en fonction de l'année(2015) et du mois(3)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.5111 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.5181 > Retourne la somme des contrats en fonction de l'année(2015) et du mois(4)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.5260 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.5320 > Retourne la somme des contrats en fonction de l'année(2015) et du mois(5)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.5410 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.5470 > Retourne la somme des contrats en fonction de l'année(2015) et du mois(6)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.5549 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.5609 > Retourne la somme des contrats en fonction de l'année(2015) et du mois(7)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.5689 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.5759 > Retourne la somme des contrats en fonction de l'année(2015) et du mois(8)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.5839 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.5928 > Retourne la somme des contrats en fonction de l'année(2015) et du mois(9)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.6018 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.6088 > Retourne la somme des contrats en fonction de l'année(2015) et du mois(10)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.6178 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.6248 > Retourne la somme des contrats en fonction de l'année(2015) et du mois(11)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.6337 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.6398 > Retourne la somme des contrats en fonction de l'année(2015) et du mois(12)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.6487 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.6547 > Retourne la somme des contrats en fonction de l'année(2016) et du mois(0)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.6637 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.6697 > Retourne la somme des contrats en fonction de l'année(2016) et du mois(1)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.6776 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.6846 > Retourne la somme des contrats en fonction de l'année(2016) et du mois(2)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.6916 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.6976 > Retourne la somme des contrats en fonction de l'année(2016) et du mois(3)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.7065 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.7136 > Retourne la somme des contrats en fonction de l'année(2016) et du mois(4)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.7225 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.7285 > Retourne la somme des contrats en fonction de l'année(2016) et du mois(5)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.7365 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.7435 > Retourne la somme des contrats en fonction de l'année(2016) et du mois(6)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.7514 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.7584 > Retourne la somme des contrats en fonction de l'année(2016) et du mois(7)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.7674 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.7734 > Retourne la somme des contrats en fonction de l'année(2016) et du mois(8)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.7843 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.7923 > Retourne la somme des contrats en fonction de l'année(2016) et du mois(9)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.8013 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.8083 > Retourne la somme des contrats en fonction de l'année(2016) et du mois(10)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.8173 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.8242 > Retourne la somme des contrats en fonction de l'année(2016) et du mois(11)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.8322 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.8392 > Retourne la somme des contrats en fonction de l'année(2016) et du mois(12)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.8472 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.8541 > Retourne la somme des contrats en fonction de l'année(2017) et du mois(0)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.8621 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.8691 > Retourne la somme des contrats en fonction de l'année(2017) et du mois(1)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.8771 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.8841 > Retourne la somme des contrats en fonction de l'année(2017) et du mois(2)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.8930 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.8991 > Retourne la somme des contrats en fonction de l'année(2017) et du mois(3)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.9080 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.9150 > Retourne la somme des contrats en fonction de l'année(2017) et du mois(4)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.9230 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.9299 > Retourne la somme des contrats en fonction de l'année(2017) et du mois(5)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.9379 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.9449 > Retourne la somme des contrats en fonction de l'année(2017) et du mois(6)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.9529 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.9589 > Retourne la somme des contrats en fonction de l'année(2017) et du mois(7)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.9669 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.9728 > Retourne la somme des contrats en fonction de l'année(2017) et du mois(8)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.9828 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:39.9888 > Retourne la somme des contrats en fonction de l'année(2017) et du mois(9)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:39.9988 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:40.0057 > Retourne la somme des contrats en fonction de l'année(2017) et du mois(10)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:40.0147 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:40.0217 > Retourne la somme des contrats en fonction de l'année(2017) et du mois(11)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:40.0297 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:40.0367 > Retourne la somme des contrats en fonction de l'année(2017) et du mois(12)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:40.0457 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:40.0527 > Retourne la somme des contrats en fonction de l'année(2018) et du mois(0)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:40.0606 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:40.0666 > Retourne la somme des contrats en fonction de l'année(2018) et du mois(1)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:40.0755 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:40.0815 > Retourne la somme des contrats en fonction de l'année(2018) et du mois(2)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:40.0885 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:40.0955 > Retourne la somme des contrats en fonction de l'année(2018) et du mois(3)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:40.1035 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:40.1095 > Retourne la somme des contrats en fonction de l'année(2018) et du mois(4)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:40.1184 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:40.1244 > Retourne la somme des contrats en fonction de l'année(2018) et du mois(5)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:40.1314 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:40.1374 > Retourne la somme des contrats en fonction de l'année(2018) et du mois(6)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:40.1454 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:40.1523 > Retourne la somme des contrats en fonction de l'année(2018) et du mois(7)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:40.1593 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:40.1653 > Retourne la somme des contrats en fonction de l'année(2018) et du mois(8)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:40.1723 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:40.1773 > Retourne la somme des contrats en fonction de l'année(2018) et du mois(9)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:40.1853 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:40.1912 > Retourne la somme des contrats en fonction de l'année(2018) et du mois(10)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:40.2012 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:40.2092 > Retourne la somme des contrats en fonction de l'année(2018) et du mois(11)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:40.2192 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:40.2261 > Retourne la somme des contrats en fonction de l'année(2018) et du mois(12)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:40.2371 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:40.2441 > Retourne la somme des contrats en fonction de l'année(2019) et du mois(0)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:40.2521 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:40.2581 > Retourne la somme des contrats en fonction de l'année(2019) et du mois(1)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:40.2670 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:40.2730 > Retourne la somme des contrats en fonction de l'année(2019) et du mois(2)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:40.2820 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:40.2880 > Retourne la somme des contrats en fonction de l'année(2019) et du mois(3)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:40.2960 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:40.3020 > Retourne la somme des contrats en fonction de l'année(2019) et du mois(4)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:40.3109 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:40.3179 > Retourne la somme des contrats en fonction de l'année(2019) et du mois(5)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:40.3259 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:40.3319 > Retourne la somme des contrats en fonction de l'année(2019) et du mois(6)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:40.3398 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:40.3459 > Retourne la somme des contrats en fonction de l'année(2019) et du mois(7)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:40.3538 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:40.3598 > Retourne la somme des contrats en fonction de l'année(2019) et du mois(8)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:40.3668 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:40.3738 > Retourne la somme des contrats en fonction de l'année(2019) et du mois(9)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:40.3827 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:40.3887 > Retourne la somme des contrats en fonction de l'année(2019) et du mois(10)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:40.3957 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:40.4027 > Retourne la somme des contrats en fonction de l'année(2019) et du mois(11)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:40.4097 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:40.4176 > Retourne la somme des contrats en fonction de l'année(2019) et du mois(12)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:40.4257 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:40.4336 > Retourne la somme des contrats en fonction de l'année(2020) et du mois(0)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:40.4416 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:40.4496 > Retourne la somme des contrats en fonction de l'année(2020) et du mois(1)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:40.4575 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:40.4645 > Retourne la somme des contrats en fonction de l'année(2020) et du mois(2)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:40.4725 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:40.4795 > Retourne la somme des contrats en fonction de l'année(2020) et du mois(3)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:40.4884 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:40.4944 > Retourne la somme des contrats en fonction de l'année(2020) et du mois(4)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:40.5034 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:40.5094 > Retourne la somme des contrats en fonction de l'année(2020) et du mois(5)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:40.5174 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:40.5234 > Retourne la somme des contrats en fonction de l'année(2020) et du mois(6)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:40.5313 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:40.5374 > Retourne la somme des contrats en fonction de l'année(2020) et du mois(7)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:40.5523 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:40.5612 > Retourne la somme des contrats en fonction de l'année(2020) et du mois(8)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:40.5732 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:40.5792 > Retourne la somme des contrats en fonction de l'année(2020) et du mois(9)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:40.5882 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:40.5952 > Retourne la somme des contrats en fonction de l'année(2020) et du mois(10)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:40.6031 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:40.6092 > Retourne la somme des contrats en fonction de l'année(2020) et du mois(11)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:40.6191 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:40.6261 > Retourne la somme des contrats en fonction de l'année(2020) et du mois(12)
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:40.6390 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:40.6461 > Retourne toutes les entreprises
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:40.6680 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:40.6739 > Retourne tous les contracts qui on appartiennent à l'entreprise qui a pour id : 1
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:40.6859 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:40.6919 > Retourne tous les contracts qui on appartiennent à l'entreprise qui a pour id : 2
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:40.6999 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:40.7069 > Retourne tous les contracts qui on appartiennent à l'entreprise qui a pour id : 3
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:40.7148 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:40.7228 > Retourne tous les contracts qui on appartiennent à l'entreprise qui a pour id : 5
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:40.7318 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:40.7388 > Retourne tous les molécules
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:40.7577 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:40.7637 > Retourne tous les utilitées qui on appartiennent à la molécule qui a pour id : 1
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:40.7807 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:40.7877 > Retourne tous les utilitées qui on appartiennent à la molécule qui a pour id : 2
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:40.7966 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:40.8046 > Retourne tous les utilitées qui on appartiennent à la molécule qui a pour id : 3
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:40.8126 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:40.8226 > Retourne tous les utilitées qui on appartiennent à la molécule qui a pour id : 4
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:40.8305 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:40.8385 > Retourne tous les utilitées qui on appartiennent à la molécule qui a pour id : 5
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:48.5585 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:48.5685 > Retourne tous les contrats
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:48.6004 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:48.6104 > Retourne l'entreprise qui a pour Id : 1
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:48.6264 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:48.6393 > Retourne le brevet qui a pour Id : 1
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:48.6852 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:48.6992 > Retourne l'entreprise qui a pour Id : 3
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:48.7111 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:48.7201 > Retourne le brevet qui a pour Id : 2
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:49.5057 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:49.5137 > Retourne tous les brevets
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:49.5376 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:49.5446 > Retourne la molécule qui a pour Id : 2
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:49.5556 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:49.5626 > Retourne l'entreprise qui a pour Id : 2
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:49.5825 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:49.5905 > Retourne la molécule qui a pour Id : 1
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:49.5994 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:49.6065 > Retourne l'entreprise qui a pour Id : 1
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:50.5682 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:50.5762 > Retourne toutes les entreprises
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:51.3487 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:51.3557 > Retourne tous les molécules
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:52.0648 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:52.0718 > Retourne toutes les utilitées
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:52.0977 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:52.1068 > Retourne la molécule qui a pour Id : 1
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:52.1267 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:52.1356 > Retourne la molécule qui a pour Id : 2
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:52.1616 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:52.1706 > Retourne la molécule qui a pour Id : 4
+IE [INTERNAL ERROR] Light  13/04/2020 < 17:10:52.1945 > Verify your saveType in the app.config
+I  [INFOS] Light 13/04/2020 < 17:10:52.2035 > Retourne la molécule qui a pour Id : 5
+I  [INFOS] Light 13/04/2020 < 17:14:34.4304 > L'utilisateur duv pierro est connecté en tant qu'Admin
+I  [INFOS] Light 13/04/2020 < 17:14:34.5072 > Retourne tous les utilisateurs
+I  [INFOS] Light 13/04/2020 < 17:14:34.5472 > Retourne le role qui a pour Id : 1
+I  [INFOS] Light 13/04/2020 < 17:14:34.5840 > Retourne le role qui a pour Id : 1
+I  [INFOS] Light 13/04/2020 < 17:14:34.6229 > Retourne le role qui a pour Id : 2
+I  [INFOS] Light 13/04/2020 < 17:14:40.3927 > Retourne tous les utilisateurs
+I  [INFOS] Light 13/04/2020 < 17:14:40.4304 > Retourne le role qui a pour Id : 1
+I  [INFOS] Light 13/04/2020 < 17:14:40.4753 > Retourne le role qui a pour Id : 2
+I  [INFOS] Light 13/04/2020 < 17:14:40.5102 > Retourne le role qui a pour Id : 1
+I  [INFOS] Light 13/04/2020 < 17:14:41.0146 > Retourne tous les utilisateurs
+I  [INFOS] Light 13/04/2020 < 17:14:41.0375 > Retourne le role qui a pour Id : 1
+I  [INFOS] Light 13/04/2020 < 17:14:41.0594 > Retourne le role qui a pour Id : 2
+I  [INFOS] Light 13/04/2020 < 17:14:41.0814 > Retourne le role qui a pour Id : 1
+!! [ERROR] Light 13/04/2020 < 17:14:47.6082 > L'identifiant renseigné Identifiant est incorrect
+I  [INFOS] Light 13/04/2020 < 17:14:47.6453 > Retourne tous les utilisateurs
+I  [INFOS] Light 13/04/2020 < 17:14:47.6660 > Retourne le role qui a pour Id : 1
+I  [INFOS] Light 13/04/2020 < 17:14:47.7069 > Retourne le role qui a pour Id : 1
+I  [INFOS] Light 13/04/2020 < 17:14:47.7398 > Retourne le role qui a pour Id : 2
+I  [INFOS] Light 13/04/2020 < 17:14:59.4958 > L'utilisateur arabian mickael est connecté en tant qu'Utilisateur
+I  [INFOS] Light 13/04/2020 < 17:15:02.5391 > Retourne tous les contrats
+I  [INFOS] Light 13/04/2020 < 17:15:02.5798 > Retourne l'entreprise qui a pour Id : 1
+I  [INFOS] Light 13/04/2020 < 17:15:02.6077 > Retourne le brevet qui a pour Id : 1
+I  [INFOS] Light 13/04/2020 < 17:15:02.6386 > Retourne l'entreprise qui a pour Id : 3
+I  [INFOS] Light 13/04/2020 < 17:15:02.6528 > Retourne le brevet qui a pour Id : 2
+I  [INFOS] Light 13/04/2020 < 17:15:04.1557 > Retourne tous les brevets
+I  [INFOS] Light 13/04/2020 < 17:15:04.1807 > Retourne la molécule qui a pour Id : 2
+I  [INFOS] Light 13/04/2020 < 17:15:04.2086 > Retourne l'entreprise qui a pour Id : 2
+I  [INFOS] Light 13/04/2020 < 17:15:04.2364 > Retourne la molécule qui a pour Id : 1
+I  [INFOS] Light 13/04/2020 < 17:15:04.2507 > Retourne l'entreprise qui a pour Id : 1
+I  [INFOS] Light 13/04/2020 < 17:15:04.8851 > Retourne toutes les entreprises

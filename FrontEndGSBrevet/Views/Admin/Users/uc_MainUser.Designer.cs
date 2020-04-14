@@ -167,6 +167,7 @@
             this.btn_orderby_firstName.TabIndex = 15;
             this.btn_orderby_firstName.Text = "PRENOM";
             this.btn_orderby_firstName.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btn_orderby_firstName.Click += new System.EventHandler(this.btn_orderby_firstName_Click);
             // 
             // btn_orderby_lastName
             // 
@@ -202,6 +203,7 @@
             this.btn_orderby_lastName.TabIndex = 16;
             this.btn_orderby_lastName.Text = "NOM";
             this.btn_orderby_lastName.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btn_orderby_lastName.Click += new System.EventHandler(this.btn_orderby_lastName_Click);
             // 
             // gunaShadowPanel1
             // 
@@ -296,6 +298,7 @@
             this.btn_orderby_username.TabIndex = 19;
             this.btn_orderby_username.Text = "IDENTIFIANT";
             this.btn_orderby_username.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btn_orderby_username.Click += new System.EventHandler(this.btn_orderby_username_Click);
             // 
             // btn_refresh
             // 

@@ -44,5 +44,26 @@ namespace BackEndGSBrevet.Controller
                 return 0;
         }
 
+        public static bool RoleUsed(int id)
+        {
+            User usedby_user = unitOfWork.Users.FirstOrDefault(c => c.role_id == id);
+            if (usedby_user != null)
+            {
+                Log.Error($"Le rôle est encore raccrochée à {"un utilisateur : " + usedby_user.id}");
+                return false;
+            }
+            else
+            {
+                Log.Infos("Le rôle peut être supprimé");
+                return true;
+            }
+        }
+
+        public static void Delete(int id)
+        {
+            var delete_role = unitOfWork.Roles.FirstOrDefault(r => r.id == id);
+            unitOfWork.Roles.Remove(delete_role);
+        }
+
     }
 }

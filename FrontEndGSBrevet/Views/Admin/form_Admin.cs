@@ -17,8 +17,10 @@ namespace FrontEndGSBrevet.Views.Admin
 {
     public partial class form_Admin : Form
     {
-        public form_Admin()
+        Form parentForm;
+        public form_Admin(Form pform)
         {
+            this.parentForm = pform;
             InitializeComponent();
             btn_initial.Text = $"{char.ToUpper(Auth.User().first_name.FirstOrDefault())}{char.ToUpper(Auth.User().last_name.FirstOrDefault())}";
             btn_users.PerformClick();
@@ -36,6 +38,12 @@ namespace FrontEndGSBrevet.Views.Admin
         private void btn_roles_Click(object sender, EventArgs e)
         {
             SwitchUC.Switch(pnl_main, new uc_MainRole());
+        }
+
+        private void btn_close_Click(object sender, EventArgs e)
+        {
+            Auth.destroy();
+            parentForm.Visible = true;
         }
     }
 }

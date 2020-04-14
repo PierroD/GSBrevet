@@ -45,11 +45,11 @@ namespace FrontEndGSBrevet.Views.Admin.Users
             pnl_users.Controls.Clear();
             var users = UserController.getAll();
             if (btn_orderby_lastName.Checked)
-                users.OrderBy(u => u.last_name);
+                users = users.OrderBy(u => u.last_name);
             if (btn_orderby_firstName.Checked)
-                users.OrderBy(u => u.first_name);
+                users = users.OrderBy(u => u.first_name);
             if (btn_orderby_username.Checked)
-                users.OrderBy(u => u.username);
+                users = users.OrderBy(u => u.username);
 
             foreach (var u in users)
             {
@@ -127,5 +127,22 @@ namespace FrontEndGSBrevet.Views.Admin.Users
         {
             SwitchUC.Switch(form_Admin.pnl_main, new uc_CreateUpdateUser());
         }
+
+        #region orderby
+        private void btn_orderby_lastName_Click(object sender, EventArgs e)
+        {
+            ReloadPanel();
+        }
+
+        private void btn_orderby_firstName_Click(object sender, EventArgs e)
+        {
+            ReloadPanel();
+        }
+
+        private void btn_orderby_username_Click(object sender, EventArgs e)
+        {
+            ReloadPanel();
+        }
+        #endregion
     }
 }

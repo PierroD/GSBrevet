@@ -47,6 +47,7 @@
             this.pbox_waveUp = new Guna.UI.WinForms.GunaTransfarantPictureBox();
             this.gunaLabel1 = new Guna.UI.WinForms.GunaLabel();
             this.gunaLabel2 = new Guna.UI.WinForms.GunaLabel();
+            this.gunaDragControl1 = new Guna.UI.WinForms.GunaDragControl(this.components);
             this.pnl_shadowPassword.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pbox_password)).BeginInit();
             this.pnl_shadowUsername.SuspendLayout();
@@ -293,6 +294,10 @@
             this.gunaLabel2.Text = "Bienvenue sur l\'outil de Gestion Sécurisé des Brevets";
             this.gunaLabel2.TextAlign = System.Drawing.ContentAlignment.TopCenter;
             // 
+            // gunaDragControl1
+            // 
+            this.gunaDragControl1.TargetControl = this.pbox_waveUp;
+            // 
             // form_Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -345,6 +350,7 @@
         private Guna.UI.WinForms.GunaCirclePictureBox pbox_showPassword;
         private Guna.UI.WinForms.GunaLabel gunaLabel2;
         private Guna.UI.WinForms.GunaLabel gunaLabel1;
+        private Guna.UI.WinForms.GunaDragControl gunaDragControl1;
     }
 }
 

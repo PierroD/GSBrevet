@@ -137,6 +137,7 @@
             this.btn_close.OnPressedColor = System.Drawing.Color.Black;
             this.btn_close.Size = new System.Drawing.Size(45, 40);
             this.btn_close.TabIndex = 0;
+            this.btn_close.Click += new System.EventHandler(this.btn_close_Click);
             // 
             // pnl_main
             // 
@@ -230,6 +231,7 @@
             this.Controls.Add(this.pnl_top);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "form_Admin";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "form_Admin";
             this.Load += new System.EventHandler(this.form_Admin_Load);
             this.pnl_top.ResumeLayout(false);
@@ -244,10 +246,10 @@
         private Guna.UI.WinForms.GunaLabel lbl_title;
         private Guna.UI.WinForms.GunaControlBox gunaControlBox1;
         private Guna.UI.WinForms.GunaControlBox btn_close;
-        public static Guna.UI.WinForms.GunaPanel pnl_main;
         private Guna.UI.WinForms.GunaButton btn_users;
         private Guna.UI.WinForms.GunaButton btn_roles;
         private Guna.UI.WinForms.GunaDragControl gunaDragControl1;
         private Guna.UI.WinForms.GunaVSeparator gunaVSeparator1;
+        public static Guna.UI.WinForms.GunaPanel pnl_main;
     }
 }

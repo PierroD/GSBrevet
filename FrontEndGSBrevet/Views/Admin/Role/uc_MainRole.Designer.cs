@@ -28,47 +28,21 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.tbox_cu_libelle = new Guna.UI.WinForms.GunaLineTextBox();
-            this.lbl_cu_libelle = new Guna.UI.WinForms.GunaLabel();
             this.pnl_roles = new System.Windows.Forms.FlowLayoutPanel();
             this.gunaPanel1 = new Guna.UI.WinForms.GunaPanel();
+            this.lbl_action = new Guna.UI.WinForms.GunaLabel();
             this.lbl_libelle = new Guna.UI.WinForms.GunaLabel();
             this.lbl_id = new Guna.UI.WinForms.GunaLabel();
-            this.lbl_action = new Guna.UI.WinForms.GunaLabel();
-            this.btn_send_to_database = new Guna.UI.WinForms.GunaTileButton();
+            pnl_createUpdate = new Guna.UI.WinForms.GunaPanel();
+            this.btn_create_role = new Guna.UI.WinForms.GunaButton();
             this.gunaPanel1.SuspendLayout();
             this.SuspendLayout();
-            // 
-            // tbox_cu_libelle
-            // 
-            this.tbox_cu_libelle.BackColor = System.Drawing.Color.White;
-            this.tbox_cu_libelle.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.tbox_cu_libelle.FocusedLineColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.tbox_cu_libelle.Font = new System.Drawing.Font("Segoe UI", 12F);
-            this.tbox_cu_libelle.ForeColor = System.Drawing.Color.Gray;
-            this.tbox_cu_libelle.LineColor = System.Drawing.Color.Gainsboro;
-            this.tbox_cu_libelle.Location = new System.Drawing.Point(709, 314);
-            this.tbox_cu_libelle.Name = "tbox_cu_libelle";
-            this.tbox_cu_libelle.PasswordChar = '\0';
-            this.tbox_cu_libelle.Size = new System.Drawing.Size(397, 36);
-            this.tbox_cu_libelle.TabIndex = 14;
-            this.tbox_cu_libelle.Text = "Renseignez un nom de rôle";
-            // 
-            // lbl_cu_libelle
-            // 
-            this.lbl_cu_libelle.AutoSize = true;
-            this.lbl_cu_libelle.Font = new System.Drawing.Font("Segoe UI Semibold", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_cu_libelle.Location = new System.Drawing.Point(704, 286);
-            this.lbl_cu_libelle.Name = "lbl_cu_libelle";
-            this.lbl_cu_libelle.Size = new System.Drawing.Size(120, 25);
-            this.lbl_cu_libelle.TabIndex = 13;
-            this.lbl_cu_libelle.Text = "Nom du role";
             // 
             // pnl_roles
             // 
             this.pnl_roles.Location = new System.Drawing.Point(61, 70);
             this.pnl_roles.Name = "pnl_roles";
-            this.pnl_roles.Size = new System.Drawing.Size(570, 655);
+            this.pnl_roles.Size = new System.Drawing.Size(525, 655);
             this.pnl_roles.TabIndex = 18;
             // 
             // gunaPanel1
@@ -78,13 +52,24 @@
             this.gunaPanel1.Controls.Add(this.lbl_id);
             this.gunaPanel1.Location = new System.Drawing.Point(61, 3);
             this.gunaPanel1.Name = "gunaPanel1";
-            this.gunaPanel1.Size = new System.Drawing.Size(515, 61);
+            this.gunaPanel1.Size = new System.Drawing.Size(495, 61);
             this.gunaPanel1.TabIndex = 19;
+            // 
+            // lbl_action
+            // 
+            this.lbl_action.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_action.Location = new System.Drawing.Point(325, 22);
+            this.lbl_action.MaximumSize = new System.Drawing.Size(160, 20);
+            this.lbl_action.Name = "lbl_action";
+            this.lbl_action.Size = new System.Drawing.Size(160, 20);
+            this.lbl_action.TabIndex = 19;
+            this.lbl_action.Text = "ACTION";
+            this.lbl_action.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // lbl_libelle
             // 
             this.lbl_libelle.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_libelle.Location = new System.Drawing.Point(176, 22);
+            this.lbl_libelle.Location = new System.Drawing.Point(159, 22);
             this.lbl_libelle.MaximumSize = new System.Drawing.Size(160, 20);
             this.lbl_libelle.Name = "lbl_libelle";
             this.lbl_libelle.Size = new System.Drawing.Size(160, 20);
@@ -95,77 +80,72 @@
             // lbl_id
             // 
             this.lbl_id.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_id.Location = new System.Drawing.Point(26, 22);
+            this.lbl_id.Location = new System.Drawing.Point(9, 22);
             this.lbl_id.MaximumSize = new System.Drawing.Size(140, 20);
             this.lbl_id.Name = "lbl_id";
             this.lbl_id.Size = new System.Drawing.Size(140, 20);
             this.lbl_id.TabIndex = 17;
             this.lbl_id.Text = "ID";
             // 
-            // lbl_action
+            // pnl_createUpdate
             // 
-            this.lbl_action.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_action.Location = new System.Drawing.Point(342, 22);
-            this.lbl_action.MaximumSize = new System.Drawing.Size(160, 20);
-            this.lbl_action.Name = "lbl_action";
-            this.lbl_action.Size = new System.Drawing.Size(160, 20);
-            this.lbl_action.TabIndex = 19;
-            this.lbl_action.Text = "ACTION";
-            this.lbl_action.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            pnl_createUpdate.Location = new System.Drawing.Point(638, 73);
+            pnl_createUpdate.Name = "pnl_createUpdate";
+            pnl_createUpdate.Size = new System.Drawing.Size(430, 200);
+            pnl_createUpdate.TabIndex = 20;
             // 
-            // btn_send_to_database
+            // btn_create_role
             // 
-            this.btn_send_to_database.AnimationHoverSpeed = 0.07F;
-            this.btn_send_to_database.AnimationSpeed = 0.03F;
-            this.btn_send_to_database.BackColor = System.Drawing.Color.Transparent;
-            this.btn_send_to_database.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(212)))), ((int)(((byte)(253)))));
-            this.btn_send_to_database.BorderColor = System.Drawing.Color.Black;
-            this.btn_send_to_database.DialogResult = System.Windows.Forms.DialogResult.None;
-            this.btn_send_to_database.FocusedColor = System.Drawing.Color.Empty;
-            this.btn_send_to_database.Font = new System.Drawing.Font("Segoe UI Light", 15.75F);
-            this.btn_send_to_database.ForeColor = System.Drawing.Color.White;
-            this.btn_send_to_database.Image = global::FrontEndGSBrevet.Properties.Resources.save;
-            this.btn_send_to_database.ImageSize = new System.Drawing.Size(30, 30);
-            this.btn_send_to_database.ImeMode = System.Windows.Forms.ImeMode.NoControl;
-            this.btn_send_to_database.Location = new System.Drawing.Point(778, 376);
-            this.btn_send_to_database.Name = "btn_send_to_database";
-            this.btn_send_to_database.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(212)))), ((int)(((byte)(253)))));
-            this.btn_send_to_database.OnHoverBorderColor = System.Drawing.Color.Black;
-            this.btn_send_to_database.OnHoverForeColor = System.Drawing.Color.White;
-            this.btn_send_to_database.OnHoverImage = null;
-            this.btn_send_to_database.OnPressedColor = System.Drawing.Color.Black;
-            this.btn_send_to_database.Radius = 10;
-            this.btn_send_to_database.Size = new System.Drawing.Size(229, 69);
-            this.btn_send_to_database.TabIndex = 17;
-            this.btn_send_to_database.Text = "Mettre à jour";
+            this.btn_create_role.AnimationHoverSpeed = 0.07F;
+            this.btn_create_role.AnimationSpeed = 0.03F;
+            this.btn_create_role.BackColor = System.Drawing.Color.Transparent;
+            this.btn_create_role.BaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(212)))), ((int)(((byte)(253)))));
+            this.btn_create_role.BorderColor = System.Drawing.Color.Black;
+            this.btn_create_role.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.btn_create_role.DialogResult = System.Windows.Forms.DialogResult.None;
+            this.btn_create_role.FocusedColor = System.Drawing.Color.Empty;
+            this.btn_create_role.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btn_create_role.ForeColor = System.Drawing.Color.White;
+            this.btn_create_role.Image = global::FrontEndGSBrevet.Properties.Resources.plus;
+            this.btn_create_role.ImageSize = new System.Drawing.Size(12, 12);
+            this.btn_create_role.Location = new System.Drawing.Point(638, 22);
+            this.btn_create_role.Name = "btn_create_role";
+            this.btn_create_role.OnHoverBaseColor = System.Drawing.Color.FromArgb(((int)(((byte)(80)))), ((int)(((byte)(236)))), ((int)(((byte)(252)))));
+            this.btn_create_role.OnHoverBorderColor = System.Drawing.Color.Black;
+            this.btn_create_role.OnHoverForeColor = System.Drawing.Color.White;
+            this.btn_create_role.OnHoverImage = null;
+            this.btn_create_role.OnPressedColor = System.Drawing.Color.Black;
+            this.btn_create_role.Radius = 6;
+            this.btn_create_role.Size = new System.Drawing.Size(145, 42);
+            this.btn_create_role.TabIndex = 21;
+            this.btn_create_role.Text = "CREER UN ROLE";
+            this.btn_create_role.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.btn_create_role.Click += new System.EventHandler(this.btn_create_role_Click);
             // 
             // uc_MainRole
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
+            this.Controls.Add(this.btn_create_role);
+            this.Controls.Add(pnl_createUpdate);
             this.Controls.Add(this.gunaPanel1);
             this.Controls.Add(this.pnl_roles);
-            this.Controls.Add(this.btn_send_to_database);
-            this.Controls.Add(this.tbox_cu_libelle);
-            this.Controls.Add(this.lbl_cu_libelle);
             this.Name = "uc_MainRole";
             this.Size = new System.Drawing.Size(1140, 737);
             this.Load += new System.EventHandler(this.uc_MainRole_Load);
             this.gunaPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-        private Guna.UI.WinForms.GunaLineTextBox tbox_cu_libelle;
-        private Guna.UI.WinForms.GunaLabel lbl_cu_libelle;
-        private Guna.UI.WinForms.GunaTileButton btn_send_to_database;
         private System.Windows.Forms.FlowLayoutPanel pnl_roles;
         private Guna.UI.WinForms.GunaPanel gunaPanel1;
         private Guna.UI.WinForms.GunaLabel lbl_libelle;
         private Guna.UI.WinForms.GunaLabel lbl_id;
         private Guna.UI.WinForms.GunaLabel lbl_action;
+        private Guna.UI.WinForms.GunaButton btn_create_role;
+        public static Guna.UI.WinForms.GunaPanel pnl_createUpdate;
     }
 }

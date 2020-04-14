@@ -142,3 +142,11 @@ C:\Users\Light\source\repos\BackEndGSBrevet\BackEndGSBrevet\bin\Debug\Newtonsoft
 C:\Users\Light\source\repos\BackEndGSBrevet\BackEndGSBrevet\bin\Debug\BCrypt.Net-Next.dll
 C:\Users\Light\source\repos\BackEndGSBrevet\BackEndGSBrevet\bin\Debug\BCrypt.Net-Next.xml
 C:\Users\Light\source\repos\BackEndGSBrevet\BackEndGSBrevet\obj\Debug\BackEndGSBrevet.Migrations.update_user_model.resources
+C:\Users\Light\source\repos\BackEndGSBrevet\BackEndGSBrevet\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Light\source\repos\BackEndGSBrevet\BackEndGSBrevet\bin\Debug\Google.Protobuf.dll
+C:\Users\Light\source\repos\BackEndGSBrevet\BackEndGSBrevet\bin\Debug\MySql.Data.dll
+C:\Users\Light\source\repos\BackEndGSBrevet\BackEndGSBrevet\bin\Debug\Renci.SshNet.dll
+C:\Users\Light\source\repos\BackEndGSBrevet\BackEndGSBrevet\bin\Debug\Ubiety.Dns.Core.dll
+C:\Users\Light\source\repos\BackEndGSBrevet\BackEndGSBrevet\bin\Debug\Google.Protobuf.xml
+C:\Users\Light\source\repos\BackEndGSBrevet\BackEndGSBrevet\bin\Debug\MySql.Data.xml
+C:\Users\Light\source\repos\BackEndGSBrevet\BackEndGSBrevet\bin\Debug\Renci.SshNet.xml

@@ -142,6 +142,7 @@
             this.btn_close.OnPressedColor = System.Drawing.Color.Black;
             this.btn_close.Size = new System.Drawing.Size(45, 40);
             this.btn_close.TabIndex = 0;
+            this.btn_close.Click += new System.EventHandler(this.btn_close_Click);
             // 
             // gunaDragControl1
             // 

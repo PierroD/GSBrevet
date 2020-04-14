@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackEndGSBrevet", "BackEndG
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrontEndGSBrevet", "FrontEndGSBrevet\FrontEndGSBrevet.csproj", "{0896C896-E590-4AF9-A262-3FC353E16549}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstallerGSBrevet", "InstallerGSBrevet\InstallerGSBrevet.csproj", "{47FCA21C-A736-4FE1-9575-2E5C2CFBBE80}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{0896C896-E590-4AF9-A262-3FC353E16549}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0896C896-E590-4AF9-A262-3FC353E16549}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0896C896-E590-4AF9-A262-3FC353E16549}.Release|Any CPU.Build.0 = Release|Any CPU
+		{47FCA21C-A736-4FE1-9575-2E5C2CFBBE80}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{47FCA21C-A736-4FE1-9575-2E5C2CFBBE80}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{47FCA21C-A736-4FE1-9575-2E5C2CFBBE80}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{47FCA21C-A736-4FE1-9575-2E5C2CFBBE80}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -78,3 +78,4 @@ C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\obj\Debug\FrontEndG
 C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\obj\Debug\FrontEndGSBrevet.Views.Admin.Users.CreateUpdate.uc_CreateUpdateUser.resources
 C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\obj\Debug\FrontEndGSBrevet.Views.Admin.Role.RoleModel.uc_RoleModel.resources
 C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\obj\Debug\FrontEndGSBrevet.Views.Admin.Role.uc_MainRole.resources
+C:\Users\Light\source\repos\BackEndGSBrevet\FrontEndGSBrevet\obj\Debug\FrontEndGSBrevet.Views.Admin.Role.CreateUpdate.uc_CreateUpdateRole.resources

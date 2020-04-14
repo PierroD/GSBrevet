@@ -52,7 +52,8 @@
     <Reference Include="Google.Protobuf, Version=3.6.1.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
       <HintPath>..\packages\Google.Protobuf.3.6.1\lib\net45\Google.Protobuf.dll</HintPath>
     </Reference>
-    <Reference Include="Guna.UI">
+    <Reference Include="Guna.UI, Version=1.9.0.0, Culture=neutral, PublicKeyToken=ad275b4be6718d4b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
       <HintPath>..\..\..\..\Downloads\Guna.UI-Framework-Lib-master\Guna.UI-Framework-Lib-master\Guna.UI-Framework-Lib\.net 4.0\Guna.UI.dll</HintPath>
     </Reference>
     <Reference Include="LiveCharts, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
@@ -70,7 +71,7 @@
     </Reference>
     <Reference Include="PLogger, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\..\PLoggerSQLOnly\bin\Debug\PLogger.dll</HintPath>
+      <HintPath>..\..\PLogger\bin\Debug\PLogger.dll</HintPath>
     </Reference>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
@@ -119,6 +120,12 @@
     </Compile>
     <Compile Include="Views\Admin\form_Admin.Designer.cs">
       <DependentUpon>form_Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Admin\Role\CreateUpdate\uc_CreateUpdateRole.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Admin\Role\CreateUpdate\uc_CreateUpdateRole.Designer.cs">
+      <DependentUpon>uc_CreateUpdateRole.cs</DependentUpon>
     </Compile>
     <Compile Include="Views\Admin\Role\RoleModel\uc_RoleModel.cs">
       <SubType>UserControl</SubType>
@@ -310,6 +317,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Admin\form_Admin.resx">
       <DependentUpon>form_Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Admin\Role\CreateUpdate\uc_CreateUpdateRole.resx">
+      <DependentUpon>uc_CreateUpdateRole.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Views\Admin\Role\RoleModel\uc_RoleModel.resx">
       <DependentUpon>uc_RoleModel.cs</DependentUpon>
