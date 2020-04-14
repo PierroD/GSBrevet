@@ -19,11 +19,13 @@ namespace FrontEndGSBrevet.Views.Public
 {
     public partial class form_Public : Form
     {
-        public form_Public()
+        Form parentForm;
+        public form_Public(Form pform)
         {
+            this.parentForm = pform;
             InitializeComponent();
             btn_menu.PerformClick();
-            btn_initial.Text= $"{char.ToUpper(Auth.User().first_name.FirstOrDefault())}{char.ToUpper(Auth.User().last_name.FirstOrDefault())}";
+            btn_initial.Text = $"{char.ToUpper(Auth.User().first_name.FirstOrDefault())}{char.ToUpper(Auth.User().last_name.FirstOrDefault())}";
         }
 
         private void btn_menu_Click(object sender, EventArgs e)
@@ -51,11 +53,16 @@ namespace FrontEndGSBrevet.Views.Public
 
         private void btn_settings_Click(object sender, EventArgs e)
         {
-            new SelectMenu().menuColor(this, btn_settings,Properties.Resources.settings_on, Properties.Resources.settings_off);
+            new SelectMenu().menuColor(this, btn_settings, Properties.Resources.settings_on, Properties.Resources.settings_off);
             pnl_main.Controls.Clear();
             SwitchUC.Switch(pnl_main, new uc_MainSettingsMenu());
             SwitchUC.Switch(pnl_sideMenu, uc_SettingsMenu.Instance);
         }
 
+        private void btn_close_Click(object sender, EventArgs e)
+        {
+            Auth.destroy();
+            parentForm.Visible = true;
+        }
     }
 }

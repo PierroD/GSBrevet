@@ -29,10 +29,10 @@
         private void InitializeComponent()
         {
             this.gunaShadowPanel1 = new Guna.UI.WinForms.GunaShadowPanel();
-            this.btn_delete = new Guna.UI.WinForms.GunaCircleButton();
-            this.btn_edit = new Guna.UI.WinForms.GunaCircleButton();
             this.lbl_libelle = new Guna.UI.WinForms.GunaLabel();
             this.lbl_id = new Guna.UI.WinForms.GunaLabel();
+            this.btn_delete = new Guna.UI.WinForms.GunaCircleButton();
+            this.btn_edit = new Guna.UI.WinForms.GunaCircleButton();
             this.gunaShadowPanel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -53,6 +53,27 @@
             this.gunaShadowPanel1.ShadowStyle = Guna.UI.WinForms.ShadowMode.Dropped;
             this.gunaShadowPanel1.Size = new System.Drawing.Size(434, 60);
             this.gunaShadowPanel1.TabIndex = 0;
+            // 
+            // lbl_libelle
+            // 
+            this.lbl_libelle.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_libelle.Location = new System.Drawing.Point(165, 18);
+            this.lbl_libelle.MaximumSize = new System.Drawing.Size(160, 20);
+            this.lbl_libelle.Name = "lbl_libelle";
+            this.lbl_libelle.Size = new System.Drawing.Size(160, 20);
+            this.lbl_libelle.TabIndex = 20;
+            this.lbl_libelle.Text = "NOM";
+            this.lbl_libelle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            // 
+            // lbl_id
+            // 
+            this.lbl_id.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lbl_id.Location = new System.Drawing.Point(15, 18);
+            this.lbl_id.MaximumSize = new System.Drawing.Size(140, 20);
+            this.lbl_id.Name = "lbl_id";
+            this.lbl_id.Size = new System.Drawing.Size(140, 20);
+            this.lbl_id.TabIndex = 19;
+            this.lbl_id.Text = "ID";
             // 
             // btn_delete
             // 
@@ -76,6 +97,7 @@
             this.btn_delete.OnPressedColor = System.Drawing.Color.Black;
             this.btn_delete.Size = new System.Drawing.Size(40, 40);
             this.btn_delete.TabIndex = 14;
+            this.btn_delete.Click += new System.EventHandler(this.btn_delete_Click);
             // 
             // btn_edit
             // 
@@ -99,27 +121,7 @@
             this.btn_edit.OnPressedColor = System.Drawing.Color.Black;
             this.btn_edit.Size = new System.Drawing.Size(40, 40);
             this.btn_edit.TabIndex = 13;
-            // 
-            // lbl_libelle
-            // 
-            this.lbl_libelle.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_libelle.Location = new System.Drawing.Point(165, 18);
-            this.lbl_libelle.MaximumSize = new System.Drawing.Size(160, 20);
-            this.lbl_libelle.Name = "lbl_libelle";
-            this.lbl_libelle.Size = new System.Drawing.Size(160, 20);
-            this.lbl_libelle.TabIndex = 20;
-            this.lbl_libelle.Text = "NOM";
-            this.lbl_libelle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // lbl_id
-            // 
-            this.lbl_id.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbl_id.Location = new System.Drawing.Point(15, 18);
-            this.lbl_id.MaximumSize = new System.Drawing.Size(140, 20);
-            this.lbl_id.Name = "lbl_id";
-            this.lbl_id.Size = new System.Drawing.Size(140, 20);
-            this.lbl_id.TabIndex = 19;
-            this.lbl_id.Text = "ID";
+            this.btn_edit.Click += new System.EventHandler(this.btn_edit_Click);
             // 
             // uc_RoleModel
             // 
@@ -129,6 +131,7 @@
             this.Controls.Add(this.gunaShadowPanel1);
             this.Name = "uc_RoleModel";
             this.Size = new System.Drawing.Size(434, 60);
+            this.Load += new System.EventHandler(this.uc_RoleModel_Load);
             this.gunaShadowPanel1.ResumeLayout(false);
             this.ResumeLayout(false);
 

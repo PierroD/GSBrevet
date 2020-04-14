@@ -47,11 +47,11 @@ namespace FrontEndGSBrevet.Views.Admin.Users.UserModel
         private void btn_delete_Click(object sender, EventArgs e)
         {
             DialogResult msg = MessageBox.Show($"Voulez vous vraiment supprimer l'utilisateur : {last_name} {first_name}", "WARNING", MessageBoxButtons.YesNo, MessageBoxIcon.Warning);
-            if(msg.Equals(DialogResult.Yes))
+            if (msg.Equals(DialogResult.Yes))
             {
                 UserController.Delete(id);
+                MessageBox.Show($"L'utilisateur {last_name} {first_name} a bien été supprimé", "Informational", MessageBoxButtons.OK, MessageBoxIcon.Information);
             }
-            MessageBox.Show($"L'utilisateur {last_name} {first_name}", "Informational", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
     }
 }

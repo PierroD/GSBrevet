@@ -20,11 +20,12 @@ namespace FrontEndGSBrevet.Views.Public.Profil
 
         private void uc_MainProfil_Load(object sender, EventArgs e)
         {
-            lbl_lastname.Text = Auth.User().last_name;
-            lbl_firstname.Text = Auth.User().first_name;
-            lbl_username.Text = Auth.User().username;
-            lbl_birthDate.Text = Auth.User().birth_date.ToString();
-            lbl_role.Text = Auth.Role().libelle;
+            btn_initial.Text = $"{char.ToUpper(Auth.User().first_name.FirstOrDefault())}{char.ToUpper(Auth.User().last_name.FirstOrDefault())}";
+            lbl_lastname.Text = "Nom : " + Auth.User().last_name;
+            lbl_firstname.Text = "Prénom : " + Auth.User().first_name;
+            lbl_username.Text = "Nom d'utilisateur : " + Auth.User().username;
+            lbl_birthDate.Text = "Date de naissance : " + Auth.User().birth_date.ToString();
+            lbl_role.Text = "Rôle : " + Auth.Role().libelle;
         }
     }
 }
