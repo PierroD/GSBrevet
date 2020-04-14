@@ -1,0 +1,40 @@
+IE [INTERNAL ERROR] Light  07/04/2020 < 11:43:09.1478 > System.InvalidOperationException: Expiration du délai d'attente. Le délai d'attente s'est écoulé avant obtention d'une connexion du pool. Ceci est probablement dû au fait que toutes les connexions regroupées sont en cours d'utilisation et que la taille maximale du pool a été atteinte.
+   à System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   à System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   à System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   à System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.Open()
+   à PLogger.Log.writeToSQL(SqlConnection connection, Boolean detail, Boolean activityId) dans C:\Users\Light\source\repos\PLoggerSQLOnly\Logger.cs:ligne 352
+IE [INTERNAL ERROR] Light  07/04/2020 < 11:48:23.6434 > System.InvalidOperationException: Expiration du délai d'attente. Le délai d'attente s'est écoulé avant obtention d'une connexion du pool. Ceci est probablement dû au fait que toutes les connexions regroupées sont en cours d'utilisation et que la taille maximale du pool a été atteinte.
+   à System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   à System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   à System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   à System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.Open()
+   à PLogger.Log.writeToSQL(SqlConnection connection, Boolean detail, Boolean activityId) dans C:\Users\Light\source\repos\PLoggerSQLOnly\Logger.cs:ligne 352
+IE [INTERNAL ERROR] Light  07/04/2020 < 11:48:38.6862 > System.InvalidOperationException: Expiration du délai d'attente. Le délai d'attente s'est écoulé avant obtention d'une connexion du pool. Ceci est probablement dû au fait que toutes les connexions regroupées sont en cours d'utilisation et que la taille maximale du pool a été atteinte.
+   à System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   à System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   à System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   à System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.Open()
+   à PLogger.Log.writeToSQL(SqlConnection connection, Boolean detail, Boolean activityId) dans C:\Users\Light\source\repos\PLoggerSQLOnly\Logger.cs:ligne 352
+IE [INTERNAL ERROR] Light  07/04/2020 < 17:51:50.7041 > System.InvalidOperationException: Expiration du délai d'attente. Le délai d'attente s'est écoulé avant obtention d'une connexion du pool. Ceci est probablement dû au fait que toutes les connexions regroupées sont en cours d'utilisation et que la taille maximale du pool a été atteinte.
+   à System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   à System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   à System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   à System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.Open()
+   à PLogger.Log.writeToSQL(SqlConnection connection, Boolean detail, Boolean activityId) dans C:\Users\Light\source\repos\PLoggerSQLOnly\Logger.cs:ligne 352
+IE [INTERNAL ERROR] Light  07/04/2020 < 19:00:04.4925 > System.InvalidOperationException: Expiration du délai d'attente. Le délai d'attente s'est écoulé avant obtention d'une connexion du pool. Ceci est probablement dû au fait que toutes les connexions regroupées sont en cours d'utilisation et que la taille maximale du pool a été atteinte.
+   à System.Data.ProviderBase.DbConnectionFactory.TryGetConnection(DbConnection owningConnection, TaskCompletionSource`1 retry, DbConnectionOptions userOptions, DbConnectionInternal oldConnection, DbConnectionInternal& connection)
+   à System.Data.ProviderBase.DbConnectionInternal.TryOpenConnectionInternal(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   à System.Data.ProviderBase.DbConnectionClosed.TryOpenConnection(DbConnection outerConnection, DbConnectionFactory connectionFactory, TaskCompletionSource`1 retry, DbConnectionOptions userOptions)
+   à System.Data.SqlClient.SqlConnection.TryOpenInner(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.TryOpen(TaskCompletionSource`1 retry)
+   à System.Data.SqlClient.SqlConnection.Open()
+   à PLogger.Log.writeToSQL(SqlConnection connection, Boolean detail, Boolean activityId) dans C:\Users\Light\source\repos\PLoggerSQLOnly\Logger.cs:ligne 352

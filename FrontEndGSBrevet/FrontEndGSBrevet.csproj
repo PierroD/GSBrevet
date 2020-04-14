@@ -1,0 +1,538 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.0\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.0\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0896C896-E590-4AF9-A262-3FC353E16549}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>FrontEndGSBrevet</RootNamespace>
+    <AssemblyName>FrontEndGSBrevet</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="BackEndGSBrevet, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\BackEndGSBrevet\bin\Debug\BackEndGSBrevet.dll</HintPath>
+    </Reference>
+    <Reference Include="BouncyCastle.Crypto, Version=1.8.3.0, Culture=neutral, PublicKeyToken=0e99375e54769942">
+      <HintPath>..\packages\BouncyCastle.1.8.3.1\lib\BouncyCastle.Crypto.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Google.Protobuf, Version=3.6.1.0, Culture=neutral, PublicKeyToken=a7d26565bac4d604, processorArchitecture=MSIL">
+      <HintPath>..\packages\Google.Protobuf.3.6.1\lib\net45\Google.Protobuf.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI">
+      <HintPath>..\..\..\..\Downloads\Guna.UI-Framework-Lib-master\Guna.UI-Framework-Lib-master\Guna.UI-Framework-Lib\.net 4.0\Guna.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.0.9.7\lib\net45\LiveCharts.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.WinForms, Version=0.9.7.1, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.WinForms.0.9.7.1\lib\net45\LiveCharts.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="LiveCharts.Wpf, Version=0.9.7.0, Culture=neutral, PublicKeyToken=0bc1f845d1ebb8df, processorArchitecture=MSIL">
+      <HintPath>..\packages\LiveCharts.Wpf.0.9.7\lib\net45\LiveCharts.Wpf.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="MySql.Data, Version=8.0.19.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.8.0.19\lib\net452\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="PLogger, Version=1.1.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\PLoggerSQLOnly\bin\Debug\PLogger.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="Renci.SshNet, Version=2016.1.0.0, Culture=neutral, PublicKeyToken=1cee9f8bde3db106, processorArchitecture=MSIL">
+      <HintPath>..\packages\SSH.NET.2016.1.0\lib\net40\Renci.SshNet.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Configuration.Install" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Ubiety.Dns.Core, Version=2.2.1.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <HintPath>..\packages\MySql.Data.8.0.19\lib\net452\Ubiety.Dns.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="WindowsBase" />
+    <Reference Include="WindowsFormsIntegration" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="form_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="form_Login.Designer.cs">
+      <DependentUpon>form_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Utils\SelectMenu.cs" />
+    <Compile Include="Utils\SwitchUC.cs" />
+    <Compile Include="Views\Admin\form_Admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Admin\form_Admin.Designer.cs">
+      <DependentUpon>form_Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Admin\Role\RoleModel\uc_RoleModel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Admin\Role\RoleModel\uc_RoleModel.Designer.cs">
+      <DependentUpon>uc_RoleModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Admin\Role\uc_MainRole.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Admin\Role\uc_MainRole.Designer.cs">
+      <DependentUpon>uc_MainRole.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Admin\Users\CreateUpdate\uc_CreateUpdateUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Admin\Users\CreateUpdate\uc_CreateUpdateUser.Designer.cs">
+      <DependentUpon>uc_CreateUpdateUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Admin\Users\uc_MainUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Admin\Users\uc_MainUser.Designer.cs">
+      <DependentUpon>uc_MainUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Admin\Users\UserModel\uc_UserModel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Admin\Users\UserModel\uc_UserModel.Designer.cs">
+      <DependentUpon>uc_UserModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Public\Analytics\uc_MainAnalytic.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Public\Analytics\uc_MainAnalytic.Designer.cs">
+      <DependentUpon>uc_MainAnalytic.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Public\Companies\CompanyModel\uc_CompanyModel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Public\Companies\CompanyModel\uc_CompanyModel.Designer.cs">
+      <DependentUpon>uc_CompanyModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Public\Companies\CreateUpdate\uc_CreateUpdateCompany.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Public\Companies\CreateUpdate\uc_CreateUpdateCompany.Designer.cs">
+      <DependentUpon>uc_CreateUpdateCompany.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Public\Companies\uc_MainCompany.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Public\Companies\uc_MainCompany.Designer.cs">
+      <DependentUpon>uc_MainCompany.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Public\Contracts\ContractModel\uc_ContractModel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Public\Contracts\ContractModel\uc_ContractModel.Designer.cs">
+      <DependentUpon>uc_ContractModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Public\Contracts\CreateUpdate\uc_CreateUpdateContract.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Public\Contracts\CreateUpdate\uc_CreateUpdateContract.Designer.cs">
+      <DependentUpon>uc_CreateUpdateContract.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Public\Contracts\uc_MainContract.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Public\Contracts\uc_MainContract.Designer.cs">
+      <DependentUpon>uc_MainContract.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Public\form_Public.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Views\Public\form_Public.Designer.cs">
+      <DependentUpon>form_Public.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Public\Molecules\MoleculeModel\uc_MoleculeModel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Public\Molecules\MoleculeModel\uc_MoleculeModel.Designer.cs">
+      <DependentUpon>uc_MoleculeModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Public\Molecules\uc_MainMolecule.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Public\Molecules\uc_MainMolecule.Designer.cs">
+      <DependentUpon>uc_MainMolecule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Public\Molecules\CreateUpdate\uc_CreateUpdateMolecule.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Public\Molecules\CreateUpdate\uc_CreateUpdateMolecule.Designer.cs">
+      <DependentUpon>uc_CreateUpdateMolecule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Public\Patents\CreateUpdate\uc_CreateUpdatePatent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Public\Patents\CreateUpdate\uc_CreateUpdatePatent.Designer.cs">
+      <DependentUpon>uc_CreateUpdatePatent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Public\Patents\PatentModel\uc_PatentModel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Public\Patents\PatentModel\uc_PatentModel.Designer.cs">
+      <DependentUpon>uc_PatentModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Public\Patents\uc_MainPatent.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Public\Patents\uc_MainPatent.Designer.cs">
+      <DependentUpon>uc_MainPatent.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Public\Profil\uc_MainProfil.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Public\Profil\uc_MainProfil.Designer.cs">
+      <DependentUpon>uc_MainProfil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Public\Settings\uc_Options.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Public\Settings\uc_Options.Designer.cs">
+      <DependentUpon>uc_Options.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Public\Utilities\CreateUpdate\uc_CreateUpdateUtility.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Public\Utilities\CreateUpdate\uc_CreateUpdateUtility.Designer.cs">
+      <DependentUpon>uc_CreateUpdateUtility.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Public\Utilities\uc_MainUtility.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Public\Utilities\uc_MainUtility.Designer.cs">
+      <DependentUpon>uc_MainUtility.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Public\Utilities\UtilityModel\uc_UtilityModel.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Public\Utilities\UtilityModel\uc_UtilityModel.Designer.cs">
+      <DependentUpon>uc_UtilityModel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Shared\CreateMenu\uc_MainCreateMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Shared\CreateMenu\uc_MainCreateMenu.Designer.cs">
+      <DependentUpon>uc_MainCreateMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Shared\MainMenu\uc_MainMainMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Shared\MainMenu\uc_MainMainMenu.Designer.cs">
+      <DependentUpon>uc_MainMainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Shared\SettingsMenu\uc_MainSettingsMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Shared\SettingsMenu\uc_MainSettingsMenu.Designer.cs">
+      <DependentUpon>uc_MainSettingsMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Shared\uc_CreateMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Shared\uc_CreateMenu.Designer.cs">
+      <DependentUpon>uc_CreateMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Shared\uc_MainMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Shared\uc_MainMenu.Designer.cs">
+      <DependentUpon>uc_MainMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Shared\uc_SettingsMenu.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Views\Shared\uc_SettingsMenu.Designer.cs">
+      <DependentUpon>uc_SettingsMenu.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="form_Login.resx">
+      <DependentUpon>form_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Admin\form_Admin.resx">
+      <DependentUpon>form_Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Admin\Role\RoleModel\uc_RoleModel.resx">
+      <DependentUpon>uc_RoleModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Admin\Role\uc_MainRole.resx">
+      <DependentUpon>uc_MainRole.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Admin\Users\CreateUpdate\uc_CreateUpdateUser.resx">
+      <DependentUpon>uc_CreateUpdateUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Admin\Users\uc_MainUser.resx">
+      <DependentUpon>uc_MainUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Admin\Users\UserModel\uc_UserModel.resx">
+      <DependentUpon>uc_UserModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Public\Analytics\uc_MainAnalytic.resx">
+      <DependentUpon>uc_MainAnalytic.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Public\Companies\CompanyModel\uc_CompanyModel.resx">
+      <DependentUpon>uc_CompanyModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Public\Companies\CreateUpdate\uc_CreateUpdateCompany.resx">
+      <DependentUpon>uc_CreateUpdateCompany.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Public\Companies\uc_MainCompany.resx">
+      <DependentUpon>uc_MainCompany.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Public\Contracts\ContractModel\uc_ContractModel.resx">
+      <DependentUpon>uc_ContractModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Public\Contracts\CreateUpdate\uc_CreateUpdateContract.resx">
+      <DependentUpon>uc_CreateUpdateContract.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Public\Contracts\uc_MainContract.resx">
+      <DependentUpon>uc_MainContract.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Public\form_Public.resx">
+      <DependentUpon>form_Public.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Public\Molecules\MoleculeModel\uc_MoleculeModel.resx">
+      <DependentUpon>uc_MoleculeModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Public\Molecules\uc_MainMolecule.resx">
+      <DependentUpon>uc_MainMolecule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Public\Molecules\CreateUpdate\uc_CreateUpdateMolecule.resx">
+      <DependentUpon>uc_CreateUpdateMolecule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Public\Patents\CreateUpdate\uc_CreateUpdatePatent.resx">
+      <DependentUpon>uc_CreateUpdatePatent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Public\Patents\PatentModel\uc_PatentModel.resx">
+      <DependentUpon>uc_PatentModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Public\Patents\uc_MainPatent.resx">
+      <DependentUpon>uc_MainPatent.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Public\Profil\uc_MainProfil.resx">
+      <DependentUpon>uc_MainProfil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Public\Settings\uc_Options.resx">
+      <DependentUpon>uc_Options.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Public\Utilities\CreateUpdate\uc_CreateUpdateUtility.resx">
+      <DependentUpon>uc_CreateUpdateUtility.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Public\Utilities\uc_MainUtility.resx">
+      <DependentUpon>uc_MainUtility.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Public\Utilities\UtilityModel\uc_UtilityModel.resx">
+      <DependentUpon>uc_UtilityModel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Shared\CreateMenu\uc_MainCreateMenu.resx">
+      <DependentUpon>uc_MainCreateMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Shared\MainMenu\uc_MainMainMenu.resx">
+      <DependentUpon>uc_MainMainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Shared\SettingsMenu\uc_MainSettingsMenu.resx">
+      <DependentUpon>uc_MainSettingsMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Shared\uc_CreateMenu.resx">
+      <DependentUpon>uc_CreateMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Shared\uc_MainMenu.resx">
+      <DependentUpon>uc_MainMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Views\Shared\uc_SettingsMenu.resx">
+      <DependentUpon>uc_SettingsMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wave-up.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\wave-down.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_user_male_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_lock_30px_1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_eye_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8_hide_30px.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh_admin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings_off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings_on.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu_on.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\patents.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\contracts.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\plus.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_on.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pen_off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pen_on.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\delete.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\options.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\company.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\molecule.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\utility.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\back.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\save.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add_on.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh_off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refresh_on.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\analytics_off.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\analytics_on.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\search_admin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\role.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pen_admin.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Ce projet fait référence à des packages NuGet qui sont manquants sur cet ordinateur. Utilisez l'option de restauration des packages NuGet pour les télécharger. Pour plus d'informations, consultez http://go.microsoft.com/fwlink/?LinkID=322105. Le fichier manquant est : {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.0\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.0\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.0\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.0\build\EntityFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.0\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.0\build\EntityFramework.targets')" />
+</Project>
